@@ -1,0 +1,8 @@
+  CREATE TABLE student
+	   ( Roll-no int,
+		Name varchar(20),
+		Stream varchar(20),
+		Marks int  );
+ 
+   INSERT INTO student VALUES
+ 	(0012020, 'ABC', 'Science', 98);

@@ -1,0 +1,7 @@
+For further understanding and details of CREATE and INSERT commands in SQL refer to :
+
+	INSERT INTO command -
+	https://www.w3schools.com/sql/sql_insert.asp
+	
+	CREATE table command-
+	https://www.w3schools.com/sql/sql_create_table.asp
