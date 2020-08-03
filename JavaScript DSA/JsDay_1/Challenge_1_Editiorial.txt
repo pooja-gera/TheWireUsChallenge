@@ -1,0 +1,17 @@
+Problem Statement: Print inverted half pyramid of * using javascript
+
+Explaination: So this is a basic problem statement and you might be familiar with loops.In this program, we are 
+	      implementing logic to print Reverse Half Pyramid pattern using asterisks and loops (nested loops).
+
+
+Logic : For user input = 5
+i	height	Number of * (= height – i + 1)
+1	5	5		* * * * *
+2	5	4		* * * *
+3	5	3		* * *
+4	5	2		* *
+5	5	1		*
+
+Here the outer loop runs the maximum time and with each iteration the number og asterisks to be printed also keeps on decreasing.
+
+Hope this helps!
