@@ -1,0 +1,3 @@
+For more details refer W3Schools. Link is provided below-
+
+https://www.w3schools.com/sql/sql_min_max.asp#:~:text=The%20SQL%20MIN()%20and,value%20of%20the%20selected%20column.

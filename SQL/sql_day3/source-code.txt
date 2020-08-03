@@ -1,0 +1,6 @@
+For eldest-
+SELECT MIN(Date of birth) FROM Student;
+
+For youngest-
+SELECT MAX(Date of birth) FROM Student;
+
