@@ -1,0 +1,4 @@
+In case of doubts, refer to the link given below:
+
+https://www.w3schools.com/sql/sql_where.asp
+https://www.w3schools.com/sql/sql_min_max.asp
