@@ -1,4 +1,4 @@
-A fun challenge of printing patterns to start oyur journey in Data Structures.
+A fun challenge of printing patterns to start your journey in Data Structures.
 
 
 This challenge will help you to get comfortable with the looping and conditional statements of this magical language...........
