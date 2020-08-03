@@ -1,0 +1,6 @@
+USE OF LIKE COMMAND
+---------------------
+
+For reference, consider the link given below:
+
+https://www.w3schools.com/sql/sql_like.asp
