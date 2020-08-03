@@ -1,3 +1,0 @@
-SELECT SNO,SNAME,MIN(DISTANCE)      /* select the columns that has to be displayed */
-FROM STORE							/* min() function calculates the minimum value in the entire column */
-WHERE AREA=="CP";					/* condition */
