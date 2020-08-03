@@ -1,0 +1,18 @@
+
+body{
+      height: 80vh;
+      background-color: #ffbe76;
+}
+
+.cards{
+      border: 1px solid #c7ecee;
+      background-color: #30336b;
+      height: 200px;
+      width: 200px;
+      margin:10px auto;
+}
+
+.para{ 
+      text-align: center;
+      color:#c7ecee ;
+}
