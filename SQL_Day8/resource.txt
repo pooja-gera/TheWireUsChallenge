@@ -1,0 +1,7 @@
+ALTER AND UPDATE COMMAND IN SQL
+----------------------------------
+
+For additional resources, refer to the link below:
+
+https://www.w3schools.com/sql/sql_alter.asp
+https://www.w3schools.com/sql/sql_alter.asp
