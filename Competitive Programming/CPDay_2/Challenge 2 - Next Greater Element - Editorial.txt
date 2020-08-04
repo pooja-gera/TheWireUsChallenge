@@ -1,0 +1,39 @@
+What does next greater element means?
+The Next greater Element for an element x is the first greater element on the right side of x in array. Elements for which no greater element exist, consider next greater element as -1.
+These kind of algorithms are very common to start with competitive programming
+
+Here's a naive solution (pseudocode)
+
+array res, input
+for i=1..N:
+    int curr = input[i]
+    found = false
+    for j=i+1..N:
+	if input[j] > curr --> found = true and res[i] = input[j] and break;
+    if found == false res[i] = -1
+
+It simply goes to every possible subarray it can travel to. Unfortunately, this is slow; it runs in O(N^2) time, and for N = 10^5 this will not pass time limit.
+
+Let us look at a better solution now!
+
+In this approach we have started iterating from the last element(nth) to the first(1st) element
+The benefit is that when we arrive at a certain index his next greater element will be already in stack and we can directly get this element while at the same index.
+After reaching a certain index we will pop the stack till we get the greater element on top from the current element and that element will be the answer for current element
+If stack gets empty while doing the pop operation then the answer would be -1
+Then we will stored the answer in an array for the current index.
+
+Here's the pseudocode
+
+stack <int> s //Initializing stack
+vector res //Generating answer
+
+for i=N..1
+    if (!s.empty() and s.top() <= input[i]) /// Popping till we get greater element of top or stack gets empty.
+	s.pop();
+    
+    if(s.empty()) res[i] = -1 ///No greater element found 
+    else res[i] = s.top() //Top element greater than current
+    s.push(input[i])
+return res
+
+Tada!
