@@ -1,8 +1,8 @@
 # Day - 4
 ---
 ## Making a Number Diamond Pattern
- &nbsp;
-We all diamonds and numbers too.......<br>
+
+We all love diamonds and numbers too.......<br> 
 This challenge will help you to think how you can use a simple for loop and some conditional statements to make your desired pattern
 ### Challenge -
 So in this challenge you have to Write a program to print a diamond shape made up of numbers --- 
