@@ -1,0 +1,7 @@
+SUM() and ROUND() function in SQL
+----------------------------------
+
+For additional resources, refer to the link below:
+
+https://www.w3resource.com/sql/aggregate-functions/avg-with-round.php#:~:text=SQL%20AVG()%20with%20ROUND()%2C%20group%20by&text=The%20SQL%20ROUND()%20is,the%20result%20within%20a%20group.
+https://www.jquery-az.com/sql-round-function-6-query-examples/
