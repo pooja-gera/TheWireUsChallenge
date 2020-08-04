@@ -37,16 +37,14 @@ Inside that directory, it will generate the initial project structure and instal
 No configuration or complicated folder structures, only the files you need to build your app.
 
 Once the installation is done, you can open your project folder:
-
-_cd my-app_
+  _cd my-app_
 
 Inside the newly created project, you can run some built-in commands:
-
-_npm start or yarn start_
+   _npm start or yarn start_
 
 Runs the app in development mode.
 
-Open ```http://localhost:3000``` to view it in the browser.
+ Open ```http://localhost:3000``` to view it in the browser.
 
 The page will automatically reload if you make changes to the code.
 
