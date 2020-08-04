@@ -1,0 +1,2 @@
+For more details refer the link provided below-
+https://www.w3schools.com/sql/sql_like.asp

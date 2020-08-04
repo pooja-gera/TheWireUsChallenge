@@ -1,0 +1,5 @@
+ 1)name starts with L-
+SELECT * FROM EMPLOYEE WHERE name LIKE 'L%';
+
+ 2)name conatining exactly 4 characters-
+ SELECT * FROM EMPLOYEE WHERE name LIKE '____';
