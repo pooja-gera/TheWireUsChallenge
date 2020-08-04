@@ -4,5 +4,5 @@ Veronica is a shopaholic and loves spending her money on buying stuffs. The cash
 
 Consider the following table BILL which contains information about the expenditure. Write an SQL query to display the sum total of the column PRICE and also display the rounded figure of the amount.
 
-####Table: BILL
+#### Table: BILL
 ![Test Image 1](ss.png)
