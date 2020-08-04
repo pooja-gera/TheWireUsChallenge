@@ -1,4 +1,4 @@
-## Day 2
+## Day 5
 ---
 ### Making a Diamond Pattern
 
