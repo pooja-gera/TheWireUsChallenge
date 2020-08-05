@@ -1,0 +1,26 @@
+For setting up the environment -- 
+The JavaScript shell that is part of Mozilla’s comprehensive JavaScript environment known as SpiderMonkey.
+To download the JavaScript shell, navigate to the Nightly Build web page. Scroll to the
+bottom of the page and pick the download that matches your computer system.
+Once you’ve downloaded the program, you have two choices for using the shell. You
+can use it either in interactive mode or to interpret JavaScript programs stored in a
+file. To use the shell in interactive mode, type the command js at a command prompt.
+The shell prompt, js>, will appear and you are ready to start entering JavaScript ex‐
+pressions and statements.
+
+
+
+
+For concept of looping statements --
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+
+Use of Switch statements in JavaScript----
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+Concepts of conditional statements -- 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+
+
+To learn about Binary operators in JavaScript -- 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#:~:text=Bitwise%20operators%20treat%20their%20operands%20as%20a%20sequence,representations%2C%20but%20they%20return%20standard%20JavaScript%20numerical%20values.
