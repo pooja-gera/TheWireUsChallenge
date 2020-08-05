@@ -1,0 +1,5 @@
+To set id as primary key :
+ALTER TABLE temp_db.users ADD PRIMARY KEY(id);
+
+To set column 'id' as auto-increment:
+ALTER TABLE temp_db.users MODIFY COLUMN id INT AUTO-INCREMENT;
