@@ -6,4 +6,4 @@ Consider the table FEES. Write a SQL command to generate a table of all those st
 
 #### Table: Fees
 
-[!Test Image1](ss.png)
+![Test Image1](ss.png)
