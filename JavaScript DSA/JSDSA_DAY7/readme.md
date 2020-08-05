@@ -10,5 +10,8 @@ You have to take the number of rows as an input from the user and will have to p
 
 #### Note -- The input will always be a odd number(think why?).
 ##### Example -
-<pre>input - 7
-output -  ![](reverseButterfly.jpg)</pre>            
+<pre>input - 7 
+output -- 
+</pre>   
+
+![](reverseButterfly.jpg)         
