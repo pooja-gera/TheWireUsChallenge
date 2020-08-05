@@ -1,0 +1,7 @@
+ORDER BY COMMAND IN SQL
+------------------------
+
+For resources, refer the link given below 
+
+https://www.w3schools.com/sql/sql_orderby.asp
+https://learnsql.com/cookbook/how-to-order-alphabetically-in-sql/
