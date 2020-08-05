@@ -1,0 +1,49 @@
+.button{
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 8px 8px;
+    margin: 10px 45%;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+/*Styling Button 1*/
+
+#button1{
+    background-image: linear-gradient( #ebfa36, #fcb71c,#ff9401);
+    background-image: -webkit-linear-gradient( #ebfa36, #fcb71c,#ff9401);
+    background-image: -o-linear-gradient( #ebfa36, #fcb71c,#ff9401);
+    background-image: -moz-linear-gradient( #ebfa36, #fcb71c,#ff9401);
+}
+
+/*Styling Button 2*/
+
+#button2{
+    background-image: radial-gradient(  #f5ff00, #9dfc1c,#0a8622);
+    background-image: -webkit-radial-gradient(  #f5ff00, #9dfc1c,#0a8622);
+    background-image: -o-radial-gradient(  #f5ff00, #9dfc1c,#0a8622);
+    background-image: -moz-radial-gradient(  #f5ff00, #9dfc1c,#0a8622);
+    color: black;
+}
+
+/*Styling Button 3*/
+
+#button3{
+    background-image: linear-gradient(to right, #eb89eb, #fc1c8c,#860a18);
+    background-image: -moz-linear-gradient(to right, #eb89eb, #fc1c8c,#860a18);
+    background-image: -o-linear-gradient(to right, #eb89eb, #fc1c8c,#860a18);
+    background-image: -webkit-linear-gradient(to right, #eb89eb, #fc1c8c,#860a18);
+    
+    
+}
+
+/*Styling Button 4*/
+
+#button4{
+    background-image: linear-gradient(to left, #2cbbdd 0%, #046eff 50%, blue 80%);
+
+}
