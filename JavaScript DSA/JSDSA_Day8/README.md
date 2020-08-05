@@ -4,5 +4,5 @@
 
 For this challenge, you have to create a rectangle pattern (of any size) using nested 'for' loop.
 So, the time complexity will be O(n*m), where n is the number of rows and m is the number of columns. 
-For example, if the number of rows is 5, the pattern should be:
+For example, the pattern should be:
   ![](pattern.png)
