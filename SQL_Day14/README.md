@@ -7,4 +7,4 @@ Consider the table FEES. Write a SQL command to delete those records which has A
 
 #### Table: Fees
 
-[!Test Image1](ss.png)
+![Test Image1](ss.png)
