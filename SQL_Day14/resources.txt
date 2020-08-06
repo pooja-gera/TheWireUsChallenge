@@ -1,0 +1,7 @@
+DELETE COMMAND IN SQL
+----------------------
+
+For more details, refer to the link given below:
+
+https://www.w3schools.com/sql/sql_delete.asp
+https://www.sqlservertutorial.net/sql-server-basics/sql-server-delete/
