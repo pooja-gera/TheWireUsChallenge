@@ -1,37 +1,20 @@
 
-let n = readLine();//Taking the input of number of rows to be printed from the user
-
-// upper half of the pattern
-    for(let i = 0; i < n; i++)
+let rows = readLine();//Taking the input of number of rows to be printed from the user
+let i, space, j;
+let coef=1;
+for(i = 0; i < rows; i++)
     {
-        for(let j = 0; j < (2 * n); j++)
-        {
-            if(i >= j)  // upper left triangle. 
-                document.write("*");
-            else
-                document.write(" ");
+        for(space = 1; space <= rows-i; space++)
+            document.write(" ");
 
-            if(i >= (2 * n - 1) - j) // upper right triangle
-                document.write("*");
+        for(j = 0; j <= i; j++)
+        {
+            if (j == 0 || i == 0)
+                coef = 1;
             else
-                document.write(" ");
+                coef = coef*(i-j+1)/j;
+
+            document.write(coef + " ");
         }
         document.write("<br/>");
-    }
-    // bottom half of the pattern
-    for(i = 0; i < n; i++)
-    {
-        for(j = 0; j < (2 * n); j++)
-        {
-            if(i + j <= n - 1) // bottom left triangle
-                document.write("*");
-            else
-                document.write(" ");
-
-            if((i + n) <= j) // bottom right triangle
-                document.write("*");
-            else
-                document.write(" ");
-        }
-        document.write("br/");
     }
