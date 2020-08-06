@@ -1,0 +1,11 @@
+1)INNER JOIN-
+SELECT Table-A.first-Name,Table-A.last-Name,Table-B.age,Table-B.Place
+  FROM TableA
+ INNER JOIN Table-B
+    ON TableA.id = TableB.id2;
+	
+2) LEFT JOIN-
+SELECT Table-A.first-Name,Table-A.last-Name,Table-B.age,Table-B.Place
+  FROM Table-A
+  LEFT JOIN Table-B
+    ON Table-A.id = Table-B.id2;
