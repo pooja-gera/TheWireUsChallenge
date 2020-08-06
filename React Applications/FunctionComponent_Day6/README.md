@@ -6,5 +6,5 @@ The other type of component in React is the simple component, which is a functio
 
 In this Challenge, Function Components have been defined in 2 ways, one using arrow functions(Table.js) and other using functions in JS(Car.js)
 
-#### Importantant ####
+#### Important!!! ####
 A class component must include render(), and the return can only return one parent element.

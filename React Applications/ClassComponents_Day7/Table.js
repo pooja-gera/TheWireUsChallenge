@@ -4,7 +4,7 @@ class Table extends Component {
   //creates a Table of React Component type
   render() {
     return (
-      //HTML code that is to be shown
+      //HTML code that is to be shown/rendered on the webpage
       <table>
         <thead>
           <tr>
