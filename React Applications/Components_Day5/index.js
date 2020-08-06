@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
+  //creates an App of React Component type
   render() {
     //render() menthod returns HTML
     return (
