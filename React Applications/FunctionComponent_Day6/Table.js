@@ -1,17 +1,22 @@
 import React, {Component} from 'react'
 
-class Table extends Component {
-  //creates a Table of React Component type
-  render() {
+const TableHeader = () => {
+    //creates a component named TableHeader
     return (
-      //HTML code that is to be shown
-      <table>
+        //HTML code of Header of the Table only
         <thead>
           <tr>
             <th>Challenge Number</th>
             <th>Challenge Topic</th>
           </tr>
         </thead>
+    )
+}
+
+const TableBody = () => {
+    //creates a component named TableBody
+    return (
+        //HTML code of Body of the the Table only
         <tbody>
           <tr>
             <td>1</td>
@@ -54,10 +59,21 @@ class Table extends Component {
             <td>Web Scraping</td>
           </tr>
         </tbody>
-      </table>
     )
-  }
+}
+
+//Now creating a Table of React Component type
+class Table extends Component {
+    render() {
+      return (
+        //Within the <table> tags the TableHeader and TableBody components are added so that they can be rendered
+        <table>
+          <TableHeader />
+          <TableBody />
+        </table>
+      )
+    }
 }
 
 export default Table
-//the component is exported to App.js
+//exported to App.js
