@@ -1,0 +1,23 @@
+/*Author: Pooja Gera*/
+
+body{
+    background-color: gray; /*Giving the background another color so that the background color of the white flag is visible*/
+}
+#rectangle{
+    display: flex; /*Creating a flexbox*/
+    align-items: center; /*All the elements inside will be center aligned vertically*/
+    justify-content: center; /*All the elements inside will be center aligned horizontally*/
+    width: 300px; /*Specifying the width*/
+    height: 200px; /*Specifying the height*/
+    left: 80px; /*Specifying the left margin*/
+    top: 125px; /*Specifying the top margin*/
+    background: #FFFFFF; /*Specifying the background color*/
+
+}
+
+#circle{
+    width: 137px; /*Specifying the width*/
+    height: 137px; /*Specifying the height*/
+    border-radius:50%; /*Making it circular*/
+    background-color: #BC002D; /*Specifying the background color*/
+}

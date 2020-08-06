@@ -1,0 +1,11 @@
+/*Author:Pooja Gera*/
+
+/*Creating an ID named circle*/
+#circle{
+    margin:auto; /*Used to centrally align the container*/
+    background-image: radial-gradient(pink,white); /*Adding a little bit of a pretty gradient, you can also try linear-gradient*/
+    border-radius:50%; /*This is the main property we are using to create a circle*/
+    box-shadow:2px; /*This is used to add some shadow to our container and give it a 3D effect*/
+    height:200px; /*You can vary the height as per your choice, try experimenting with different units of size*/
+    width:200px;  /*You can vary the width as per your choice, try experimenting with different units of size*/
+}
