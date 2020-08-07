@@ -1,8 +1,8 @@
 # Day - 12
 ---
-## Sorting an Array in JavaScript
- &nbsp;
- Sorting is one of the most basic, most handy and most useful thing in the programming world.
+## Sorting an Array in JavaScript 
+ 
+Sorting is one of the most basic, most handy and most useful thing in the programming world.
 
 
 ### Note - 
@@ -15,7 +15,8 @@ JavaScript already has a inbuilt sorting method for arrays but we should know th
 3. Now you have to print the array in sorted order.
 
 ##### Example -
-<pre>Input - 5        Input - 7                                     Input - 8 
+<pre color : blue>
+Input - 5        Input - 7                                          Input - 8 
    6                    31                                                 943
    5                    34                                                 -2  
    4                    5                                                  234
