@@ -1,0 +1,50 @@
+.container{
+      width: 450px;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid #b2bec3;
+      padding: 5px ;
+  }
+  .item{
+      padding:2px;          
+      width: 100px;
+      height: 100px;
+  }
+  
+  .item-1{
+      background-color: #74b9ff;
+  }
+
+  .item-2{
+      background-color: #ff7675;
+      }
+  .item-3{
+      background-color: #ffeaa7;
+  }
+  .item-4{
+      background-color: #55efc4;
+  }
+  
+  .item-5{
+      background-color: #fd79a8;
+  }
+     
+  .item-6{
+      background-color: #81ecec;
+  }
+
+
+  .container2{
+      display: flex;
+      align-items: center;
+      margin:50px 0px;
+      height: 300px;
+      width: 600px;
+      border: 1px solid #b2bec3;
+      padding: 5px ;
+  }
+
+  .box{        
+      width: 100px;
+      height: 100px;
+  }
