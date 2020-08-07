@@ -1,0 +1,5 @@
+UPDATE Command in SQL
+-----------------------
+
+https://www.w3schools.com/sql/sql_update.asp
+https://www.techonthenet.com/sql_server/update.php
