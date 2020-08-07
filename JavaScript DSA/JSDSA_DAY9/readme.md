@@ -11,7 +11,7 @@ This challenge was asked in Codevita in year 2019. (See the link in resources)
 #### Challenge - 
 You have to take the number of rows as an input from the user and will have to print the pattern as shown in example
 
-##### Please observe the output caefully to see the pattern it follows.
+##### Please observe the output carefully to see the pattern it follows.
 (Devil is always in the details.)
 
 ###### Example -
