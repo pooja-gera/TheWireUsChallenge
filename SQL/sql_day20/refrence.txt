@@ -1,0 +1,2 @@
+for more details refer-
+https://www.w3schools.com/sql/func_mysql_mod.asp

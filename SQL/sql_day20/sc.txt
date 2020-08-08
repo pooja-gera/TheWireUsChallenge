@@ -1,0 +1,5 @@
+The required query is:
+SELECT * FROM Worker WHERE MOD (WORKER_ID, 2) <> 0;
+
+The required query is:
+SELECT * FROM Worker WHERE MOD (WORKER_ID, 2) = 0;
