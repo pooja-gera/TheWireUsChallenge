@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(169, 198, 231);
+    }
+    .ripple{
+        width:150px;
+        height: 150px;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        overflow:hidden;
+        box-shadow: 0 0 0 50px rgba(1,121,233,0.2),
+        0 0 0 100px  rgba(1,121,233,0.2),
+        0 0 0 150px  rgba(1,121,233,0.2),
+        0 0 0 200px  rgba(1,121,233,0.2),
+        0 0 0 250px  rgba(1,121,233,0.2);
+    }
+</style>
+<body>
+    <div class="ripple"></div>
+</body>
+</html>
