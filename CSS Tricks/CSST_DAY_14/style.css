@@ -1,0 +1,36 @@
+.container {
+      width: 400px;
+      height: 207px;
+      border: 1px solid #c3c3c3;
+      display: flex;
+      flex-flow: row-reverse wrap;
+      margin: 10px auto;
+      padding: 10px;
+      align-content: stretch;
+    }
+    
+.box {
+      width: 100px;
+    }
+
+.box-1{
+      background-color: #74b9ff;
+  }
+
+.box-2{
+      background-color: #ff7675;
+      }
+.box-3{
+      background-color: #ffeaa7;
+  }
+.box-4{
+      background-color: #55efc4;
+  }
+  
+.box-5{
+      background-color: #fd79a8;
+  }
+     
+  .box-6{
+      background-color: #81ecec;
+  }
