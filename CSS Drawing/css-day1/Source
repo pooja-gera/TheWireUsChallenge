@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>parallelogram</title>
+<style>
+.parallelogram {
+    margin-left: 200px;
+	width: 500px;
+	height: 300px;
+	transform: skew(45deg);
+	background: rgb(52, 156, 226);
+}
+body{
+    background-color: black;
+}
+</style>
+</head>
+<body>
+<div class="parallelogram"></div>
+</body>
+</html> 
