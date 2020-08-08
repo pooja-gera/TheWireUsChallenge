@@ -1,0 +1,2 @@
+For more details refer the link given below-
+https://www.w3schools.com/sql/func_sqlserver_rtrim.asp
