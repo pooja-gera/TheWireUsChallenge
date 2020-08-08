@@ -1,0 +1,6 @@
+UNION Command in SQL
+---------------------
+
+Refer to the ink given below:
+
+https://www.w3schools.com/sql/sql_union.asp
