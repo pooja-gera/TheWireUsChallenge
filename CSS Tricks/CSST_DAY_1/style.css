@@ -1,16 +1,25 @@
-body{
-      background-color: #a29bfe;
-}
-.cards{ 
-      border: 1px solid tomato ;
-      width: 200px;
-      height: 200px;
-      margin:auto;
-      background-color: #6c5ce7;
-      text-align: center;
+*{
+      margin: 0;
+      padding:0;
 }
 
-.para{
-      text-align: center;
-      color: tomato;
+.list{
+      background-color: aliceblue;
+      color: black;
+      padding:20px 10px
+}
+
+.items{
+      display: inline;
+      padding: 0px 20px;
+}
+
+.container{
+      position: sticky;
+      top:0px;
+}
+
+.image{
+      height: 200vh;
+      width: 100vw;
 }
