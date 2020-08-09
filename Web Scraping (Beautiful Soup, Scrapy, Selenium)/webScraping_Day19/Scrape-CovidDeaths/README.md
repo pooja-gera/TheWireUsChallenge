@@ -14,5 +14,5 @@ Your program should do the following:
 <li>7 - repeat this for 25 times
 
 The data should look like this - <br> 
-<img width="100" src="./ss.png"> 
+<img width="200" src="./ss.png"> 
 
