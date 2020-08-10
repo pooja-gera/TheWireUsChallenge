@@ -10,7 +10,7 @@
 2. <b> Now think a way to return 2^n without using any multiplcation or any kind of loop.</b>
 3. <b> Now divide the number by 4 without using divide operator.
 4. <b> Tell whether N is even or odd without using / or % operator.
-#### A bonus cahllenge -- 
+#### A bonus challenge -- 
 4. <b> Now let's try something more a little bit more challenging --- 
 5. Let us asume you have N pairs of shoes numbered from 0 to N-1.
 6. Now one of the shoes from one of the pairs is missing.
@@ -23,7 +23,7 @@
             Even                                            Odd               
 </pre>
 
-##### Examplre for bonus  Challenge --- 
+##### Example for bonus  Challenge --- 
 <pre>
 Input - 9                                 Input - 7
         1                                         4
