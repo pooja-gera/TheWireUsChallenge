@@ -17,7 +17,9 @@ Today we are going to do the form submission challenge using the concepts that w
 #### Output should look like
 1. ##### Form
  ![](Form.png) 
+
 2. ##### Handle the Input
  ![](InputHandle.png)
+ 
 3. ##### Reponse
  ![](Response.png)

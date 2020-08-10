@@ -13,6 +13,6 @@ In this challenge you are conditionally going to render the components.
 
 #### Output should look like
 1. ##### Before Click
-![](Before Click.png) 
+![](BeforeClick.png) 
 2. ##### After Click
-![](After Click.png) 
+![](AfterClick.png) 
