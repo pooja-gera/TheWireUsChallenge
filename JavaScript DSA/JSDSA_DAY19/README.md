@@ -8,14 +8,14 @@ We need to write an efficient program to find the sum of contiguous subarray wit
 
 Input: arr[] = {-5, -6, 1, 2, -2, -1, 4, -1, -3}
 	
-	Here the maximum sum of contiguous subArray is 1+2+(-2)+(-1)+4
+	Here the maximum sum of contiguous subArray is 1 + 2 + (-2) + (-1) + 4
 
 Output: 4
 
 
 Input: arr[] = {-2, -3, 4, -1, -2, 1, 5, -3}
 	
-	Here the maximum contiguous array sum is 4+(-1)+(-2)+1+5
+	Here the maximum contiguous array sum is 4 + (-1) + (-2) + 1 + 5
 
 Output: 7
 
