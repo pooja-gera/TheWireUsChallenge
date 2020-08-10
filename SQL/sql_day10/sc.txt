@@ -1,0 +1,17 @@
+1.)The query is-
+
+	SELECT TOP 1 salary
+	FROM(
+	SELECT TOP 3 salary
+	FROM EmployeePosition
+	ORDER BY salary DESC) AS emp
+	ORDER BY salary ASC;
+		
+2.)The query is-
+
+	SELECT Salary 
+	FROM EmployeePosition E1 
+	WHERE N-1 = ( 
+		  SELECT COUNT( DISTINCT ( E2.Salary ) ) 
+		  FROM EmployeePosition E2 
+		  WHERE E2.Salary >  E1.Salary );
