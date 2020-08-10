@@ -1,0 +1,3 @@
+For more details refer to the link  given below-
+https://www.tutorialspoint.com/sql/sql-intersect-clause.htm
+https://www.geeksforgeeks.org/sql-minus-operator/

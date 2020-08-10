@@ -1,0 +1,9 @@
+1.)The required query is:
+	(SELECT * FROM TABLE1)
+	INTERSECT
+	(SELECT * FROM TABLE2);
+
+2.)The required query is:
+	SELECT * FROM TABLE1
+	MINUS
+	SELECT * FROM TABLE2;
