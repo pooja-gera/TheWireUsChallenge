@@ -1,4 +1,4 @@
-In this chaallenge, we will study new concept of responsive media queries.
+# In this challenge, we will study new concept of responsive media queries.
 
 Media query is a CSS technique introduced in CSS3.
 
