@@ -1,5 +1,5 @@
-This is the next and intersting challenge on flexbox-making.
-Flexbox is also called a flexible box model.
+# This is the next and intersting challenge on flexbox-making.
+## Flexbox is also called a flexible box model.
 It is basically a layout model that provides an easy and clean way to arrange items within container.
 
 For this challnege: 
