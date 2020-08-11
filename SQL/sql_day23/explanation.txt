@@ -1,0 +1,15 @@
+1.)Answer:b (DAL)
+explanation: 
+It is not supported by SQL.All the other statements are supported.
+->DDL (Data Definition Language),is used to define the database structure such as tables. 
+It includes three statements such as CREATE, ALTER, and DROP.
+->DML (Data Manipulation Language)statements are used to manipulate the data in records. 
+Commonly used DML statements are INSERT, UPDATE, and DELETE.
+->DCL (Data Control Language)statements are used to set privileges such as GRANT and REVOKE database 
+access permission to the specific user.
+
+2.)Answer: c
+Explanation: FOREIGN KEY constraints identify and enforce the relationships between tables.
+
+3.)Answer: d
+Explanation: Primary keys also enforce uniqueness, but primary keys do not allow for NULL as one of the unique values.
