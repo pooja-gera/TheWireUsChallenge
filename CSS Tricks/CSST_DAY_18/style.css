@@ -1,0 +1,20 @@
+body{
+      background: url(/img.jpeg) no-repeat center center;
+      height: 900px;
+}
+    
+    .IMFixed {
+      position: fixed;
+      top: 20px;
+      right: calc(50% - 450px + 30px);
+      height: 70px;
+      width: 156px;
+      background-color: #f8a5c2;
+      border: 1px solid #ced6e0;
+      border-radius: 202px;
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      padding: 60px 10px;
+    }
+
