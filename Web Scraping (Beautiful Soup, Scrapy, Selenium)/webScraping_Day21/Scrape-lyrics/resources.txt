@@ -1,0 +1,5 @@
+1) Working with APIs - https://www.dataquest.io/blog/python-api-tutorial/
+
+2) Learn json library - https://www.w3schools.com/python/python_json.asp
+
+3) pandas documentation - https://pandas.pydata.org
