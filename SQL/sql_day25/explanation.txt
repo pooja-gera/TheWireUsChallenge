@@ -1,0 +1,9 @@
+1.)Answer: c
+Explanation: Constraints are Primary key, Foreign Key, Unique Key, Not Null, Check, Default.
+
+2.)Answer: a
+Explanation: The ON UPDATE clause defines the actions that are taken if you try to update a
+candidate key value to which existing foreign keys point.
+
+3.)Answer: a
+Explanation: Foreign key is to enforce referential integrity.
