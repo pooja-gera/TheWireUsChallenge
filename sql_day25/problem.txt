@@ -1,0 +1,17 @@
+1.) How many types of constraints are present in SQL Server?
+	a) 4
+	b) 5
+	c) 6
+	d) 7
+	
+2.) Which of the following foreign key constraint specifies that the deletion fails with an error?
+	a) NO ACTION
+	b) CASCADE
+	c) SET NULL
+	d) All of the mentioned
+	
+3.)Purpose of foreign key constraint in SQL Server is :
+	a) FOREIGN KEY constraints identify and enforce the relationships between tables
+	b) A foreign key in one table points to a candidate key in another table
+	c) You cannot insert a row with a foreign key value, except NULL, if there is no candidate key with that value
+	d) None of the mentioned
