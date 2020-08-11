@@ -9,7 +9,7 @@ Make the **GET** request by providing the API with **artist name** and the **son
 <p>Handle for lyrics of songs that the api cannot fetch (not available) by adding the value NaN to that cell of dataframe corressponding to that song. 
 
 <p>Output of the last 10 rows
-<img src="./ss.png">
+<img width="400" src="./ss.png">
 
 **Be vigilant and have patience**
 
