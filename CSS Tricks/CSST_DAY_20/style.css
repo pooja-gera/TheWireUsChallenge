@@ -1,0 +1,10 @@
+
+body {
+  counter-reset: section;
+  text-align: center;
+}
+
+p::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
