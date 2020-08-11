@@ -1,4 +1,0 @@
-SELECT ProductName
-       ,UnitsInStock
-FROM ProductsPresent
-WHERE UnitPrice >= 60 ;
