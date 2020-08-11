@@ -1,0 +1,3 @@
+SELECT First_Name, SUBSTR(First_Name,0,3)
+FROM employees
+WHERE DeptId >= 100;
