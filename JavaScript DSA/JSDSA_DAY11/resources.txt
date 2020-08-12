@@ -1,6 +1,0 @@
-
-For concept of looping statements
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
-
-For concept of conditional statements
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
