@@ -35,7 +35,7 @@ for(let i = 0;i<N;i++){
 //Logging the input array from the user
 console.log(z);
 
-//Calling the maxSubArraySum method and logging the result in console
+//Calling the leadersInAnArray method and logging the result in console
 leadersInAnArray(arr);
 
 function leadersInAnArray(arr){
