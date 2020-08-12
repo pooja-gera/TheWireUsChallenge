@@ -5,7 +5,7 @@ Valerie and her niece merged their mini clothing and accesories stores to create
 Consider the tables GARMENT and ACCESSORIES. Write an SQL query to combine the two tables row-wise, and arrange the PRICE column in accordance to increasing prices.
 
 #### Table: GARMENT
-[!Test Image1](garment.png)
+![Test Image1](garment.png)
 
 #### Table: ACCESSORIES
-[!Test Image2](acc.png)
+![Test Image2](acc.png)
