@@ -1,4 +1,8 @@
-## SQL Challenge - What's the output(1)
+## SQL Challenge - Book Issue
+
+Write  SQL Query to display the Book_ID, Book_name and Quantity_issued for all books which have been issued. 
+
+HINT: (The query will require contents from both the tables)
 
 #### Table: BOOKS
 ![Test Image1](book.png)
