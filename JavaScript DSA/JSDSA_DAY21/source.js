@@ -1,9 +1,9 @@
 //Code for basic challenge
 var N = Number(readline());   // taking number of elemnts as input
-print(1<<N);
-print(N>>2);
+print(1<<N); // bitwise left shift (Refer to resources)
+print(N>>2);  // bitwise right shift
 
-if(N&1){
+if(N&1){        // bitwise AND
     print("odd");
 } else{
     print("Even");
@@ -28,8 +28,9 @@ print("Input Array - "+z);
 
 var ans = arr[0];
 
+// Refer to resources for truth table of XOR
 for(let i=1;i<N;i++){
-    ans = ans ^ arr[i];
+    ans = ans ^ arr[i];     // Bitwise XOR operstor
 }
 
 print(ans);
