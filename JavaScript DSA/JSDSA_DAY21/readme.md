@@ -1,4 +1,4 @@
-# Day - 19
+# Day - 21
 ---
 ## BitWise Fun
  This Challenge is gonna be more aboout thinking and less about coding so please think a lot before seeing the solutions.
