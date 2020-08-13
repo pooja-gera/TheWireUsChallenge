@@ -1,4 +1,4 @@
-## SQL Challenge - What's the outout(1)
+## SQL Challenge - What's the output(1)
 
 ![Test Image1](book.png)
 
