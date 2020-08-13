@@ -1,7 +1,9 @@
 ## SQL Challenge - What's the output(1)
 
+#### Table: BOOKS
 ![Test Image1](book.png)
 
+#### Table: ISSUED
 ![Test Image2](iss.png)
 
 
