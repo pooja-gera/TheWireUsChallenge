@@ -1,5 +1,5 @@
 # Challenge - Scrape number of covid deaths by Country
-Welcome to today's challenge. In today's challenge we'll be using Selenium which is a very great library that we can use for web automation and extracting data automatically from dynamic pages. For installation guide first refer to the resources.txt file then continue.
+Welcome to today's challenge. In today's challenge we'll be using **Selenium** which is a very great library that we can use for web automation and extracting data automatically from dynamic pages. For installation guide first refer to the resources.txt file then continue.
 
 In this challenge you have to extract/scrape the total deaths caused by some countries from the website - https://covid19.healthdata.org/
 <p>You'll need to make a GET request at the url using selenium .
