@@ -1,0 +1,7 @@
+1. FIRSTNAME | SALARY
+   -------------------
+   MAITHILI  | 50000
+   ROBERT    | 45000
+   HENRY     | 40000
+   
+   
