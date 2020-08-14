@@ -1,0 +1,5 @@
+Answers:
+
+1.)c (ACID is an acronym for Atomicity, Consistency, Isolation, Durability.)
+2.)d (to place order)
+3.)d (All of the above)

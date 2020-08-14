@@ -1,0 +1,20 @@
+1.)Which of the following is true for ACID property in database:
+
+	a.ACID property is used to join two tables in a databse.
+	b.A multi logical operation of a data is called transaction.
+	c.ACID is an acronym for Atomicity, Consistency, Isolation, Durability.
+	d.It is not a property in database
+	
+2.) which of the following is not a usage of SQL functions :
+	a.To perform calculations on data
+	b.To modify individual data items
+	c.To manipulate the output
+	d.To place order
+	
+3.)Which are the different case manipulation functions in SQL?
+
+
+	a.LOWER: converts character into Lowercase.
+	b.UPPER: converts character into uppercase.
+	c.INITCAP: converts character values to uppercase for the initials of each word.
+	d.All of the above.
