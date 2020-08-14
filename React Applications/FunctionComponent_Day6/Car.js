@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Car() {
-    return <h2>Hi, I am also a Car!</h2>;
+    return <h2>Hi, I am new to React but I love solving these daily chllenges!</h2>;
 }
 
 export default Car

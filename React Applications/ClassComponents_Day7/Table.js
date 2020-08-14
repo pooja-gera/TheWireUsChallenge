@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 
 class Table extends Component {
   //creates a Table of React Component type
@@ -59,5 +59,5 @@ class Table extends Component {
   }
 }
 
-export default Table
+export default Table;
 //the component is exported to App.js
