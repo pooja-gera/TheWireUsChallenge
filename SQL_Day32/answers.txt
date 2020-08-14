@@ -4,4 +4,12 @@
    ROBERT    | 45000
    HENRY     | 40000
    
+2. 3
+
+3. DESIGNATION | SUM(SALARY)
+   -------------------------
+   CLERK       |   135000
+   MANAGER     |   214500
+   
+4. 32000
    
