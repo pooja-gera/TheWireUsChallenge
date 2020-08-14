@@ -1,0 +1,32 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+.left{
+      color: rgb(54, 82, 241);
+      font-size: 40px;
+      margin: 0 50px;
+      padding-top: 50px;
+      height: 300px;
+      text-align: center;
+}
+
+.low{
+      font-size: 40px;
+      border: 2px solid rgb(54, 82, 241);
+      border-radius: 50px;
+      margin: 0px 50px;
+      height: 500px;
+      text-align: center;
+}
+
+.low p{
+      margin-top: 100px;
+}
+
+.parallax {
+      background: url("/img.jpeg") center center no-repeat;
+      background-attachment: fixed;
+      height: 1500px;
+}
