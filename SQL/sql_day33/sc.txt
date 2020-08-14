@@ -1,0 +1,5 @@
+Answers :
+
+1.) d (loop databases)
+2.) d (all of the above)
+3.)c (TRUNCATE statement is used to remove all the rows from a table.)

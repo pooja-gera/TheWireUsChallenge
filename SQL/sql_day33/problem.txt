@@ -1,0 +1,17 @@
+1.)Which of the following is not a type of Database Managment System :
+	a.Hierarchical databases (DBMS)
+	b.Relational databases (RDBMS)
+	c.Network databases (IDMS)
+	d.Loop databases
+	
+2.)Which of the following is a type of inner join :
+	a.Theta join
+	b.Natural join
+	c.Equijoin
+	d.all of the above
+	
+3.)Which of the following statements is not for TRUNCATE command in SQL :
+	a.TRUNCATE is a not DDL command.
+	b.We can use WHERE clause with TRUNCATE
+	c.TRUNCATE statement is used to remove all the rows from a table.
+	d.TRUNCATE statement is not faster than DELETE statement.
