@@ -1,4 +1,4 @@
-# Challenge - Scrape Images from Facebook using Facebook Graph API
+# Challenge - Scrape Jokes using API
 In this simple challenge you will be extracting jokes from the Chuk Norris Database API. There are 473 jokes in the database. Extract all of them. 
 <i>Note: some jokes may not be available having some id</i>
 
