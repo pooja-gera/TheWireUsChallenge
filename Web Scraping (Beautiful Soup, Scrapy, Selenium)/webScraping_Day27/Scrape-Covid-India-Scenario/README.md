@@ -1,5 +1,5 @@
 # Challenge - Scrape Corona Status of India 
-**WELCOME TO DAY 25**
+**WELCOME TO DAY 27**
 <p>Today we are going to use Selenium to extract corona virus situation of India from the <b>Worldometer</b> website. <br>
 </p>
 Make the **GET** request by at the url - https://www.worldometers.info/coronavirus/ using selenium .

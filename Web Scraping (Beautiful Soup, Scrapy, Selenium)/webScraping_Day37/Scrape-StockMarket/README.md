@@ -1,5 +1,5 @@
 # Challenge - Scrape APPLE stocks
-**WELCOME TO DAY 35**
+**WELCOME TO DAY 37**
 <p>
     Let's assume you work in <b>The Wall Street</b> as a stock broker and it's the year 2018.<br>
     You want to know about how is the stock behaving for the past year for APPL stock.
