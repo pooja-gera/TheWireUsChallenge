@@ -2,9 +2,7 @@
 
 ## useState in Hooks ##
 
-Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes. In case you want to add a state to function component then instead of changing it to a class component you can use Hooks. <br/><br/>
-
-useState 
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes. In case you want to add a state to function component then instead of changing it to a class component you can use Hooks.
 
 #### Challenge Description ###
 
