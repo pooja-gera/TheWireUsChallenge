@@ -17,4 +17,4 @@ This challenge is created assuming that you have knowledge of HTML, CSS, JavaScr
 7. Inside the handleClick function, create an arrow function *setState* which takes the argument *prevState*.
 8. Set the *isToggleOn of prevState* to opposite of what it is when taken as input.
 9. Inside the constructor, bind the handleClick function so that *this* can work. 
-Using the imported *ReactDOM* module, render the App component created.
+10. Using the imported *ReactDOM* module, render the Toggle component created.

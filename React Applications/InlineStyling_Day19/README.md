@@ -1,4 +1,4 @@
-# Day 17 #
+# Day 19 #
 
 ## Inline Styling in React ##
 
@@ -8,10 +8,10 @@ We can style the content inside the React components similar to HTML styling. Th
 
 This challenge has been created assuming that you have knowledge of HTML, CSS, JavaScript and have completed the Creating Components and Passing Props as Strings challenge.
 
-1. Create a Greeting component and render "Hello, I am [insert your name here]" using h1 tag of HTML. 
+1. Create a Greeting component and render "Hello, I am [insert your name here]" using h1 tag of HTML in index.js. 
 2. Add the following inline CSS styling to the h1:
-- color: white
-- background-color: dodgerblue
-- width: 400px
-- text-align: center 
-3. Using the imported *ReactDOM* module, render the App component created.
+    - color: white
+    - background-color: dodgerblue
+    - width: 400px
+    - text-align: center 
+3. Using the imported *ReactDOM* module, render the Greeting component created.

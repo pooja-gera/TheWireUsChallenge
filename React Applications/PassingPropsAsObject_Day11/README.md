@@ -13,4 +13,4 @@ This challenge has been created assuming that you have knowledge of HTML, CSS, J
 2. Inside the User component, *return* "Hello, (using props access the first and last name passed from the Greeting component)!" using h1 tag. __The displayed text should look like "Hello, Sanchi Bansal!"__.
 3. Create an object userinfo with fName and lName properties using JavaScript knowledge in Greeting component. Assign these properties values according to your name.
 4. Within the *class component Greeting, render and return* User component having name attribute equal to your name.
-5. Using the imported *ReactDOM* module, render the App component created.
+5. Using the imported *ReactDOM* module, render the Greeting component created.
