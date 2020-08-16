@@ -1,0 +1,14 @@
+There are several approaches to initialize a matrix in JS --- 
+https://stackoverflow.com/questions/16512182/how-to-create-empty-2d-array-in-javascript
+
+
+Difference of let and var keyword --- 
+https://www.javatpoint.com/let-vs-var
+
+
+For concept of looping statements --
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+
+
+Working of slit function --- 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/string/split
