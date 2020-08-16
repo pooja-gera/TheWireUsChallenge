@@ -42,7 +42,8 @@ for (let i = 0; i < n; ++i) {             // initailizing a 2D Array----
             for(let i=0;i<n;i++)
                 z= z+arr[i][j]+" ";
         }
-        else                          //if number of column is odd move from bottom to top                  
+        else                          //if number of column is odd move from bottom to top
+                          
         {
             for(let i=n-1;i>=0;i--)
                 z= z+arr[i][j]+" ";
