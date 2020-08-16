@@ -1,5 +1,8 @@
-There are several approaches to initialize a matrix in JS --- 
-https://stackoverflow.com/questions/16512182/how-to-create-empty-2d-array-in-javascript
+Join function in JavaScript -- 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/array/join
+
+Reverse function in JavaScript -- 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/array/reverse
 
 
 Difference of let and var keyword --- 
