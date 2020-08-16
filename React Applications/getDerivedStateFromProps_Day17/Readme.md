@@ -14,7 +14,7 @@ It takes state as an argument, and  returns an object with changes to the state.
 
 Using the favcol attribute we can update the value of various variables.
 
-So *lets code* an example which starts with the favorite color being "red",
+So now as a challenge you code an example which starts with the favorite color being "red",
 but the getDerivedStateFromProps() method updates the favorite color based on 
 the favcol attribute.
 
