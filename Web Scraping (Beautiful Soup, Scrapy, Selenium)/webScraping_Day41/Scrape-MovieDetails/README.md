@@ -16,7 +16,7 @@
 Start making get requests to the API by sending the movie name as a parameter(movie titles can be extracted from the csv file included with the challenge) and scrape the data about movies such as - Year, Rated, Released, Runtime, Genre, Director, Actors, Language, Country, Awards, imdbRating, imdbVotes, BoxOffice and store it into a the same pandas dataframe.<br>
 </p>
 <i>Note: You may need to clean the movie titles from the movies.csv file to avoid api call errors.</i><br>
-<b>The output dataframe should be like this...</b>
+<b>The output dataframe should be like this...</b><br>
 <img width="400" src="./ss.png">
 
 ### Go Ahead, You can do it! 👍🏻
