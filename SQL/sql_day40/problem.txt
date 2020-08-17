@@ -1,0 +1,18 @@
+1.)Which of the following is true for PL/SQL :
+
+	a.PL/SQL is a complete programming language
+	b.SPL/SQL is  data oriented language
+	c.PL/SQL has a procedural nature
+	d.PL/SQL is used for manipulating data
+
+2.)Which of the following is not a valid syntax for different types of case manipulation functions available in SQL :
+	a.LOWER('string')
+	b.UPPER('string')
+	c.INITCAP('string')
+	d.CASE('string')
+	
+3.)What is/are the most basic MySQL architecture components :
+	a.Query optimizer
+	b.Connection manager
+	c.Pluggable engine
+	d.All of the above

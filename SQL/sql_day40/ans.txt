@@ -1,0 +1,6 @@
+Answers:
+
+1.) a (PL/SQL is a complete programming language)
+2.) d (CASE('string'))
+3.) d (All of the above)
+	
