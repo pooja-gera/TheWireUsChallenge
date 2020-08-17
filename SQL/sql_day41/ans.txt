@@ -1,0 +1,5 @@
+Answers:
+
+1.) a (SELECT VERSION())
+2.) b (It is a procedure that will make the code calls itself until specific boundary condition is reached)
+3.)d (Select employeeID from employee. INTERSECT Select EmployeeID from WorkShift)

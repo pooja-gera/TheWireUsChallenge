@@ -1,0 +1,20 @@
+1.)How would you check your current SQL version :
+	a.SELECT VERSION()
+	b.SELECT SQL()
+	c.SELECT QUERY()
+	d.WHERE VERSION()
+	
+2.)For what ‘recursive stored procedure’ is mainly used :
+	a.It is used for data analysis and reporting.
+	b.It is a procedure that will make the code calls itself until specific boundary condition is reached.
+	c.It is used to forbid fields to have duplicated values.
+	d.None of the above.
+	
+3.)Correct statement to retrieve common records from two tables is :
+	 
+	a.Select employeeID from employee. UNION Select EmployeeID from WorkShift 
+	b.Select employeeID from employee. WHERE Select EmployeeID from WorkShift 
+	c.Select employeeID from employee. JOIN Select EmployeeID from WorkShift 
+	d.Select employeeID from employee. INTERSECT Select EmployeeID from WorkShift
+	
+	
