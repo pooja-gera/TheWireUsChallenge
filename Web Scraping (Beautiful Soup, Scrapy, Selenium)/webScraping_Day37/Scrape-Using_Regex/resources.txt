@@ -1,6 +1,7 @@
 1) Introduction to REGEX in python - https://scotch.io/tutorials/an-introduction-to-regex-in-python
 
-2) Learn regex in python in depth -     2.1) https://realpython.com/regex-python/
+2) Learn regex in python in depth -     
+    2.1) https://realpython.com/regex-python/
     2.2) https://realpython.com/regex-python-part-2/
 
 3) Regex video tutorials -
