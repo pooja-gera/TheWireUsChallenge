@@ -19,6 +19,5 @@ Output:
 4
 
 Explanation:
-
 	![](explaination.png)
 
