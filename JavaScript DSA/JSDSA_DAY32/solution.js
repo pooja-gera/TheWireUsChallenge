@@ -36,7 +36,7 @@ function printMatrix(arr)
 { 
     for (let i = 0; i < N; i++) 
     { 
-        for (int j = 0; j < N; j++) 
+        for (let j = 0; j < N; j++) 
         console.log( arr[i][j] + " "); 
         console.log("\n"); 
     } 
