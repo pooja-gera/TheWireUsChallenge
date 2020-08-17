@@ -1,0 +1,23 @@
+Importance of ASCII Values -- 
+https://rosieresearch.com/why-is-ascii-important/
+
+A list of all ASCII values of all cahracters on your keyboard -- 
+https://img.favpng.com/5/3/11/ascii-character-value-hexadecimal-png-favpng-gLHy5GvYnT5sGqTgvu4zkjxDw.jpg
+
+Join function in JavaScript -- 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/array/join
+
+Reverse function in JavaScript -- 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/array/reverse
+
+
+Difference of let and var keyword --- 
+https://www.javatpoint.com/let-vs-var
+
+
+For concept of looping statements --
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+
+
+Working of split function --- 
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/string/split
