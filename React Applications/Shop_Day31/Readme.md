@@ -8,7 +8,7 @@ In this challenge your going to create button and handle the events.
 #### Code requirements
 1. Create "Add" button to each item.
 2. Handle events like onClick for those buttons (prefarably only one handleClick for all the items).
-3. On "Add" - should decrease the availability of that item by 1. 
+3. On "Add" - should decrease the availability of that item by 1 till it becomes 0.
 
 #### Output should look like
 
