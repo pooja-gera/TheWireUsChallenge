@@ -1,0 +1,17 @@
+1.) which of the following is not an Aggregate function in SQL :
+	a.AVG()
+	b.COUNT()
+	c.FIRST()
+	d.MID()
+	
+2.)  which of the following statement is true for UCASE() function in SQL :
+	a.It converts the value of a field to uppercase.
+	b.It is an aggregate function 
+	c.This function is not equal to the UPPER() function.
+	d.It is not a valid function in SQL.
+	
+3.) what is the function of a forward cursor :
+	a.Forward cursors support fetching of rows from start to end from a result set.
+	b.Forward cursors populates the result set during cursor creation
+	c.Forward cursors provides 6 options to fetch the data
+	d.none  of the above 

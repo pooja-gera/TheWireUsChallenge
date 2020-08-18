@@ -1,0 +1,5 @@
+Answers-
+
+1.) d (MID())
+2.) a (It converts the value of a field to uppercase.)
+3.) a (Forward cursors support fetching of rows from start to end from a result set)
