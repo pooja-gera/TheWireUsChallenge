@@ -1,0 +1,22 @@
+ 1. COUNT(*) | DCODE
+    ----------------
+        2    | D01
+        2    | D05
+        
+ 2. DISTINCT DEPARTMENT
+    -------------------
+        MEDIA
+        MARKETING
+        INFRASTRUC
+        FINANCE
+        HR
+        
+ 3. NAME      | DEPARTMENT  | CITY
+    --------------------------------
+    GEORGE K  | MEDIA       | DELHI
+    RYMA SEN  | INFRASTUC   | MUMBAI
+    
+ 
+ 4. MAX(DOJ)   | MIN(DOB)
+    ------------------------
+    2014-06-09 | 1984-10-19
