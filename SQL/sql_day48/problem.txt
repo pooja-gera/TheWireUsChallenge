@@ -1,0 +1,32 @@
+1.)Correct syntax to create 'view' in SQL is :
+
+	a.CREATE VIEW column_name_name AS
+	  SELECT view_name_name(s)
+	  FROM table_name
+	  WHERE condition
+	b.CREATE VIEW view_name AS
+	  SELECT column_name(s)
+	  FROM table_name
+	  WHERE condition
+	a.INSERT VIEW view_name AS
+	  SELECT table_name_name(s)
+	  FROM column_name_name
+	  WHERE condition  
+	a.INSERT VIEW view_name AS
+	  SELECT column_name(s)
+	  FROM table_name
+	  WHERE condition  
+	  
+2.)Which of the following is not a scalar function :
+
+	a.UCASE()
+	b.LCASE()
+	c.MID()
+	d.MAX()
+	
+3.)correct syntax for  LAST function in SQL is:
+
+	a.INSERT LAST(column_name) FROM table_name;
+	b.SELECT LAST(column_name) WHERE table_name;
+	c.SELECT LAST(column_name) FROM table_name;
+	d.SELECT LAST(table_name_name) FROM column_name_name;

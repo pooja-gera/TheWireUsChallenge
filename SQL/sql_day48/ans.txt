@@ -1,0 +1,10 @@
+Answers:
+
+1.) b (CREATE VIEW view_name AS
+	   SELECT column_name(s)
+	   FROM table_name
+	   WHERE condition)
+
+2.) d (MAX() is an aggregate function)
+
+3.) c (SELECT LAST(column_name) FROM table_name;)
