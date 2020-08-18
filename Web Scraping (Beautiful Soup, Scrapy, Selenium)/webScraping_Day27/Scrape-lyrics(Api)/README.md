@@ -1,5 +1,5 @@
 # Challenge - Scrape Songs lyrics 
-**WELCOME TO DAY 25**
+Welcome to today's challenge!!👋
 <p>Today we are going to use an awesome API to extract the lyrics of SPOTIFY'S top rated songs of 2019.<br>
 <p>Visit the website and learn how to use it's API https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search . 
 <br>

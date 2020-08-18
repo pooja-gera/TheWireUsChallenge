@@ -1,5 +1,5 @@
 # Challenge - Scrape Movie Details
-**WELCOME TO DAY 33** 👋
+Welcome to today's challenge!!👋
 <p>
     lets assume you are working in a group project comprised of 5 people. You all are working on creating a Movie recommender system.
     As a part of the group you are assigned to scrape movies from the API <a href="http://www.omdbapi.com">omdbapi.com</a> so that your team mates could use it to train their models.
