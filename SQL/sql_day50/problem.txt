@@ -1,0 +1,22 @@
+1.) which of the following statement is correct :
+
+	a.Set-based solutions provide better performance than cursor-based solution as they work on a result set and not on one row at a time. 
+	b.Cursor-based solution provide better performance than Set-based solutions as they work on a result set and not on one row at a time. 
+	c.Set-based solutions provide better performance than cursor-based solution as they work on on one row at a time and not on a result set. 
+	d.cursor-based-based solutions provide better performance than Set-based solution as they work on on one row and not on a result set.
+	
+2.)T-SQL was released by:
+
+	a.Apple
+	b.Google
+	c.Sybase& Microsoft
+	d.Amazon
+		
+3.)Microsoft SQL Server supports which of the following types of Locks :
+
+	a.READ ONLY
+	b.SCROLL_LOCKS
+	c.OPTIMISTIC
+	d.All of the above
+
+	

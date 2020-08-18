@@ -1,0 +1,5 @@
+answers :
+
+1.) a (Set-based solutions provide better performance than cursor-based solution as they work on a result set and not on one row at a time.) 
+2.) c (Sybase& Microsoft)
+3.) d (all of the above)
