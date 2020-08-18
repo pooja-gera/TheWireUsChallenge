@@ -17,4 +17,4 @@ In this challenge you have to follow these steps using Selenium.
 <li>Extract the name of the links which defines what item has been deprecated from all the 6 tables present on the page and print the tables in the format just like the screen shot shows below.
 <br><br>
  Sample output - <br> 
-<img width="200" src="./ss1.png">
+<img width="400" src="./ss1.png">
