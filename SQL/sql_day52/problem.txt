@@ -1,0 +1,20 @@
+1.) what is the range of FLOAT data type in SQL :
+
+	a.-1.79E + 308 to 1.79E + 308
+	b.-3.40E + 38 to 3.40E + 38
+	c.-4.70E +308 TO 4.70E +308
+	d.-255 to 255
+	
+2.) what is the maximum length of varchar(max) :
+
+	a.2F+ 31 characters
+	b.3E + 21 characters
+	c.2E + 31 characters
+	d.4E + 31 characters
+	
+3.)what is the range of INT data type in SQL :
+
+	a.	-3,147,483,648 to	3,147,483,647
+	b.	-2,147,483,648 to	2,147,483,647
+	c.	-4,147,483,648 to	4,147,483,647
+	d.	-6,147,483,648 to	6,147,483,647
