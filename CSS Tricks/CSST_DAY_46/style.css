@@ -1,0 +1,28 @@
+.container{
+      display: flex;
+      justify-content: center;
+}
+
+p{
+      font-size: 23px;
+      font-weight: 800;
+      margin: 12px 23px;
+}
+
+.box {
+      margin: 11px 14px;
+      width: 268px;
+      height: 28px;
+      border: 2px solid rgb(85, 79, 79);
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+      background-color: #eee;
+      border-radius: 30px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .box:hover{
+          background: none;
+          opacity: 0.5;
+    }
