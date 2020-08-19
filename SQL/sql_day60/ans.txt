@@ -1,0 +1,41 @@
+Answer: (A)
+
+Explanation: First note that they asked for Anyone (= All) not for Any.
+Here, Everyone means all of the group.
+Anyone means all or any part of the group.
+Note that if we use ALL in place of Any in second query then this will be correct.
+
+Let the employee(empId, name, department, salary) have the following instance.
+
+empId name department salary
+———————————-
+
+e1 ------- A-------- 1---------10000
+e2 -------B ------- 5 ---------5000
+e3 -------C ------- 5----------7000
+e4 -------D ------- 2----------2000
+e5 -------E ------- 3----------6000
+Now the actual result should contain empId : e1 , e3 and e5 ( because they have salary greater than anyone employee in the department ‘5’)
+——————————————————–
+Now Q1 :
+
+Note : EXISTS(empty set) gives FALSE, and NOT EXISTS(empty set) gives TRUE.
+
+Select e.empId
+From employee e
+Where not exists
+(Select * From employee s where s.department = “5” and
+s.salary >=e.salary)
+Q1 will result only empId e1.
+———————————————————
+whereas Q2 :
+
+Select e.empId
+From employee e
+Where e.salary > Any
+(Select distinct salary From employee s Where s.department = “5”)
+Q2 will result empId e1, e3 and e5.
+——————————————————–
+Hence Q1 is the correct query.
+
+
