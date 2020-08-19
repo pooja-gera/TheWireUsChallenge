@@ -1,0 +1,36 @@
+Ques.A relational schema for a train reservation database is given below. Passenger (pid, pname, age) Reservation (pid, class, tid)
+(GATE CS 2010)  
+
+Table: Passenger
+pid   pname   age
+-----------------
+ 0    Sachin   65
+ 1    Rahul    66
+ 2    Sourav   67
+ 3    Anil     69
+
+Table : Reservation
+pid  class  tid
+---------------
+ 0    AC   8200
+ 1    AC   8201
+ 2    SC   8201
+ 5    AC   8203
+ 1    SC   8204
+ 3    AC   8202
+ 
+What pids are returned by the following SQL query for the above instance of the tables?
+SELECT pid
+FROM Reservation ,
+WHERE class ‘AC’ AND
+EXISTS (SELECT *
+FROM Passenger
+WHERE age > 65 AND
+Passenger. pid = Reservation.pid)
+
+(A) 1, 0
+(B) 1, 2
+(C) 1, 3
+(D) 1, 5
+
+		
