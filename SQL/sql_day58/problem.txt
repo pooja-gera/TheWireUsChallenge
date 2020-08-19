@@ -1,0 +1,19 @@
+Ques.Consider the following relational schema:
+Suppliers(sid:integer, sname:string, city:string, street:string)
+Parts(pid:integer, pname:string, color:string)
+Catalog(sid:integer, pid:integer, cost:real)
+Consider the following relational query on the above database:
+	  SELECT S.sname
+    	  FROM Suppliers S
+   	  WHERE S.sid NOT IN (SELECT C.sid
+                  FROM Catalog C
+                  WHERE C.pid NOT IN (SELECT P.pid  
+                  FROM Parts P
+                  WHERE P.color<> 'blue'))
+Assume that relations corresponding to the above schema are not empty.
+Which one of the following is the correct interpretation of the above query?(GATE-CS-2009)
+
+(A) Find the names of all suppliers who have supplied a non-blue part.
+(B) Find the names of all suppliers who have not supplied a non-blue part.
+(C) Find the names of all suppliers who have supplied only blue parts.
+(D) Find the names of all suppliers who have not supplied only blue parts.

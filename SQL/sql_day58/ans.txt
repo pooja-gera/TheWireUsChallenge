@@ -1,0 +1,5 @@
+Answer: (D)
+
+Explanation: 
+None option matched because given query returns suppliers who have not supplied any blue parts.
+That means it can include other than blue parts.
