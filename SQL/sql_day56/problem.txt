@@ -1,0 +1,24 @@
+Ques 1.Consider a database table T containing two columns X and Y each of type integer. After the creation of the table, one record (X=1, Y=1) is inserted in the table. Let MX and My denote the respective maximum values of X and Y among all records in the table at any point in time. Using MX and MY, new records are inserted in the table 128 times with X and Y values being MX+1, 2*MY+1 respectively. It may be noted that each time after the insertion, values of MX and MY change. What will be the output of the following SQL query after the steps mentioned above are carried out? 
+SELECT Y FROM T WHERE X=7;
+(GATE CS 2011  SQL)
+
+A 127
+B 255
+C 129
+D 257
+
+Ques 2. Consider a relational table with a single record for each registered student with the following attributes.
+
+1. Registration_Number:< Unique registration number for each registered student.
+2. UID: Unique Identity number, unique at the national level for each citizen.
+3. BankAccount_Number: Unique account number at the bank. A student can have multiple accounts or joint accounts. This attributes stores the primary account number.
+4. Name: Name of the Student. 
+5. Hostel_Room: Room number of the hostel.
+ Which of the following options is INCORRECT?
+ (GATE 2011)
+
+(A) BankAccount_Number is a candidate key
+(B) Registration_Number can be a primary key
+(C) UID is a candidate key if all students are from the same country
+(D) If S is a superkey such that S ∩ UID is NULL then S ∪ UID is also a superkey
+   

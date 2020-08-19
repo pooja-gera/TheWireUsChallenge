@@ -1,0 +1,5 @@
+Answers :
+
+1.) Answer: (A)
+2.)Answer (A)
+A Candidate Key value must uniquely identify the corresponding row in table. BankAccount_Number is not a candidate key. As per the question “A student can have multiple accounts or joint accounts. This attributes stores the primary account number”. If two students have a joint account and if the joint account is their primary account, then BankAccount_Number value cannot uniquely identify a row.
