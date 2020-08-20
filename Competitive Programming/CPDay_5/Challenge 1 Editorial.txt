@@ -1,0 +1,6 @@
+Just simulate whatever is said!
+Let’s say the loss in income for Naman is given by the variable lossloss.
+For every element in the array Pi, the price at which it will be sold at is max(Pi, K). (think why?)
+Thus, for every element i, loss = loss + (Pi - max(Pi,K))
+
+The complexity for this solution is O(N), as for every i, we only do a max operation, and a subtraction.
