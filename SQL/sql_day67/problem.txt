@@ -1,0 +1,17 @@
+Ques1.Which of the following is not a valid servers version of SQL -
+
+	
+	(A) SQL Server 2008 R2
+	(B) SQL Server 7.0
+	(C) SQL Server E1
+	(D) SQL Server 2000
+	
+Ques2.SQL allows tuples in relations, and correspondingly defines the multiplicity of tuples in the result of joins. 
+	Which one of the following queries always gives the same answer as the nested query shown below:
+	select * from R where a in (select S.a from S) 
+    
+	(A) select R.* from R, S where R.a=S.a
+	(B) select distinct R.* from R,S where R.a=S.a
+	(C) select R.* from R,(select distinct a from S) as S1 where R.a=S1.a
+	(D) select R.* from R,S where R.a=S.a and is unique R
+	(GATE-CS-2014)

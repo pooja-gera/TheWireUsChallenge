@@ -1,0 +1,5 @@
+Answer1:
+(C)(SQL Server E1 is not a valid servers version of sql)
+
+Answer2: 
+(C) select R.* from R,(select distinct a from S) as S1 where R.a=S1.a
