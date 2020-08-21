@@ -21,7 +21,7 @@ There are several other numerous advantages of using headless browser but it bey
 
 - In this challenge you'll have to scrape images of different tesla car models like - tesla model x, model y, model 3, roadster and tesla cyber truck using Mechanical soup library. (Learn more about Mech. Soup in resources.txt file)
 
-- Make a get request to the google chrome images [search engine]("https://www.google.com/imghp?hl=EN) using Mech. Soup and fill the search with the model of the car to get the images.
+- Make a get request to the google chrome images <a href="https://www.google.com/imghp?hl=EN">search engine</a> using Mech. Soup and fill the search with the model of the car to get the images.
 Do this for all the cars.
 
 - Save these images of cars to directories named after their models for segregation.

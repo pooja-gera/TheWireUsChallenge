@@ -4,7 +4,7 @@ A very great feature of Mechanical soup library is that it is very useful when f
 In this challenge we'll keep it simple and input the fields of a form using Mechanical Soup.
 
 ## Task:
-- Make a get request to the [url]("http://httpbin.org/")
+- Make a get request to the <a href="http://httpbin.org/">url</a>
 - Navigate to the bottom of the page and select the HTML form link using mech. soup.
 - Input the fields using the library and submit the form
 - after that you'll get a json format of the form 
