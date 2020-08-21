@@ -1,0 +1,10 @@
+Answer: (B)
+
+Explanation: SQ1 : SELECT * FROM One
+EXCEPT
+(SELECT * FROM Two);
+It will result into single tuple (2, 5) because all duplicate tuples will be removed.
+SQ2 : SELECT * FROM One)
+EXCEPT ALL
+(SELECT * FROM Two);
+It will result into 2 tuples <(2,5), (1.6)> because it will not remove duplicate.

@@ -1,0 +1,18 @@
+Ques-Consider the following ORACLE relations :
+	One (x, y) = {<2, 5>, <1, 6>, <1, 6>, <1, 6>, <4, 8>, <4, 8>}
+	Two (x, y) = {<2, 55>, <1, 1>, <4, 4>, <1, 6>, <4, 8>, <4, 8>, <9, 9>, <1, 6>}
+	Consider the following two SQL queries SQ1 and SQ2 :
+
+	SQ1 : SELECT * FROM One)
+			   EXCEPT
+		  (SELECT * FROM Two);
+	SQ2 : SELECT * FROM One)
+			EXCEPT ALL
+		  (SELECT * FROM Two);
+		  
+	For each of the SQL queries, what is the cardinality (number of rows) of the result obtained when applied to the instances above ?
+	(A) 2 and 1 respectively
+	(B) 1 and 2 respectively
+	(C) 2 and 2 respectively
+	(D) 1 and 1 respectively
+	(UGC NET CS 2016 Aug )
