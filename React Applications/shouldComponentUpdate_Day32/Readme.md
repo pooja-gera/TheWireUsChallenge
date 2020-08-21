@@ -31,3 +31,6 @@ The default value is true.
 The color doesn't change.
 
 **Reason:**  Since shouldComponentUpdate () is falue so it Stop the component from rendering at any update
+
+
+For References:https://www.w3schools.com/react/react_lifecycle.asp
