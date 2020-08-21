@@ -1,0 +1,9 @@
+Answer1:
+(D)(The bad file is not automatically created and has to be explicitly defined.)
+Explanation-The bad file is automatically created as the same name as Flat file.
+we can also create Bad file explicitly by using bad file clause within the control file.
+
+Answer2: 
+(A)WHERE P1. Capacity> = All (select P2. Capacity from Cinema P2)
+Explanation: When the ALL condition is followed by a list,the optimizer expands the initial condition to all elements of the list and strings them together with AND operators.
+When the ANY condition is followed by a list, the optimizer expands the initial condition to all elements of the list and strings them together with OR operators.

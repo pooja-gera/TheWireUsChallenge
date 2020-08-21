@@ -1,0 +1,20 @@
+Ques1-Which of the following is incorrect for Bad File?
+
+	(A) This file extension is .bad
+	(B) Bad file stores rejected records based on Data type mismatch
+	(C)Bad file stores rejected records based on Business rule violation
+	(D)The bad file is not automatically created and has to be explicitly defined.
+
+Ques2-Consider the following relation
+	Cinema (theater, address, capacity).
+	
+	Which of the following options will be needed at the end of the SQL query
+	SELECT P1. address
+	FROM Cinema P1 
+	
+	Such that it always finds the addresses of theaters with maximum capacity?
+	(A) WHERE P1. Capacity> = All (select P2. Capacity from Cinema P2)
+	(B) WHERE P1. Capacity> = Any (select P2. Capacity from Cinema P2)
+	(C) WHERE P1. Capacity > All (select max(P2. Capacity) from Cinema P2)
+	(D) WHERE P1. Capacity > Any (select max (P2. Capacity) from Cinema P2)
+	(GATE-CS-2015)
