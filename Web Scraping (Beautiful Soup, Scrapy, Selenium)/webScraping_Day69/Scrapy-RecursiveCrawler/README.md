@@ -1,7 +1,10 @@
 # Challenge - Creating our First Spider
 Welcome Back!!👋
 
-Today we are going to again use scrapy for crawling on a website and extracting data of books from its 50 pages.
+You are creating a new books website, for which you need to get data of some popular books available on the internet. So you thought of building a Web Scrapper using that scrapes the the information about books from the [website]("http://books.toscrape.com/catalogue/page-1.html")
+
+<img width="100" src="https://image.flaticon.com/icons/svg/1584/1584945.svg"><br>
+We are going to again use scrapy for crawling on the [website]("http://books.toscrape.com/catalogue/page-1.html") and extracting data of books from its 50 pages.
 
 Now i am sure you don't wanna specify 50 different urls in the start_requests method. So, to tackle this we will be creating a recursive crawler.
 
