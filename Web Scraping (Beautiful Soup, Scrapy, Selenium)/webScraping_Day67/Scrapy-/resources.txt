@@ -1,0 +1,14 @@
+1) Scrapy documentation - https://docs.scrapy.org/en/latest/
+
+2) Installation Guide:
+
+You can install Scrapy using pip install scrapy.
+
+If using windows -
+Dependencies
+Install Microsoft Visual C++ Build Tools - http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe
+
+Troubleshooting
+If you get an error, due to rc.exe refer the following Stackoverflow Link - https://stackoverflow.com/questions/43858836/python-installing-clarifai-vs14-0-link-exe-failed-with-exit-status-1158.
+
+You are ready to Go!
