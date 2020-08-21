@@ -1,7 +1,9 @@
-# Challenge - Creating our First Spider
+# Challenge - Scraping books with Scrapy
 Welcome Back!!👋
 
-You are creating a new books website, for which you need to get data of some popular books available on the internet. So you thought of building a Web Scrapper using that scrapes the the information about books from the <a href="http://books.toscrape.com/catalogue/page-1.html">website</a>
+You are creating a new books website, for which you need to get data of some popular books available on the internet. So you thought of building a Web Scrapper that scrapes the information about books from the <a href="http://books.toscrape.com/catalogue/page-1.html">website</a>
+
+<img width="100" src="https://image.flaticon.com/icons/svg/1584/1584945.svg">
 
 We are going to again use scrapy for crawling on the <a href="http://books.toscrape.com/catalogue/page-1.html">website</a> and extracting data of books from its 50 pages.
 
