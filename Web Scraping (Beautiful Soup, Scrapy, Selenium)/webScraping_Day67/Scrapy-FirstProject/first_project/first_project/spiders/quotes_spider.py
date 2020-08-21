@@ -26,10 +26,13 @@ class QuotesSpider(scrapy.Spider):
 
     # a method that will be called to handle the response downloaded for each of the requests mad
     def parse(self, response):
-        # in which page we are
-        page = response.url.split("/")[-2]
-        # define the filename to save the quotes
-        filename = "quotes-%s.html" % page
+
+        # this is for saving the html of the response(optional)
+
+        # # in which page we are
+        # page = response.url.split("/")[-2]
+        # # define the filename to save the quotes
+        # filename = "quotes-%s.html" % page
 
         # find the quotes, authors and tags
         quotes = response.css("div.quote")
