@@ -1,0 +1,20 @@
+Ques.Consider the following relational schema:
+
+	EmployeeDetail (EmpId, FullName, ManagerID, DateOfJoining)
+	EmployeeSalary (EmpID, Project, Salary)
+	Consider the following relational query on the above database:
+	SELECT Salary
+	FROM EmployeeSalary Emp1
+	WHERE 2 =	(	
+					SELECT COUNT( DISTINCT ( Emp2.Salary ) )
+					FROM EmployeeSalary Emp2
+					WHERE Emp2.Salary > Emp1.Salary
+				)	
+	Assume that relations corresponding to the above schema are not empty. 
+	Which one of the following is the correct interpretation of the above query?
+	( GATE CS Mock 2018 )
+
+	(A) find the highest salary from table
+	(B) find the 2nd highest salary from table
+	(C) find the 3rd highest salary from table
+	(D) None of above

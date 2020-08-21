@@ -1,0 +1,11 @@
+Answer: (C)
+
+Explanation: For nth highest salary-
+
+SELECT Salary
+FROM EmployeeSalary Emp1
+WHERE n-1 = (
+                SELECT COUNT( DISTINCT ( Emp2.Salary ) )
+                FROM EmployeeSalary Emp2
+                WHERE Emp2.Salary > Emp1.Salary
+            )
