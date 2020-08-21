@@ -1,0 +1,21 @@
+Ques1-Which of the following is true ? 
+	I. Implementation of self-join is possible in SQL with table alias.
+	II. Outer-join operation is basic operation in relational algebra.
+	III. Natural join and outer join operations are equivalent.
+	
+	(A) I and II are correct.
+	(B) II and III are correct.
+	(C) Only III is correct.
+	(D) Only I is correct.
+	(UGC NET CS 2014 Dec)
+	
+Ques2-Given relations R(w,x) and S(y,z), the result of
+	SELECT DISTINCT w, x
+	FROM R, S
+	Is guaranteed to be same as R, if
+	
+	(A) R has no duplicates and S is non-empty
+	(B) R and S have no duplicates
+	(C) S has no duplicates and R is non-empty
+	(D) R and S have the same number of tuples
+	(ISRO CS 2018)

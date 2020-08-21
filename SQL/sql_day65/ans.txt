@@ -1,0 +1,15 @@
+Answer1: (D)
+
+Explanation:
+
+Implementation of self-join is possible in SQL with table alias.Correct
+Outer-join operation is basic operation in relational algebra.Incorrect
+Natural join and outer join operations are equivalent.Incorrect
+So, option (D) is correct.
+
+Answer2: (A)
+
+Explanation: The query selects all attributes of r.
+Since we have distinct in query, result can be equal to r only if r doesn’t have duplicates.
+If we do not give any attribute on which we want to join two tables, then the queries like above become equivalent to Cartesian product. 
+Cartesian product of two sets will be empty if any of the two sets is empty. So, s should have atleast one record to get all rows of r.

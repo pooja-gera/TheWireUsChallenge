@@ -1,0 +1,3 @@
+For more details refer to the links given below :
+https://www.1keydata.com/sql/advanced.html
+https://www.w3schools.com/sql/
