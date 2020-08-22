@@ -19,12 +19,16 @@ class StackSpider(scrapy.Spider):
         for q in questions:
             # title of the question
             title = q.css("a.question-hyperlink::text").get()
+            # url to the question
+            q_url = (
+                "stackoverflow.com" + q.css("a.question-hyperlink::attr(href)").get()
+            )
             # short summary or excerpt of the question
             excerpt = q.css("div.excerpt::text").get().strip()
 
             tags = q.css("a.post-tag::text").getall()
 
-            yield {"title": title, "excerpt": excerpt, "tags": tags}
+            yield {"url": q_url, "title": title, "excerpt": excerpt, "tags": tags}
 
         # selecting the link to the next page
         next_page = response.xpath('//*[@id="mainbar"]/div[5]/a[6]/@href').get()

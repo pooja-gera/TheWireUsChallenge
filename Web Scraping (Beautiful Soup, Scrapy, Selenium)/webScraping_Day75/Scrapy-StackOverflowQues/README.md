@@ -5,11 +5,10 @@ Assume you are stackoverflow developer who is very enthusiastic in solving peopl
 
 We are going to again use scrapy for crawling on the <a href="https://stackoverflow.com/questions?tab=newest&page=1">website</a> and extracting questions from first 5 pages only.
 
-### Now get your hands dirty 🏋️‍♀️
 
 ## Task 👨🏻‍💻👩🏻‍💻
 - Make a get request to the first page <a href="https://stackoverflow.com/questions?tab=newest&page=1">url</a>
-- parse the data using the parse method and scrape data of the question like - ***title, excerpt, tags*** and yield a json object containing the data.
+- parse the data using the parse method and scrape data of the question like - ***title, url of the question,  excerpt, tags*** and yield a json object containing the data.
 - make recursive calls to the next page of the website until you arrive at the 5th page.
 - finally run the web crawler with specifying the command - **scrapy crawl "name_of_spider" -o questions.json** in your root directory of the project to save the file as a json.
 
