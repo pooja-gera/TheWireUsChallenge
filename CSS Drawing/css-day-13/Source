@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>parallelogram</title>
+<style>
+.choc {
+    position:absolute;
+    left:5px;
+    top:0;
+    height:300px;
+    width:200px;
+    background:chocolate;
+    box-shadow:inset -5px -5px rgba(0, 0, 0, 0.2), inset 5px 5px rgba(200, 200, 200, 0.2);
+}
+.block:before, .block:after {
+    content:"";
+    position:absolute;
+    top:-10px;
+    left:55px;
+    height:35px;
+    width:35px;
+    border:10px solid black;
+    border-top-color:rgba(200, 200, 200, 0.4);
+    border-left-color:rgba(200, 200, 200, 0.2);
+    border-bottom-color:rgba(0, 0, 0, 0.2);
+    border-right-color:rgba(0, 0, 0, 0.4);
+}
+.choc {
+    position:absolute;
+    left:5px;
+    top:0;
+    height:200px;
+    width:200px;
+    background:chocolate;
+    box-shadow:inset -5px -5px rgba(0, 0, 0, 0.2), inset 5px 5px rgba(200, 200, 200, 0.2);
+}
+.block:before, .block:after {
+    content:"";
+    position:absolute;
+    top:-10px;
+    left:55px;
+    height:35px;
+    width:35px;
+    border:10px solid black;
+    border-top-color:rgba(200, 200, 200, 0.4);
+    border-left-color:rgba(200, 200, 200, 0.2);
+    border-bottom-color:rgba(0, 0, 0, 0.2);
+    border-right-color:rgba(0, 0, 0, 0.4);
+}
+.block:after {
+    left:120px;
+}
+.block {
+    margin:10px;
+    margin-top:5px;
+    height:35px;
+    width:35px;
+    position:relative;
+    z-index:6;
+    border:10px solid black;
+    border-top-color:rgba(200, 200, 200, 0.4);
+    border-left-color:rgba(200, 200, 200, 0.2);
+    border-bottom-color:rgba(0, 0, 0, 0.2);
+    border-right-color:rgba(0, 0, 0, 0.4);
+}
+
+
+</style>
+</head>
+<body>
+<div class="choc"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+</body>
+</html>
