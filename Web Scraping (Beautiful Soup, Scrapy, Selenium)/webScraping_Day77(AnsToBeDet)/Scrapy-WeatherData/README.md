@@ -13,6 +13,11 @@ We are going to again use scrapy for crawling on the <a href="https://weather.co
 - make recursive calls to the parse method containing url of the next page of the website containing a different city until there is no further city available. You need to type the city in the search input so it's recommended to use **Selenium** for this task.
 - finally run the web crawler with specifying the command - **scrapy crawl "name_of_spider" -o weather.json** in your root directory of the project to save the file as a json.
 
+### Disclaimer ⚠️
+##
+###### This weather.com website states that while scraping data there must be a delay of ***10s*** for each GET request made. So just add DOWNLOAD_DELAY = 10 to the settings.py file in the project folder.
+##
+
 The file should have the contents starting something like - 
 <br>
 <img width="250px" src="./ss.png">
