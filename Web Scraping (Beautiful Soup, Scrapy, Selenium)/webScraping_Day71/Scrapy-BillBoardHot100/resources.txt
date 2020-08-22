@@ -18,6 +18,6 @@ If you get an error, due to rc.exe refer the following Stackoverflow Link - http
 
 5) What is the "yield" keyword? - https://www.geeksforgeeks.org/python-yield-keyword/
 
-You are ready to Go!
-
 6) Make a recursive crawler - https://docs.scrapy.org/en/latest/intro/tutorial.html#following-links
+
+You are ready to Go!
