@@ -1,0 +1,3 @@
+UPDATE mentors
+SET City = 'Delhi'
+WHERE Age > 20 ;
