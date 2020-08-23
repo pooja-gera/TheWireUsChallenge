@@ -1,0 +1,5 @@
+Answer-1 : (D) Query 4(   SELECT B.isbn, S.copies
+						  FROM Book B FULL OUTER JOIN Stock S
+						  ON B.isbn = S.isbn;)
+						  
+Answer-2 :	7 tuples
