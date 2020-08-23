@@ -1,0 +1,3 @@
+SELECT *
+FROM Students
+WHERE NOT Language = 'R' AND NOT Language = 'Python';
