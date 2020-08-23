@@ -1,0 +1,6 @@
+a) SELECT COUNT(DISTINCT Country) 
+FROM Students;
+
+b) SELECT gender
+FROM Students
+GROUP BY gender;
