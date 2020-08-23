@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>triangle</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Box sizing. Thanks Chris Coyier! */
+body {
+  background: #ADD8E6;
+  font-size: 10px;
+  padding-top: 15vmin;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tree {
+  border: 12vmin solid;
+  border-color: #7b9971 transparent transparent #6e8965;
+  margin: auto;
+  transform: rotate(45deg);
+  width: 10vmin;
+}
+
+.tree:nth-child(2) {
+  border-width: 16vmin;
+  margin-top: -12vmin;
+}
+
+.tree:nth-child(3) {
+  border-width: 20vmin;
+  margin-bottom: -4vmin;
+  margin-top: -16vmin;
+}
+
+.tree:after {
+  border-color: #7b9971 transparent transparent #6e8965;
+  content: "";
+  display: block;
+}
+
+.trunk {
+  background-image: linear-gradient(90deg, #832121, #832121 50%, #A52A2A 50%);
+  height: 14vmin;
+  margin: -20vmin auto 0;
+  width: 6vmin;
+}
+body{
+    background-color: black;
+}
+</style>
+</head>
+<body>
+  <div class="tree"></div>
+<div class="tree"></div>
+<div class="tree"></div>
+<div class="trunk"></div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>triangle</title>
+<style>
+:root{
+
+	--house-color:#FFEE58;
+	--house-bottom-color:#5D4037;
+	--house-window-color:lightblue;
+	--house-window-border-color:#9E9E9E;
+	--house-door-color:#4E342E;
+	--house-door-knob-color:white;
+	--house-chimney-color:#3E2723;
+	--house-roof-border-color:#3E2723;
+	--house-roof-color:#5D4037;
+}
+#house {
+	position:absolute;
+	width:200px;
+	height:120px;
+	background:var(--house-color);
+	border-bottom:30px solid var(--house-bottom-color);
+	margin-top:70px;
+	margin-left:100px;
+	transform:scale(.5);
+}
+#house:after {
+	content:'';
+	position:absolute;
+	display:block;
+	width:60px;
+	height:40px;
+	background:var(--house-window-color);
+	margin-top:45px;
+	margin-left:120px;
+	border:1px solid var(--house-window-border-color);
+}
+
+#door {
+	position:absolute;
+	width:50px;
+	height:120px;
+	background:var(--house-door-color);
+	margin-top:30px;
+	margin-left:35px;
+}
+#door:after {
+	content:'';
+	position:absolute;
+	display:block;
+	width:10px;
+	height:4px;
+	background:var(--house-door-knob-color);
+	margin-left:37px;
+	margin-top:48px;
+}
+
+#chimney {
+	content:'';
+	position:absolute;
+	display:block;
+	background:var(--house-chimney-color);
+	width:30px;
+	height:70px;
+	margin-top:-100px;
+	margin-left:150px;
+}
+
+#roof {
+	content:'';
+	position:absolute;
+	display:block;
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:0 120px 120px 120px;
+	border-color:transparent transparent var(--house-roof-border-color) transparent;
+	margin-left:-20px;
+	margin-top:-120px;
+}
+#roof:after {
+	content:'';
+	position:absolute;
+	display:block;
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:0 100px 100px 100px;
+	border-color:transparent transparent var(--house-roof-color) transparent;
+	margin-left:-100px;
+	margin-top:21px;
+}
+body{
+    background-color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="house">
+		<div id="chimney"></div>
+		<div id="roof"></div>
+		<div id="door"></div>
+	</div>
+</body>
+</html>

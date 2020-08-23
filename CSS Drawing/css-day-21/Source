@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>triangle</title>
+<style>
+.outer {
+  margin: 150px auto;
+  position: relative;
+  width: 75px;
+  height: 100px;
+  text-align: center;
+}
+.outer .circle {
+  position: absolute;
+  top: 0;
+  width: 15px;
+  background-color: #fbc56f;
+  height: 30px;
+  border-radius: 0 30px 30px 0px;
+  -webkit-transform: rotate(-35deg);
+  z-index: 2;
+}
+.outer .circle:after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 0;
+  width: 15px;
+  background-color: #fab84a;
+  height: 30px;
+  border-radius: 0 30px 30px 0px;
+  -webkit-transform: rotate(180deg);
+  z-index: 2;
+}
+.outer .ribbon {
+  width: 15px;
+  height: 60px;
+  background-color: #9bdbf6;
+  position: absolute;
+  top: -45px;
+  left: -23px;
+  z-index: 1;
+  -webkit-transform: rotate(-35deg);
+  border-right: 1px solid white;
+}
+.outer .ribbon:after {
+  content: "";
+  width: 15px;
+  height: 60px;
+  top: 18px;
+  left: 25px;
+  background-color: #9bdbf6;
+  position: absolute;
+  -webkit-transform: rotate(70deg);
+}
+.outer .ribbon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 64px;
+  width: 1px;
+  background-color: white;
+  z-index: 3;
+}
+body{
+    background-color: black;
+}
+</style>
+</head>
+<body>
+  <div class="outer">
+  <div class="circle"></div>
+  <div class="ribbon"></div>
+</div>
+</body>
+</html>

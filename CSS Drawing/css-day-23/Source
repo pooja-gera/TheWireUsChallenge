@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>triangle</title>
+<style>
+
+.school-bus{
+    margin: 70px auto;
+    position: relative;
+    z-index: 99999;
+    width: 600px;
+}
+
+.tri
+{
+    top: 128px;
+    width: 0;
+    height: 0;
+    left: 660px;
+    z-index: 99999;
+    position: absolute;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 35px solid #FCEF9F;
+ }
+
+.bus-body{
+    width: 465px;
+    height: 243px;
+    position: absolute;
+    border-top:3px solid #e38d00;
+    border-left:3px solid #e38d00;
+    border-top-right-radius:85px;
+    border-top-left-radius:103px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+    background-color: #FBA51A ;
+    background: linear-gradient(-80deg, #ffd603, #f79e0c);
+    box-shadow:5px 11px 7px -3px #ffe637 inset;
+}
+ .curve{
+    left: 421px;
+    top: 111px;
+    width: 133px;
+    height: 128px;
+    position: absolute;
+    background-color: #ffd603;
+    border-top: 3px solid #e38d00;
+    border-right: 3px solid #e38d00;
+    border-top-right-radius: 59%;
+    border-bottom-right-radius: 34px;
+    box-shadow: -21px 7px 16px 0px #fdb000 inset}
+
+.front-curve{
+    left: 414px;
+    top: 147px;
+    width: 141px;
+    height: 62px;
+    z-index: 99999;
+    position: absolute;
+    border-style: solid;
+    border-color: #e38d00;
+    transform: rotate(-5deg);
+    border-width: 6px 1px 0 1px;
+    border-top-right-radius: 64px;
+    border-top-left-radius: 70px;
+}
+.headlight
+{
+    top: 160px;
+    left: 516px;
+    z-index: 99999;
+    position: absolute;
+}
+.circle3,.circle1,.circle2
+{
+    width: 60px;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1{
+    width: 46px;
+    height: 55px;
+    left: 0px;
+    box-shadow:none;
+    transform: rotate(0);
+    border-left:3px solid #d0762a;
+    background: linear-gradient(-80deg, #fbf899, #ffae1e);
+}
+.circle2{
+    width: 31px;
+    left: 15px;
+    height: 56px;
+    box-shadow:none;
+    border-left:3px solid #d0762a;
+    background: linear-gradient(-181deg, #8c8c8c, #e7e7e9,
+                                         #717173, #babbbd);
+}
+.circle3{
+    top: 7px;
+    width: 26px;
+    height: 37px;
+    left: 23px;
+    box-shadow: none;
+    transform: rotate(0);
+    border-style: solid;
+    border-color: #555;
+    border-width: 1px 0px 1px 3px;
+    box-shadow: 3px 0px 5px -3px #474747 inset,
+               15px -1px 3px -7px #e2e2e2 inset;
+    background-color: #D1D1D1;
+}
+.light1,.light2,.light3,.light4
+{
+    top: 143px;
+    width: 35px;
+    height: 12px;
+    left: -16px;
+    position: absolute;
+    border-radius: 83%;
+    border:1px solid #d4d4d4;
+    transform: rotate(90deg);
+    background: radial-gradient(#f54337 30%, #a20000, #fff);
+    box-shadow: -1px -2px 1px 0px #928673,
+                17px 2px 8px -4px #c9261f inset
+}
+.light2,.light3
+{
+    top: 10px;
+    left: 83px;
+    width: 21px;
+    height: 11px;
+    transform: rotate(0);
+    box-shadow: 1px 2px 1px 0px #928673,
+                -1px -2px 1px 0px #928673,
+                17px 2px 8px -4px #c9261f inset
+}
+.light3{left: 365px;}
+.light4{
+
+    top: 13px;
+    left: 422px;
+    width: 20px;
+    height: 10px;
+    transform: rotate(37deg);
+    box-shadow:   1px 2px 1px 0px #928673,
+                 17px 2px 8px -4px #c9261f inset
+}
+
+.window1,.window2,.window3,.window4,.window5
+{
+     top: 30px;
+    left: 28px;
+    width: 77px;
+    height: 87px;
+    position: absolute;
+    border-radius: 22px;
+    border: 3px solid #DB8B0D;
+    background-color: #cae4e5;
+    background: linear-gradient(-80deg, #b7dedf, #f5fafa);
+    border-top-left-radius: 53px;
+    box-shadow: -2px -2px #fbe049,
+                 2px 2px #fbe049,
+                 1px 1px 4px 2px #90a9aa inset
+}
+
+.line1,.line2,.line3,.line4,.line5,.line6,.line7,.line8
+{
+    left: 30px;
+    top: 150px;
+    width: 253px;
+    height: 6px;
+    position: absolute;
+    background-color: #000;
+    border-radius:30px;
+    border:2px solid #222;
+    box-shadow: 3px -3px #de8a0c;
+}
+.line2{top: 150px;width: 53px;left: 303px;}
+.line3{top: 150px;width: 60px;left: 377px;}
+.line5{top: 200px;width: 57px;}
+.line6{top: 200px;width: 100px;left: 183px;}
+.line7{top: 200px;width: 53px;left: 303px;}
+.line8{top: 200px;width: 30px;left: 380px;}
+
+.l-gray-line,
+.r-gray-line
+{
+    top: 230px;
+    width: 60px;
+    height: 22px;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid #222;
+    background-color: #4F4F4F;
+    box-shadow: 3px -2px #febc32,
+                4px 2px 2px 1px #6d6d6f inset;
+}
+.r-gray-line
+{
+    left: 508px;
+    width: 49px;
+    box-shadow: -2px -2px #F5A40A,
+                 4px 2px 2px 1px #6d6d6f inset;
+}
+
+.brown-line1,.brown-line2
+{
+    left: 32px;
+    top: 240px;
+    width: 62px;
+    height: 8px;
+    position: absolute;
+    background-color: #9E521A ;
+    border-top:2px solid #222;
+    border-left:2px solid #222;
+    box-shadow: 0px 2px 0 0 #b37753 inset;
+}
+.brown-line2{left: 177px; width: 247px}
+
+.window2
+{
+    left: 118px;
+    border-top-left-radius: 25px;
+}
+.window3
+{
+    left: 208px;
+    border-top-left-radius: 25px;
+}
+.window4
+{
+    width: 55px;
+    left: 305px;
+    border-radius: 20px;
+}
+.window5
+{
+    width: 74px;
+    left: 390px;
+    border-radius: 16px 52px 13px 13px;
+    box-shadow: -2px -2px #fbe049,
+    0 0 2px 1px #6d6d6f inset;
+}
+.door
+{
+    top: 22px;
+    left: 298px;
+    width: 70px;
+    height: 200px;
+    position: absolute;
+    border-radius:20px;
+    border:3px solid #DB8B0D;
+    box-shadow: -2px -2px #fbe049,
+                 2px 2px #fbe049;
+}
+
+.l-b-wheel,.r-b-wheel{
+    left: 100px;
+    top: 197px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    background-color: #4d4d4d;
+    border-radius: 50%;
+    border:2px solid #222;
+    transform: rotate(-76deg);
+    box-shadow: 12px -9px 0 3px #895200,
+                16px 5px 7px -3px #6d6d6f inset;
+}
+.r-b-wheel{left: 430px;}
+
+.l-s-wheel,.r-s-wheel
+{
+    top: 214px;
+    left: 117px;
+    width: 43px;
+    height: 43px;
+    z-index: 99999;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #818f8f;
+    box-shadow: 1px -1px 3px 4px #221D1A;
+    border-color: #222 #222 transparent transparent;
+}
+.r-s-wheel{left: 446px;}
+
+.l-wheel-curve,
+.r-wheel-curve
+{
+    top: 186px;
+    left: 93px;
+    width: 80px;
+    height: 80px;
+    z-index: 99999;
+    position: absolute;
+    border-radius: 83%;
+    border: 4px solid #e98d00;
+    transform: rotate(-71deg);
+    box-shadow: 8px -8px 0px 2px #fcb926;
+    border-color: #320707 #320707 transparent transparent;
+ }
+.r-wheel-curve{left: 423px;}
+
+
+</style>
+</head>
+<body>
+  <div class="school-bus">
+
+	  <div class="tri"></div>
+	  <div class="bus-body"></div>
+	  <div class="curve"></div>
+	  <div class="front-curve"></div>
+
+      <div class="headlight">
+		   <div class="circle1"></div>
+		   <div class="circle2"></div>
+		   <div class="circle3"></div>
+	  </div>
+
+      <div class="lights">
+	      <div class="light1"></div>
+	      <div class="light2"></div>
+	      <div class="light3"></div>
+	      <div class="light4"></div>
+      </div>
+
+	  <div class="windows">
+		  <div class="window1"></div>
+		  <div class="window2"></div>
+		  <div class="window3"></div>
+		  <div class="window4"></div>
+		  <div class="window5"></div>
+	  </div>
+
+      <div class="lines">
+	      <div class="top">
+	        <div class="line1"></div>
+	        <div class="line2"></div>
+	        <div class="line3"></div>
+	        <div class="line4"></div>
+	      </div>
+
+	      <div class="center">
+	        <div class="line5"></div>
+	        <div class="line6"></div>
+	        <div class="line7"></div>
+	        <div class="line8"></div>
+	      </div>
+
+		  <div class="bottom">
+			<div class="brown-line1"></div>
+			<div class="brown-line2"></div>
+			<div class="l-gray-line"></div>
+			<div class="r-gray-line"></div>
+		  </div>
+      </div>
+
+
+	  <div class="door"></div>
+	  <div class="l-wheel-curve"></div>
+	  <div class="r-wheel-curve"></div>
+	  <div class="r-b-wheel"></div>
+	  <div class="l-b-wheel"></div>
+	  <div class="l-s-wheel"></div>
+	  <div class="r-s-wheel"></div>
+</div>
+
+
+
+</body>
+</html>

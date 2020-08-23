@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>triangle</title>
+<style>
+.airplane {
+	position: absolute;
+	left: 40%;
+	top: 10%;
+	z-index: 3;
+	-webkit-animation: plainfly 10s linear infinite;
+
+}
+.airplane div {
+	background: #F9FBFC;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	z-index: 1;
+}
+div.head  {
+	top: 21px;
+	left: 83px;
+	width: 60px;
+	height: 25px;
+	border-radius: 100%;
+}
+div.body  {
+	top: 20px;
+	left: 0;
+	width: 130px;
+	height: 26px;
+	border-radius: 40% 30% 20% 50%;
+	z-index: 1
+}
+div.lwing {
+	top: 7px;
+	left: 60px;
+	height: 21px;
+	width: 30px;
+	border-radius: 5px;
+	z-index: 0 ;
+	-webkit-transform: skew(51deg, 0deg);
+	-ms-transform: skew(51deg, 0deg);
+	-o-transform: skew(51deg, 0deg);
+	transform: skew(51deg, 0deg);
+}
+div.rwing {
+	top: 34px;
+	left: 57px;
+	height: 27px;
+	width: 35px;
+	border-radius: 5px;
+	z-index: 1;
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.16);
+	-webkit-transform: skew(-49deg, 0deg);
+	-ms-transform: skew(-49deg, 0deg);
+	-o-transform: skew(-49deg, 0deg);
+	transform: skew(-49deg, 0deg);
+}
+div.tale  {
+	top: 15px;
+	left: 10px;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	-webkit-transform: skew(35deg, -9deg);
+	-ms-transform: skew(35deg, -9deg);
+	-o-transform: skew(35deg, -9deg);
+	transform: skew(35deg, -9deg);
+	background: linear-gradient(0deg,#FFF, #BBDEFF);
+}
+div.window,
+div.window:before,
+div.window:after {
+	content: "";
+	top: 6px;
+	left: 48px;
+	width: 4px;
+	height: 4px;
+	border-radius: 30%;
+	background: #9AD0F5;
+	border: 1px solid #5093D1;
+	position: absolute;
+}
+div.window:before {
+	left: -12px;
+	top: -1px;
+}
+div.window:after {
+	left: 10px;
+	top: -1px;
+}
+div.window:nth-child(1){
+	left:81px
+}
+div.window:nth-child(2){
+	left:115px
+}
+div.window:nth-child(2):after {
+	border-top-right-radius: 8px;
+	width: 6px;
+}
+body{
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+  <airplane class="airplane">
+      <div class="head"></div>
+      <div class="body">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+      </div>
+      <div class="lwing"></div>
+      <div class="rwing"></div>
+      <div class="tale"></div>
+    </airplane>
+</body>
+</html>
