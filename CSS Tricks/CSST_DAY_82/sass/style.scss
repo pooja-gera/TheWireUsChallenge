@@ -1,0 +1,77 @@
+.container2{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      margin: 20px
+    }
+    h1{
+      margin: 22px;
+    }
+
+%button-format {
+      padding: 19px 40px;
+      border-radius: 15px;
+      color: black;
+      }
+      
+.btn2 {
+      @extend %button-format;
+      background-color: lightpink;
+      
+      &:hover {
+            background-color: rgb(248, 12, 52);
+            font-size: 20px;
+          }
+      }
+      
+      $colors: (
+            brand-red: #c0392b,
+            brand-blue: #2980b9,
+            text-gray: #2c3e50,
+            text-silver: #bdc3c7
+          );
+
+          @function color-variation($color) {
+            @if map-has-key($colors, $color) {
+              @return map-get($colors, $color);
+            }
+            
+            @error "Invalid color name: `#{$color}`.";
+          }
+
+          .element {
+            color: color-variation(brand-orange);
+          }
+
+
+
+
+          @mixin border-radius($radius) {
+            @warn "The `border-radius()` mixin will be deprecated in version 2.0.";
+          
+            -webkit-border-radius: $radius;
+            -moz-border-radius: $radius;
+            -ms-border-radius: $radius;
+            -o-border-radius: $radius;
+            border-radius: $radius;
+          }
+
+
+
+
+          $color-blue: #1c94c6;
+$font-sizes: sm, p, bq, heading, hero;
+$colors: (
+  brand-red: #c0392b,
+  brand-blue: #2980b9,
+  text-gray: #2c3e50,
+  text-silver: #bdc3c7
+);
+
+.element {
+  @debug $color-blue; 
+  @debug $font-sizes; 
+  @debug $colors; 
+  @debug 4em * 3; 
+  @debug "My very own string just because."; 
+}

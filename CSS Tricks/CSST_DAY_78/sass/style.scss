@@ -1,0 +1,42 @@
+.container,.container2{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px
+}
+h1{
+  margin: 22px;
+}
+
+// parent selector
+.btn {
+  background-color: rgb(233, 23, 187) ;
+  padding: 19px 40px;
+
+  &:hover {
+    background-color: violet;
+    font-size: 20px;
+    cursor: pointer;
+  }
+    }
+
+
+
+// placeholder selector
+    %button-format {
+      padding: 19px 40px;
+      border-radius: 15px;
+      color: black;
+  }
+  
+  .btn2 {
+      @extend %button-format;
+      background-color: lightpink;
+  
+      &:hover {
+          background-color: rgb(248, 12, 52);
+          font-size: 20px;
+      }
+  }
+  
+ 
