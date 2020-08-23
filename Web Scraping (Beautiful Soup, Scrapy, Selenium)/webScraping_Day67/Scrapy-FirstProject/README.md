@@ -12,7 +12,9 @@ Scrapy is designed to build web spiders that can crawl the web on their own.
 
 ## Task 👨🏻‍💻👩🏻‍💻
 - Start of by making a scrapy project
-- in the spiders directory make your python file
+- in the spiders directory make your python file<br>
+###### Folder Structure:
+<img width="150" src="project_struct.png"><br>
 - make a class inheriting spider class and name your spider
 - specify the urls - ["http://quotes.toscrape.com/page/1/",
 "http://quotes.toscrape.com/page/2/","http://quotes.toscrape.com/page/3/",] <br> in the start_requests method inside the spider class to scrape from.
