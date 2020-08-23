@@ -1,3 +1,6 @@
-Q1. 
+Q1. 4.	It is a primary key that consist of more than one field that uniquely identifies a record in a database.
 
-Q2. JOIN works faster than subqueries and hence better performance.
+Q2.1. correct
+JOIN works faster than subqueries and hence better performance.
+Once a table has been created in MySQL, its structure can be changed by using ALTER, DROP commands
+MySQL supports auto generating numbers.
