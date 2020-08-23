@@ -1,0 +1,4 @@
+ans ) 3.	The query will first arrange country in ascending order and if few rows have some country name then their city will be arranged in descending order.
+
+in other words,
+The following SQL statement selects name of all suppliers from the "Suppliers" table, sorted by the "Country" and the "City" column. This means that it orders by Country, but if some rows have the same Country, it orders them by City
