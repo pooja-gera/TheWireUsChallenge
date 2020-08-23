@@ -1,0 +1,6 @@
+a-> 1. Will generate an error 
+The correct syntax is AVG not AVERAGE.
+
+
+b-> 3. Will give the name of all companies listed.
+Using DISTINCT avoid duplicates.
