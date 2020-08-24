@@ -1,0 +1,4 @@
+SELECT INTO can also be used to create a new, empty table using the schema of another. Just add a WHERE clause that causes the query to return no data:
+SELECT * INTO newtable
+FROM oldtable
+WHERE 1 = 0;
