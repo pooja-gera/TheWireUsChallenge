@@ -1,0 +1,42 @@
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.face-area {
+  width: 300px;
+  height: 300px;
+  background: yellow;
+  position: relative;
+  border-radius: 150%;
+  display: block;
+}
+.eye-area {
+  width: 50px;
+  height: 70px;
+  background: black;
+  border-radius: 140px;
+  position: absolute;
+  top: 40px;
+}
+.eye1 {
+  left: 75px;
+}
+.eye2 {
+  right: 75px;
+}
+.mouth-area {
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-radius: 150%;
+  border-width: 20px;
+  border-color:#000 transparent transparent transparent;
+  left: 10px;
+  top: 180px;
+  position: absolute;
+}  
+
