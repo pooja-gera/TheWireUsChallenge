@@ -1,0 +1,2 @@
+A. 3.Data definition language or DDL allows to execute queries like CREATE, DROP and ALTER. That is, those queries which define the data.
+B. 3 . LIKE operator is used for pattern matching using symbols % or _ .
