@@ -1,0 +1,5 @@
+SELECT COUNT(StudentID), Branch
+FROM students
+GROUP BY Branch
+HAVING COUNT(StudentID) > 5
+ORDER BY COUNT(StudentID) DESC;
