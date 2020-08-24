@@ -41,4 +41,5 @@ module.exports = {
 npx tailwindcss build styles.css -o output.css
 
 # 6.CDN
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+Include in css links in html file
+"https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" 
