@@ -1,0 +1,7 @@
+SELECT *
+FROM suppliers
+ORDER BY
+(CASE
+    WHEN City IS NULL THEN SupplierId
+    ELSE City
+END);
