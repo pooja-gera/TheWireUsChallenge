@@ -1,0 +1,3 @@
+INSERT INTO Teachers (TeacherID, Branch)
+SELECT StudentID FROM students
+WHERE Branch ='IT';
