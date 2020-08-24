@@ -1,0 +1,7 @@
+
+For concept of looping statements
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops
+
+For concept of conditional statements
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
