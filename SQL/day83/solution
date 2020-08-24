@@ -1,0 +1,2 @@
+SELECT kids AS [no. of kids]
+FROM residents;
