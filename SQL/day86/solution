@@ -1,0 +1,3 @@
+SELECT * INTO subtable
+FROM students
+WHERE studentID = 0;
