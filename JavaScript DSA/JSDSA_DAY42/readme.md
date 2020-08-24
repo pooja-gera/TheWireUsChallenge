@@ -1,4 +1,4 @@
- # Day - 41
+ # Day - 42
 ---
 ## Next Greatest Element --
 It is a famous question in Data Structures (and of medium difficulty too). 
