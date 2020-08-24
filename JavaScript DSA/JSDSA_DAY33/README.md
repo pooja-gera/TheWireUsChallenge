@@ -1,13 +1,13 @@
 ## WorkBook Special Page And Special Exercise Problem
 
-Mona just got a new math workbook. A workbook contains exercise problems, grouped into chapters. Mona believes a problem to be special if its index (within a chapter) is the same as the page number where it's located. The format of  Mona’s book is as follows:
-* There are n chapters in Lisa's workbook, numbered from  1 to n .
-* Each i chapter has arr[i] problems, numbered from 1 to arr[i] .
-* Each page can hold up to  k problems. Only a chapter's last page of exercises may contain fewer than k problems.
-* Each new chapter starts on a new page, so a page will never contain problems from more than one chapter.
-* The page number indexing starts at 1.
-Given the details for the workbook, can you count its number of special problems?
-For example, the workbook contains 4 problems for chapter 1, and 2 problems for chapter 2 . Each page can hold problems 3. The first page will hold 3 problems for chapter 1. Problem 1 is on page 1 , so it is special. Page 2 contains only Chapter 1, Problem 4, so no special problem is on page. Chapter 2 problems start on page 3 and there are 2 problems. Since there is no problem 3 on page 3, there is no special problem on that page either. There is 1 special problem in her workbook.
+Mona just got a new math workbook. A workbook contains exercise problems, grouped into chapters. Mona believes a problem to beÂ specialÂ if its index (within a chapter) is the same as the page number where it's located. The format of  Monaâ€™s book is as follows:
+* There areÂ nÂ chapters in Mona's workbook, numbered fromÂ Â 1 to nÂ .
+* Each i chapter hasÂ arr[i]Â problems, numbered fromÂ 1Â to arr[i]Â .
+* Each page can holdÂ up toÂ Â k problems. Only a chapter's last page of exercises may contain fewer thanÂ kÂ problems.
+* Each new chapter starts on a new page, so a pageÂ will neverÂ contain problems from more than one chapter.
+* The page number indexing starts atÂ 1.
+Given the details for the workbook, can you count its number ofÂ specialÂ problems?
+For example, the workbook containsÂ 4Â problems for chapter 1, andÂ 2Â problems for chapter 2Â . Each page can holdÂ problems 3. The first page will holdÂ 3Â problems for chapter 1. ProblemÂ 1Â is on page 1Â , so it isÂ special. PageÂ 2Â contains only Chapter 1, ProblemÂ 4, so noÂ specialÂ problem is on page. ChapterÂ 2Â problems start on pageÂ 3 and there areÂ 2 problems. Since there is no problemÂ 3Â on pageÂ 3, there is noÂ specialÂ problem on that page either. There isÂ 1Â specialÂ problem in her workbook.
 
 Input:
 
