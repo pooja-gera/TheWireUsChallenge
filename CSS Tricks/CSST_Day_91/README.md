@@ -4,21 +4,21 @@ Tailwind CSS is a highly customizable, low-level CSS framework that gives you al
  without any annoying opinionated styles you have to fight to override.
 
  Installing options:
- 1.Install Tailwind via npm
- # Using npm
+ # 1.Install Tailwind via npm
+  Using npm
 npm install tailwindcss
 
-# Using Yarn
+ Using Yarn
 yarn add tailwindcss
 
-2.Add Tailwind to your CSS
+# 2.Add Tailwind to your CSS
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
 
-3.Create your Tailwind config file
+# 3.Create your Tailwind config file
 npx tailwindcss init
 
 module.exports = {
@@ -27,7 +27,7 @@ module.exports = {
   plugins: [],
 }
 
-4.Process your CSS with Tailwind
+# 4.Process your CSS with Tailwind
 module.exports = {
   plugins: [
     // ...
@@ -37,9 +37,8 @@ module.exports = {
   ]
 }
 
-5.Using Tailwind CLI
+# 5.Using Tailwind CLI
 npx tailwindcss build styles.css -o output.css
 
-6.CDN
-
+# 6.CDN
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
