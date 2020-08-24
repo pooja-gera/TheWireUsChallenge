@@ -39,3 +39,7 @@ module.exports = {
 
 5.Using Tailwind CLI
 npx tailwindcss build styles.css -o output.css
+
+6.CDN
+
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
