@@ -2,14 +2,17 @@
 
 class Queue {
     constructor() {
-        this.dataStore = [];      // Array to store the elemens of queue
+        this.dataStore = [];     // Array to store the elemens of queue   
+        this.sizeQU = 0;
     }
 
      enqueue(element) {
+         this.sizeQU++;
         this.dataStore.push(element);
        }
        
        dequeue() {
+           this.sizeQU--;
         return this.dataStore.shift();
        }
        
@@ -28,6 +31,9 @@ class Queue {
         }
         return Str;
        }
+       size() {
+           return this.sizeQU;
+       }
 
         isEmpty() {
         if (this.dataStore.length == 0) {
@@ -43,8 +49,11 @@ var qu = new Queue();
 qu.enqueue("Grazel");
 qu.enqueue("Pooja");
 qu.enqueue("Agam");
+print(qu.size());
 print(qu.display());
 qu.dequeue();
+print(qu.size());
+
 print(qu.display());
 qu.enqueue("Prahitha");
 print("Front of queue: " + qu.front());
