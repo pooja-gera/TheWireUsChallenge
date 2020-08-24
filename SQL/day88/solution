@@ -1,0 +1,6 @@
+SELECT *
+CASE
+    WHEN Age > 20 THEN 'above 20'
+    ELSE 'junior role'
+END AS role 
+FROM candidates;
