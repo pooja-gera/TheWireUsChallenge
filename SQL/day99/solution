@@ -1,0 +1,7 @@
+CREATE TABLE mentors (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    DateofJoining date DEFAULT GETDATE()
+    City varchar(255) DEFAULT 'Delhi'
+);
