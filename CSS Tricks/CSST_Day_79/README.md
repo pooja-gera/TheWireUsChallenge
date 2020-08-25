@@ -10,5 +10,6 @@ In this challenge you have to work on simple scss modules and discover them on h
 
 4.map
 
-Hint:Use SCSS Documentation
+Hint:Use SCSS Documentation!
+Note:Result is displayed in console.
 
