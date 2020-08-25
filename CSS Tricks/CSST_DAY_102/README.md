@@ -1,5 +1,7 @@
-# Opacity
+# Animation
 
-In this challenge you have to create 4-5 divs with same background color.
+In this challenge you have to use animation utilities of tailwind and create 
 
-After this add opacity-100, opacity-75, opacity-50 etc classes to depict decreasing opacity of the divs.
+1)A card with fade in and out effect, use animate-pulse utility here.
+
+2)A down arrow bouncing up and down, use animate-bounce utility here.
