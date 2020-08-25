@@ -1,0 +1,5 @@
+A.ALTER TABLE mentors
+MODIFY name varchar2 NOT NULL;
+
+B. ALTER TABLE students
+ADD UNIQUE (studentID);
