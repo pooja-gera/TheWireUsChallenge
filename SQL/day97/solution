@@ -1,0 +1,7 @@
+CREATE TABLE Suppliers (
+    SupplierID int NOT NULL,
+    SupplierName varchar(255) NOT NULL,
+    CustomerID int,
+    PRIMARY KEY (SupplierID),
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
