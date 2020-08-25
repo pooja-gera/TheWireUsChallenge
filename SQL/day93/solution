@@ -1,0 +1,2 @@
+A. 4 LIKE is used for pattern matching and is not a string function.
+B. 2 AUTO-INCREMENT does not return a null value . hence, used as primary key.
