@@ -33,7 +33,7 @@ function addEdge(origin, destination) {
 airports.forEach(addNode);
 routes.forEach(route => addEdge(...route))
 
-function dfs(start) {
+function dfs(start, visited = new Set()) {
     // add the starting node to the queue
     visited.add(start);
 
