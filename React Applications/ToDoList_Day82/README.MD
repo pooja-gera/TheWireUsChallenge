@@ -1,15 +1,10 @@
-# Day 80
+# Day 82
 
-## Building a Todo List using Hooks in React - Creating the structure
+## Building a Todo List using Hooks in React - Deleting the added items
 
 In this task you will use CSS, JavaScript and React to build a To-Do List.
 
 ### Challenge Description
-1. Create a function component App. 
-2. Inside the return function, create a div with class name as main. Inside the main div create a center div. Then give 2 line breaks and between them insert an h1 with "To-do List" as text.
-3. After the line break, create an input element which executes changeHandler function as soon as text is typed into the box.
-4. Create a button with '+' which will be used to add/submit the item to the list.
-5. Next, set the state of inputList to null using useState in React.
-6. Display this inputList as a list item after the '+' button.
-7. Add the styling so that the it appears like the following image:
-![Styling the todo list box](https://user-images.githubusercontent.com/51092036/91211306-314e1700-e72c-11ea-934f-bc807fcb938c.png)
+1. Create a ToDoList.js file and add the return li part to the ToDoList component. __You will need to use props to do this.__
+2. After the item has been added it doesnt dissappear from the input field. To do that, set the state of input back to empty after the item has been added to the array of items.
+3. The list-item that appear should have a cross 'x' next to them of red colour which will act as a delete button in the next task.

@@ -23,12 +23,12 @@ const App = () => {
                     />
                     <button> + </button>
 
-                    <ol>
+                    <ul className="list">
                         <li>
                             {/* display input list */}
                             {inputList}
                         </li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         )

@@ -1,5 +1,8 @@
 import React from "react";
+// Import QuoteAuthor component
+import QuoteAuthor from "./QuoteAuthor";
 import quotes from './QuoteAuthorDatabase'
+import "./App.css";
 
 // Creates an App component
 class App extends React.Component {
@@ -48,6 +51,19 @@ class App extends React.Component {
 
     //return the color variable and assign it to button and background color
     return color;
+  }
+  
+  render() {
+    return (
+      <div>
+        {/* Render the QuoteAuthor component which executes randomColor function and handleClick function when it's rendered*/}
+        <QuoteAuthor
+          displayColor={this.randomColor}
+          handleClick={this.handleClick}
+          {...this.state}
+        />
+      </div>
+    );
   }
 }
 

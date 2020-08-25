@@ -39,10 +39,50 @@ class Countdown extends Component {
         }, 10);
     };
 
+    // Function to stop the timer
+    stopTimer = () => {
+      clearInterval(this.timer);
+      this.setState({ timerOn: false });
+    };
+
+    // Reset the timer by setting the state of timerTime and 
+    resetTimer = () => {
+      if (this.state.timerOn === false) {
+        this.setState({
+          timerTime: this.state.timerStart
+        });
+      }
+    };
+
   render() {
+
     return (
       <div className="Countdown">
+
+        {/* Heading to tell this is a countdown  */}
         <div className="Countdown-header">Countdown</div>
+
+        {/* To be used when increasing and decreasing the hr, min, sec */}
+        <div className="Countdown-label">Hours : Minutes : Seconds</div>
+
+        {/* Displaying the countdown */}
+        <div className="Countdown-display">
+          
+          {/* Adding increasing buttons (&#8679) for hours, minutes and seconds */}
+          <button onClick={() => this.adjustTimer("incHours")}>&#8679;</button>
+          <button onClick={() => this.adjustTimer("incMinutes")}>&#8679;</button>
+          <button onClick={() => this.adjustTimer("incSeconds")}>&#8679;</button>
+          
+          <div className="Countdown-time">
+              {hours} : {minutes} : {seconds}
+          </div>
+          
+          {/* Adding decreasing buttons (&#8681) for hours, minutes and seconds */}
+          <button onClick={() => this.adjustTimer("decHours")}>&#8681;</button>
+          <button onClick={() => this.adjustTimer("decMinutes")}>&#8681;</button>
+          <button onClick={() => this.adjustTimer("decSeconds")}>&#8681;</button>
+        </div>
+
       </div>
     );
   }

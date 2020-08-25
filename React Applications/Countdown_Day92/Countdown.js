@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./App.css";
 
 // Creeate a Countdown class component
 class Countdown extends Component {
@@ -82,6 +83,29 @@ class Countdown extends Component {
           <button onClick={() => this.adjustTimer("decMinutes")}>&#8681;</button>
           <button onClick={() => this.adjustTimer("decSeconds")}>&#8681;</button>
         </div>
+
+        {/* Setting up the controls */}
+
+        {/* Start button when the timer operations haven't been started */}
+        {/* When the state of timerOn, timerTime and timerStart has returned to initial values */}
+        {timerOn === false && (timerStart === 0 || timerTime === timerStart) && (
+          <button onClick={this.startTimer}>Start</button>
+        )}
+
+        {/* Stop button when the state of timeOn is true i.e. timer is still ongoing */}
+        {timerOn === true && timerTime >= 1000 && (
+          <button onClick={this.stopTimer}>Stop</button>
+          )}
+
+        {/* Resume button when the timer has been stopped but time is still left */}
+        {timerOn === false && (timerStart !== 0 && timerStart !== timerTime && timerTime !== 0) && (
+            <button onClick={this.startTimer}>Resume</button>
+          )}
+
+        {/* Reset button when the timerTime (Countdown time) ended */}
+        {(timerOn === false || timerTime < 1000) && (timerStart !== timerTime && timerStart > 0) && (
+            <button onClick={this.resetTimer}>Reset</button>
+          )}
 
       </div>
     );

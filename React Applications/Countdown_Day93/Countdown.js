@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import './App.css';
 
 // Creeate a Countdown class component
 class Countdown extends Component {
@@ -57,6 +57,13 @@ class Countdown extends Component {
 
   render() {
 
+    // Change the format of time
+    //Eg: 1.5 hours gets converted to 1 hour 30 minutes
+    const { timerTime, timerStart, timerOn } = this.state;
+    let seconds = ("0" + (Math.floor((timerTime / 1000) % 60) % 60)).slice(-2);
+    let minutes = ("0" + Math.floor((timerTime / 60000) % 60)).slice(-2);
+    let hours = ("0" + Math.floor((timerTime / 3600000) % 60)).slice(-2);
+
     return (
       <div className="Countdown">
 
@@ -83,6 +90,7 @@ class Countdown extends Component {
           <button onClick={() => this.adjustTimer("decMinutes")}>&#8681;</button>
           <button onClick={() => this.adjustTimer("decSeconds")}>&#8681;</button>
         </div>
+
 
         {/* Setting up the controls */}
 

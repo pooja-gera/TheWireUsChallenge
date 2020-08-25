@@ -1,14 +1,32 @@
 import React, {useState} from 'react';
 import './App.css';
+import TodoList from './ToDoList';
 
 const App = () => {
 
-    // useState to set the initial state of inputList
     const [inputList, setInputList] = useState("");
 
-    const changeHandler = () => {}
-    // changeHandler function used when text is typed into the input box
-    // hence is linked with onChange property of input
+    const[items, setItems] = useState([]);
+
+    
+    const changeHandler = (e) => {
+        setInputList(e.target.value);
+    };
+    
+    const itemList = () => {
+        setItems((oldItems) => {
+            return [...oldItems, inputList];
+        });
+        setInputList('')
+    };
+
+    const deleteItems = (id) => {
+        setItems((oldItems) => {
+            return oldItems.filter((elem, index) => {
+                return index !== id;
+            })
+        })
+    }
 
         return (
             <div className="main">
@@ -18,17 +36,22 @@ const App = () => {
                     <br />
                     <input 
                         type="text"
+                        value={inputList}
                         placeholder="Add a todo item"
                         onChange={changeHandler}
                     />
-                    <button> + </button>
+                    <button onClick={itemList}> + </button>
 
-                    <ol>
-                        <li>
-                            {/* display input list */}
-                            {inputList}
-                        </li>
-                    </ol>
+                    <ul className="list">
+                        {items.map( (itemval, index) => {
+                           return <TodoList
+                            key={index}
+                            id={index}
+                            text={itemval}
+                            onSelect = {deleteItems}
+                            />
+                        } )}
+                    </ul>
                 </div>
             </div>
         )

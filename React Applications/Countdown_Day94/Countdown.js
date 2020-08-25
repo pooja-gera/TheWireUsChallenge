@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './App.css';
+import "./App.css";
 
 // Creeate a Countdown class component
 class Countdown extends Component {
@@ -54,6 +54,49 @@ class Countdown extends Component {
         });
       }
     };
+    
+    // Setting up decrease and increase hours, minutes & seconds method
+    adjustTimer = input => {
+
+      // Get current time and on/off status of countdown
+      const { timerTime, timerOn } = this.state;
+
+      // Assigned a max of 60 hours for simplification of countdown
+      const max = 216000000;
+      if (!timerOn) {
+        
+        // Checking if increasing the time by 1 hour be less than max
+        if (input === "incHours" && timerTime + 3600000 < max) {
+          // if yes then change state of countdown time
+          this.setState({ timerTime: timerTime + 3600000 });
+
+          // Checking if by decreasing the hours by 1 be greater than or equal to 0
+        } else if (input === "decHours" && timerTime - 3600000 >= 0) {
+          //if yes then change state of countdown time
+          this.setState({ timerTime: timerTime - 3600000 });
+
+          // Checking if increasing the time by 1 minutes be less than max
+        } else if (input === "incMinutes" && timerTime + 60000 < max) {
+          //if yes then change state of countdown time
+          this.setState({ timerTime: timerTime + 60000 });
+
+          // Checking if by decreasing the minutes by 1 be greater than or equal to 0
+        } else if (input === "decMinutes" && timerTime - 60000 >= 0) {
+          //if yes then change state of countdown time
+          this.setState({ timerTime: timerTime - 60000 });
+
+          // Checking if increasing the time by 1 second be less than max
+        } else if (input === "incSeconds" && timerTime + 1000 < max) {
+          //if yes then change state of countdown time
+          this.setState({ timerTime: timerTime + 1000 });
+
+          // Checking if by decreasing the seconds by 1 be greater than or equal to 0
+        } else if (input === "decSeconds" && timerTime - 1000 >= 0) {
+          //if yes then change state of countdown time
+          this.setState({ timerTime: timerTime - 1000 });
+        }
+      }
+  };
 
   render() {
 

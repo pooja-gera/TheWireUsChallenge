@@ -1,7 +1,7 @@
 import React from "react";
-// Import QuoteAuthor component
 import QuoteAuthor from "./QuoteAuthor";
-import quotes from './QuoteAuthorDatabase'
+import quotes from './QuoteAuthorDatabase';
+// Import App.css to style the webpage
 import "./App.css";
 
 // Creates an App component

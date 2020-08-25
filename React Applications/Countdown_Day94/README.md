@@ -1,12 +1,9 @@
-# Day 94
+# Day 94 
 
-## Countdown in React JS : Styling the countdown 
-
+## Countdown in React JS : Setting up the increase and decrease functions
 In this task, you will build a Countdown timer using knowledge of CSS, JavaScript and React.
 
 
 #### Challenge Description 
-1. Above the return function, get the values of timerTime, timerStart and timerOn and store it in an array.
-2. Using the timerTime, set the seconds, hours and minutes to be displayed s.t. 1.5 hours gets displayed as 1 hour 30 minutes. 
-3. Setup the project so that it appears like the following image:
-![Styling the counter](https://user-images.githubusercontent.com/51092036/91174349-c6d1b280-e6fc-11ea-9e29-17a82c6b7d9e.png)
+1. Create a function adjustTimer. Inside the function assign a variable max equal to 60 hours. 
+2. Build the functions for when user increases or decreses hours, minutes or seconds.

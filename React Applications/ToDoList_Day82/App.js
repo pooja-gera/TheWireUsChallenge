@@ -1,14 +1,26 @@
 import React, {useState} from 'react';
 import './App.css';
+import TodoList from './ToDoList';
 
 const App = () => {
 
-    // useState to set the initial state of inputList
     const [inputList, setInputList] = useState("");
 
-    const changeHandler = () => {}
-    // changeHandler function used when text is typed into the input box
-    // hence is linked with onChange property of input
+    const[items, setItems] = useState([]);
+
+    
+    const changeHandler = (e) => {
+        setInputList(e.target.value);
+    };
+    
+    const itemList = () => {
+        setItems((oldItems) => {
+            return [...oldItems, inputList];
+        });
+
+        // Input field is set back to empty after array has been added
+        setInputList('')
+    };
 
         return (
             <div className="main">
@@ -18,17 +30,18 @@ const App = () => {
                     <br />
                     <input 
                         type="text"
+                        value={inputList}
                         placeholder="Add a todo item"
                         onChange={changeHandler}
                     />
-                    <button> + </button>
+                    <button onClick={itemList}> + </button>
 
-                    <ol>
-                        <li>
-                            {/* display input list */}
-                            {inputList}
-                        </li>
-                    </ol>
+                    <ul className="list">
+                        {items.map( (itemval) => {
+                            // ToDoList is passed the itemval i.e. imput field text
+                           return <TodoList text={itemval}/>
+                        } )}
+                    </ul>
                 </div>
             </div>
         )

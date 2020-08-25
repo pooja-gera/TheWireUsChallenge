@@ -1,6 +1,6 @@
 # Day 86
 
-## Random Quote Generator - Adding Random Functionality 
+## Random Quote Generator - Binding the random functionality to display the Quote and Author
 
 In this task, a random quote will appear from the database as soon as the button is clicked. This task spans 4 days.
 
@@ -8,12 +8,11 @@ In this task, a random quote will appear from the database as soon as the button
 
 This challenge has been built assuming that you have knowledge of JavaScript and Components in React.
 
-1. In the App.js file, import the quotes which was created in the previous task. 
-2. Next, create an App class component. Set the state of quote and author property to the 0th element of quotes array.
-3. Create a function randomQuote, which assigns a random number to a variable named randomNumber, within the range of length of quotes' array. Return the quotes element at the randomNumber position.
-4. Outside the randomQuote function, create another function named handleClick which will function as soon as 'Generate New Quote' button is clicked. 
-5. Call the randomQuote function inside the handleClick function and assign it to a variable named generateRandomQuote. 
-6. Set the previous state of the quote and autor properties to the same properties of generateRandomQuote.
-7. Create a randomColor function which assigns a variable color a random rgb value. Return the color variable.
-8. Export the App component.
-
+1. Create a QuoteAuthor.js file having a class component of QuoteAuthor.
+2. Inside this component, render the randomColor variable which calls the displayColor function from App.js. Set this randomColor to be the backgroundColor of the webpage.
+3. __Return__ a div with class = quotebox and having the background color = white.
+4. Next, create a div having a random key and a randomColor as the font color.
+5. Inside this div, create an h2 element having id = quote and text as quote from App.js. Similarly, create an h5 element for author with id = author.
+6. Outside the inner div, create a button having background color = randomColor and id = newquote. The button should fire the handleClick function when clicked. The text between the button should be 'Generate New Quote'.
+7. In the App.js file, __import and render__ the QuoteAuthor component.
+8. As soon as the component is rendered the displayColor and handleClick property should fire the randomColor and handleClick function respectively.

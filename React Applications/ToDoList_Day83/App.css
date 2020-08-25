@@ -33,5 +33,27 @@
   }
   .list {
     list-style: none;
-    margin: 30px 70px;
+    margin: 30px 50px;
+    text-align: left;
+  }
+  
+  /* Styling the cross/ delete button*/
+  .list-item{
+    display: flex;
+    margin-top: 20px;
+  }
+  .list-item li {
+    margin-top: 5px;
+  }
+  .list-item button {
+    background-color: red;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-weight: 800;
+    color: white;
+  }
+  .list-item button:hover{
+    background-color: rgb(221, 15, 15);
   }
