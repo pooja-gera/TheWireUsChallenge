@@ -1,6 +1,6 @@
 # Day 52 
 
-## Countdown in React JS : Setting up the 
+## Countdown in React JS : Setting up the increase and decrease functions
 In this task, you will build a Countdown timer using knowledge of CSS, JavaScript and React.
 
 
