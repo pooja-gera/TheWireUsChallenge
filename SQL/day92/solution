@@ -1,0 +1,5 @@
+SELECT MAX(Marks) 
+FROM Students 
+WHERE Marks NOT IN (
+SELECT MAX(Marks)
+FROM Students)
