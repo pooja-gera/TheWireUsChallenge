@@ -1,0 +1,9 @@
+1) Scrapy documentation - https://docs.scrapy.org/en/latest/
+
+2) What is the "yield" keyword? - https://www.geeksforgeeks.org/python-yield-keyword/
+
+3) Make a recursive crawler - https://docs.scrapy.org/en/latest/intro/tutorial.html#following-links
+
+4) What are namepsaces in XML ? - https://www.w3schools.com/xml/xml_namespaces.asp
+
+5) How to remove namespaces using selectors ? - https://scrapy2.readthedocs.io/en/latest/topics/selectors.html#removing-namespaces

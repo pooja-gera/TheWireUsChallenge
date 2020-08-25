@@ -25,7 +25,9 @@ class DribbbleSpider(scrapy.Spider):
                     },
                 }
 
-        if page <= 10:
-            page += 1
-            yield scrapy.Request(url=self.api_url.format(page), callback=self.parse)
+        if self.page <= 10:
+            self.page += 1
+            yield scrapy.Request(
+                url=self.api_url.format(self.page), callback=self.parse
+            )
 
