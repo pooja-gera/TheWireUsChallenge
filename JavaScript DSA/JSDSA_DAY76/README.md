@@ -7,14 +7,19 @@ We have 5 X 5 matrix in which 1 represents land and 0 represent water. You Need 
 Sample Input:
 
 var arr = [
+    
     [1, 1, 0, 1, 0],
+    
     [1, 1, 0, 1, 0],
+    
     [0, 1, 0, 0, 0],
+    
     [0, 1, 0, 0, 0],
+    
     [0, 0, 1, 1, 1]
 ];
 
-Output:
+Output: 
 		![](output.PNG)
 
 The highlighted areas are the lands that are present in our matrix 
