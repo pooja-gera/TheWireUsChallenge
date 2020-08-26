@@ -2,7 +2,7 @@
 ---
 These series of challenges will introduce you to make post requests in different methods.  
 
-### Api request using fetch method
+### Api request using Asyn/Await method
 You are going to make a post request to a fake api and return the response from that. The response returned should be stored in state nd print it as a display. Go through the blog https://www.robinwieruch.de/react-fetching-data to get the idea about requests.
 
 ### Code Requirements
