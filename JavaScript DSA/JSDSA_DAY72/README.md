@@ -2,9 +2,12 @@
 
 ### Challenge: 
 
-Given a linked list of size N. The task is to complete the function lengthOfLoop that checks whether a given Linked List contains a loop or not and if the loop is present then return the count of nodes in a loop or else return 0
+Given a linked list of sizeÂ N. The task is to complete the functionÂ lengthOfLoop that checks whether a given Linked List contains aÂ loop or notÂ and if theÂ loopÂ is present thenÂ return the count of nodesÂ in a loop or elseÂ return 0
 
 	![](image.png)
 
 Output:
+	![](image.png)
+	
+	
 Here the length of loop is 4 
