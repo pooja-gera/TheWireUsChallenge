@@ -14,6 +14,6 @@ var arr = [
     [0, 0, 1, 1, 1]
 ];
 
-	![](output.PNG)
+	![](output.png)
 
 The highlighted areas are the lands that are present in our matrix 
