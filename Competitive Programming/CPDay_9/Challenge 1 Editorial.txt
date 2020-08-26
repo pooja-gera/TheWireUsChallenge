@@ -1,0 +1,37 @@
+To find the number of trailing zeroes in a factorial, we need to find the power of twos and fives in the prime factorization of the factorial. Like in 5!, expansion of it is, 5!=5 x 4 x 3 x 2 x 1 = 2^3 x 3^1 x 5^1, and by finding minimum number out of the number of 2s and the number of 5s, which will always be number 5s as we will always have the extra number of 2s, we can find out the number of trailing 0s in factorial.
+
+Now how to find the power of 5 or any prime number, we will follow the following procedure. Let’s find the power of 5 in 200!  200! = 1 x 2 x 3 x … x 199 x 200 as we need to find the power of 5, we will neglect other terms and observe the numbers divisible by 5
+
+200! = 5 x 10 x 15 x … x 195 x 200 x others.
+
+Taking out the powers of 5 from all the numbers,
+200! = 5^(200/5) x (1 x 2 x 3 x … x 39 x 40) x others
+
+200! = 5^(40) x (1 x 2 x 3 x … x 39 x 40) x others.
+
+Repeating the process in the inner bracket,
+200! = 5^(40) x ( 5 x 10 x 15 x … x 35 x 40) x others
+200! = 5^(40) x 5^(40/5) x (1 x 2 x 3 x … x 7 x 8) x others
+200! = 5^(40) x 5^(8) x (5) x others.
+
+The power of 5 in 200! = 40 + 8 + 1 = 49
+
+If we observe, we see that at each iteration we are getting the number of powers of 5. Like, power of 5 in n! = floor(n/5) + floor(n/(5^2)) + floor(n/(5^3)) + … till we get a power of 5 greater than nn after which all terms equals to 0. We can generalize this in following way:
+Power of k in n! = floor(n/k) + floor(n/(k^2)) + floor(n/(k^3)) + …
+We can get the number of terms by:
+Terms t = log_k (n) = log(n)/log(k)
+
+In the same way, we can find power of any prime number or any other number (with prime factorization and then following the process) using this method.
+In this question, we need to find the smallest number whose factorial has the given number of zeroes Q.
+
+Easy and Dumb way to do this is by running a loop till we find the solution and if the value of Q is small, we will be able to find the value in a reasonable time. But an optimized way is to perform binary search to the number of zeroes within the range. The Lower limit of zeroes is 1 which is in 5!. The Upper limit is 10^8 which after a hit and trial way we find that to be in 400000015!. So let l = 5l=5 and r = 400000015r=400000015.
+
+We will make a function which returns the number of zeroes of the passed argument using above method, as we will frequently need the function.
+Binary search works in case of sorted numbers and as in our case as the number increases the number of trailing zeroes in the factorial increases, we can apply binary search.
+Now the way binary search works is:
+
+Set answer = right limit.
+Comparing the mid value of both limits. mid = (l + r) / 2mid=(l+r)/2. If the required value Q = the number of zeros in mid value then update the answer to be the minimum of mid and the previous answer. And set the mid value as the new right limit as this might not be the smallest possible value whose factorial has Q zeros.
+If the mid value is greater than required, the mid value becomes the new right limit as the required one will not be in the second half.
+Similarly, if mid value is less than required, the mid value becomes the new left limit.
+And if the left limit will become greater than the right limit, we will break and return the answer as the smallest number whose factorial has the required zeroes.
