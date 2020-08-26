@@ -1,4 +1,4 @@
-##ROTATE LIST
+## ROTATE LIST
 
 This is pretty standard problem but with a twist. You all must be familiar with reversing the linked list that is by changing the links. So
 Similar to that we have this linked list which we need to rotate to the right by k places, where k is a non-negative number
