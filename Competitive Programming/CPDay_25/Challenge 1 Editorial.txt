@@ -1,0 +1,1 @@
+Suppose x≤y≤z. If y≠z then the answer is -1, because z is the overall maximum among all three integers a, b and c and it appears in two pairs (so it should appear at most twice among x, y and z). Otherwise, the answer exists and it can be x, x and z (it is easy to see that this triple fits well).

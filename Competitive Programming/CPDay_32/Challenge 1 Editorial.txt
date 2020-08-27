@@ -1,0 +1,3 @@
+The answer contains the first element, last element, and all the local minima and maxima, where a local minimum is an element less than its 2 adjacents, and a local maximum is an element greater than it 2 adjacents.
+
+Let's look at the expression in the problem for 3 numbers. If a>b and b>c or if a<b and b<c, |a−b|+|b−c|=|a−c|, so it's never optimal to use a, b, and c in a row because you can use just a and c and achieve a shorter subsequence. If you keep erasing your b's from the original permutation, you'll end up with the first element, the last element, and the local minima and maxima. You can see that erasing any of them would decrease the expression, so this is the optimal answer.

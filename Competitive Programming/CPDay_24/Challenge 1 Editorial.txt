@@ -1,0 +1,6 @@
+There are many ways to solve this problem:
+
+1. Let the answer be s1,s3,s5,…s2n−1, so it coincides with s[1..n] in the first character, with s[2..n+1] in the second character, and so on;
+2. Copy the character si n times, since it appears in every substring we are interested in;
+3. Find the character that occurs at least n times in s, and build the answer by copying it n times;
+4. and many others.
