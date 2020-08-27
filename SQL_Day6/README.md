@@ -1,4 +1,6 @@
 # SQL Challenge- Spent on Shopping
+# DAY SIX 
+# Challenge Master - Aishwarya
 
 Veronica is a shopaholic and loves spending her money on buying stuffs. The cashier at the store is weak in mathematics and is unable to calculate the total bill. Let's help the cashier in calculating the total amount using SQL commands.
 

@@ -1,4 +1,6 @@
-# SQL Challenge- The Store Search
+# SQL Challenge - The Store Search
+# DAY TWO 
+# Challenge Master - Aishwarya 
 
 A game enthusiast is on his way to find new gaming equipments and accessories. A guy who is new to Delhi, he is unaware of the stores around him. 
 

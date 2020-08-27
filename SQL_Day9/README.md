@@ -1,4 +1,6 @@
 ## SQL Challenge - The Office
+## Day NINE 
+## Challenge Master - Aishwarya 
 
 David Wallace has sent you from the corporate to Dunder Mifflin Scranton branch to get a head count of total people working in each department. He wants to recruit new employees into those departments where head count is less than 3.
 

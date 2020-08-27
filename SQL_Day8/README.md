@@ -1,4 +1,6 @@
 # SQL Challenge- Shopping Expenditure
+# DAY SIX
+# Challenge Master - Aishwarya 
 
 Daniel bought lots of stuffs from a supermarket nearby. The billing machine did not calculate the total price for each product he bought. Create a new column TOTAL_PRICE which calculates the total price of each product (no. of products * price of each product).
 

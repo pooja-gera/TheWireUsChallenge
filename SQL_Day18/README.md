@@ -1,4 +1,6 @@
 ## SQL Challenge - Let's Unionize
+## DAY EIGHTEEN
+## Challenge Master - Aishwarya 
 
 Valerie and her niece merged their mini clothing and accesories stores to create one big all-in-one shop. Since they are merging, they want to combine their individual databases to compare prices.
 

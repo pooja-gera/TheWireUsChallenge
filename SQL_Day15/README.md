@@ -1,4 +1,6 @@
 ## SQL Challenge - Grade Game
+## DAY FIFTEEN
+## Challenge Master - Aishwarya 
 
 The yearly grades have arrived and now you need to display the grades and promote the ones with good grades (students with grade 'F' are considered fail). Display the grades of those who passed with amazing grades. (not F).
 

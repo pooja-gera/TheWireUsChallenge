@@ -1,4 +1,6 @@
 ## SQL Challenge - Fees Fiasco
+## Day TWELVE
+## Challenge Master - Aishwarya 
 
 The office administrator of the school has maintained a database system consisting the details of all the students whether they have paid the fees or not. Due to some technical glitch, the names in the column NAME is jumbled and seems disordered.
 
