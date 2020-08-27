@@ -1,6 +1,6 @@
- # Day - 61
+ # Day - 62
 ---
-## Get Keypad Combniations --
+## Print Keypad Combniations -- (This question is very much get keypag Combination but here you will see how to call recursion in a loop.)
 <b>Well it would be easy for those who has seen a keypad "Button" wala phone in their life.....  </b> 
 
 ### Challenge -
@@ -16,13 +16,11 @@
     7 -> tu
     8 -> vwx
     9 -> yz
-3. Now just like the good old days, you have to get all the combinations of words you can make with those two numbers into an array and return it.
-
-## imp -- It's a very good and famous question of recursion so please think with recursion.
+3. Now just like the good old days, you have to <b>Print all the combinations </b>of words you can make with those two numbers into an array and return it.
+## Imp -- Please do this question using recursion.
 
 ### Note - Each key can pe pressed as many times as it has number of characters mapped to it. i.e - 7 can be used to form t and u.
     
-
 
 ### ----------------------------------------------------------------------------------------------------------------------------------------------
 <b>Input Format </b>
@@ -36,6 +34,11 @@ Contents of the arraylist containing words as shown in sample output.
 <b>Input -                    </b>                                
 78               
 <b>Output -    </b>
-[tv, tw, tx, uv, uw, ux]
+tv
+tw
+tx
+uv
+uw
+ux
 </pre>
  

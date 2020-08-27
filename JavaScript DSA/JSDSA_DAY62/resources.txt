@@ -1,0 +1,9 @@
+What is a Subsequence ????  ----------
+https://en.wikipedia.org/wiki/Subsequence
+
+
+Number of Subsequnces and maths behind it ----- 
+https://math.stackexchange.com/questions/982949/number-of-subsequences-in-a-string
+
+Slicing in JavaScript --- 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
