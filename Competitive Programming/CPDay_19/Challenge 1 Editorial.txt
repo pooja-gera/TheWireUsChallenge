@@ -1,0 +1,53 @@
+This problem is completely based on Breadth-first search [BFS], which is used to traversing or searching tree or graph data structures. It starts at the tree root
+(or some arbitrary node of a graph, sometimes referred to as a ‘search key’)
+and explores the neighbor nodes first, before moving to the next level neighbors.
+
+Pseudocode:
+Input: A graph Graph and a starting vertex root of Graph.
+Output: All vertices reachable from root labeled as explored.
+
+A non-recursive implementation of breadth-first search:
+ 1.   Breadth-First-Search(Graph, root):  
+ 2.   	
+ 3.     for each node n in Graph:              
+ 4.         n.distance = INFINITY          
+ 5.         n.parent = NIL  
+ 6. 
+ 7.     create empty queue Q      
+ 8. 
+ 9.     root.distance = 0
+10.     Q.enqueue(root)                      
+11. 
+12.     while Q is not empty:        
+13.     
+14.         current = Q.dequeue()
+15.     
+16.         for each node n that is adjacent to current:
+17.             if n.distance == INFINITY:
+18.                 n.distance = current.distance + 1
+19.                 n.parent = current
+20.                 Q.e
+
+Time and space complexity
+The time complexity can be expressed as O(|V|+|E|), since every vertex and every edge will be explored in the worst case.
+|V| is the number of vertices and |E| is the number of edges in the graph. Note that O(|E|) may vary between O(1) and O(|V|^2), depending on how sparse the input graph is.
+
+So,the given question is an improvisation of Breadth-first search [BFS], you have to just store the maximum difference of parent to its every childern. and store the maximum value between the parent and child at the child node.
+
+Pseudocode:
+    while(!q.empty())
+           int s=q.front()
+            q.pop()
+            int size=adj[s].size()
+            for( i=0 ;i < size ; i++)
+                int num = adj[s][i]
+                if(visit[num]!=true)
+                       visit[num]=true
+                        if(maxi < a[s] - a[num])
+                           maxi = a[s] - a[num]
+                        if(a[s] > a[num])
+                           a[num]=a[s]
+                        qu.push(adj[s][i])
+                
+ 
+=>> maxi is the required answer.

@@ -1,0 +1,47 @@
+You are given an array of N integers(Indexed at 1)
+
+For the given array you have to answer some queries given later.The queries are of 2 types:
+
+1)TYPE 1 -> 1 L R (where L and R are integers)
+For this query you have to calculate the product of elements of the array in the range L to R (both inclusive) and print the number of zeros at the end of the result.
+
+2)TYPE 2-> 0 L R V (where L,R,V are integers)
+
+For this query you have to set the value of all the elements in the array ranging from L to R (both inclusive) to V.
+
+Input
+The first line of the input contains an integer N denoting the number of elements in the array.
+The second line contains N space seperated integers denoting the elements of the array.
+The third line contains an integer Q denoting the number of queries.
+The next Q lines contain the details of the queries which can be of TYPE-1 or TYPE-2.
+ 
+Output
+In the output each line must contain the result for the query of TYPE-1 that is the number of zeroes at the end of the result. 
+
+Constraints
+1 ≤ N ≤ 100000
+0 ≤ array[i] ≤ 1000000
+1 ≤ Q ≤ 100000
+1 ≤ L ≤ R ≤ N
+0 ≤ V ≤ 1000000
+ 
+
+Example
+Input:
+5
+1 3 5 8 9
+3
+1 2 5
+0 1 4 10
+1 1 5
+
+Output:
+1
+4
+
+ 
+
+Explanation
+For the first query answer is 3*5*8*9=1080 that is 1 zero at the end
+After the second query the array becomes 10 10 10 10 9
+For the third query the answer is 10*10*10*10*9=90000 that is 4 zeros at the end

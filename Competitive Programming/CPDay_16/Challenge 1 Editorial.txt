@@ -1,0 +1,13 @@
+Let’s notice how AND function behaves. Suppose X has x-th and y-th bit ON and rest all bits OFF. We can see that we can write the sum as Ai&2^x + Ai&2^y, 1<=i<=N since AND operation works independently for each bit.
+
+This allows us to separate the contribution of each bit into the final sum for some X. Formally, if some bit b is set in X, we add 2^b exactly Cb times, where Cb is the number of integers in A having b-th bit ON.
+
+Hence, for each bit, we can calculate Cb beforehand. Now b-th bit, if set in X, contributes 2^b*Cb to final sum. Hence, we need to select K bits among these, to maximize sum and then minimize X for maximum sum.
+
+Hence, we can sort these (bit,gain) pairs, first in non-increasing order of gain and then in increasing order of bit (to minimize X) and choose first K bits in this sorting. This allows us to reconstruct optimum value of X.
+
+Bonus:
+Maximize Ai&X, 1<=i<=N where veevee denotes bitwise OR, by choosing some X with K bits set.
+
+TIME COMPLEXITY
+The time complexity is O(N∗B) where B=30 denotes the number of bits.
