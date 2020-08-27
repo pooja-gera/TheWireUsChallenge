@@ -1,3 +1,0 @@
-If there is at least one character 0 and at least one character 1, then current player can always make a move. After the move the number of character 0 decreases by one, and the number of character 1 decreases by one too. So the number of moves is always min(c0,c1), where c0 is the number of characters 0 in string s, and c1 is the number of characters 1 in string s.
-
-So if min(c0,c1) is odd then Naman wins, otherwise Pankaj wins.

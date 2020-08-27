@@ -1,4 +1,0 @@
-It should be noted that ith row of triangle contains i coins. Therefore, a traingle with H height will contain 1 coin in 1st row, 2 coins in 2nd row, … , H coins in Hth row and total number of coins required to build a triangle of height H will be equal to
-H×(H+1)/2;
-As we are asked to find the maximum possible height of the triangle, we have to find the maximum value of H such that H×(H+1)/2≤N. Note that the value of N ~= 10^9 in worst case and therefore the maximum possible value of H will be order of square root of N.
-

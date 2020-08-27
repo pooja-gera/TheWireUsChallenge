@@ -1,6 +1,0 @@
-The idea is to use dynamic programming. Maintain the 2D matrix, dp[][], where dp[i][j] store the value of length of longest increasing sequence for sub matrix starting from ith row and j-th column.
-Let us start from i-th row and j-th column and and depth-first search it in a fashion such that we always go in a decreasing manner and store the ans in dp[i][j].
-As soon as we encounter there is no going foarward, you should return. 
-Don't forget to initialise the currAns = 1 because every no in itself is a increasing subsequence.
-
-So DP + DFS would work.

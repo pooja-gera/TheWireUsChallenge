@@ -1,1 +1,0 @@
-The solution is pretty simple: it's obvious that the first element of a is the first element of the permutation p. Let's take it to p, remove it and its its copy from a. So we just have the smaller problem and can solve it in the same way. It can be implemented as "go from left to right, if the current element isn't used, take it and mark it's used".

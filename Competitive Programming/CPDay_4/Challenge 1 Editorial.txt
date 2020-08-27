@@ -1,5 +1,0 @@
-We do a linear traversal of the array, and whenever we see that the ith and (i+1)th characters are different, we increase our counter cnt by 1, and skip over that next element to ensure that the chosen pairs are all disjoint. Choosing pairs in this greedy approach is optimal, since our chosen pairs are more “towards the left” and thereby freeing up more space “towards the right” to choose possible more pairs.
-
-I write those in quotes, since they are not mathematically rigorous statements but more of the intuition and the “feel” for the solution.
-
-Since we just do a linear traversal, the time complexity is O(n)
