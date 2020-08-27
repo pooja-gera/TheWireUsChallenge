@@ -6,6 +6,6 @@ Given a binary tree (not a binary search tree) and two values say n1 and n2, wri
 Output:
 	 ![](pattern.png) 
 
-Here the lowest common ancestor of 9 and 11 is 2.
+
 
 
