@@ -1,19 +1,26 @@
-##BALANCED PARANTHESIS
+## BALANCED PARANTHESIS
 
-###CHALLENGE
+### CHALLENGE
 
-A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
-Two brackets are considered to be a matched pair if the an opening bracket (i.e., (, [, or {) occurs to the left of a closing bracket (i.e., ), ], or }) of the exact same type. There are three types of matched pairs of brackets: [], {}, and ().
-A matching pair of brackets is not balanced if the set of brackets it encloses are not matched. For example, {[(])} is not balanced because the contents in between { and } are not balanced.
+A bracket is considered to be any one of the following characters:Â (,Â ),Â {,Â },Â [, orÂ ].
+Two brackets are considered to be aÂ matched pairÂ if the an opening bracket (i.e.,Â (,Â [, orÂ {) occurs to the left of a closing bracket (i.e.,Â ),Â ], orÂ })Â of the exact same type. There are three types of matched pairs of brackets:Â [],Â {}, andÂ ().
+A matching pair of brackets isÂ not balancedÂ if the set of brackets it encloses are not matched. For example,Â {[(])}Â is not balanced because the contents in betweenÂ {Â andÂ }Â are not balanced.
 
 
 Sample input:
+
 {[()]}
+
 {[(])}
+
 {{[[(())]]}}
 
+
 Sample output:
+
 True
+
 False
+
 True
 
