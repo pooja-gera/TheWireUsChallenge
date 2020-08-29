@@ -1,4 +1,4 @@
-## Day33
+## Day 32
 
 **Redirect component in React **
 
