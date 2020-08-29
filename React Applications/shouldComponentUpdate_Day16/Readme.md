@@ -1,4 +1,4 @@
-## Day32
+## Day 16
 
 **Lifecycle of Components|Updating**
 
