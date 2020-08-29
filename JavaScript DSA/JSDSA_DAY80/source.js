@@ -10,6 +10,8 @@ function genericTree(data){   // generic tree constructor
     this.display = display;
     this.size = size;
     this.root = construct(data);    // root node uses contruct method
+    this.max = max;
+    this.traversals  = traversals;
 }
 
 var idx =0;                  // index to traverse through given array
@@ -52,9 +54,43 @@ function sizeHelper(node){
     return mySize;
 }
 
+
 function size(){
     return sizeHelper(this.root);
 }
+
+ function maxHelper(node){
+    let ans =node.val;     // Stores his own value
+    for(let i=0;i<node.children.length;i++){
+        let cmp = maxHelper(node.children[i]);   // asks his own children to come up with their max value 
+        if(cmp>ans){              // Compare 
+            ans = cmp;
+        }
+    }
+    return ans;
+}
+
+function max(){
+    return maxHelper(this.root);
+}
+
+
+function traversalHelper(node){
+    print("Node Pre " + node.val);
+    for(let i=0;i<node.children.length;i++){
+        let child  = new treeNode(node.children[i].val);
+        print("Edge Pre " +node.val +"--"+child.val);
+        traversalHelper(child);
+        print("Node Post " + child.val);
+        print("Edge Post " + node.val + "--" + child.val);
+    }
+}
+
+function traversals() {
+    traversalHelper(this.root);
+}
+
+
 var n = Number(readline());
 var arr= [];
 var s = readline();
@@ -62,8 +98,5 @@ arr = s.split(" ");
 
 var gt = new genericTree(arr);
 
-print("Output");
-gt.display();
-print("Size - "+gt.size());
-
-
+print(gt.max());
+gt.traversals();

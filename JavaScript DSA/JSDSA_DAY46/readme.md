@@ -5,7 +5,7 @@
 Queue is a Data Structure which follows a FIFO(First In First Out) approach.
 It is one of the most real world data structure we use in coumputers.
 Many background processes and problems are solved efficiently using Queue DS.
-### Note - (Plese refer to resources to read more about importance of Stack).
+### Note - (Plese refer to resources to read more about importance of QUEUE).
 1. Now the JavaScript doesn't have an inbuilt Queue data structure, but Queue is very useful in solving many day to day problems. So, 
 ### Challenge -  
 2. The challenge is to implement Queue Data Structure in JavaScript using Arrays.

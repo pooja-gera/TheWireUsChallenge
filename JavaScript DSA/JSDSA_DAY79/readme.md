@@ -19,9 +19,6 @@ In Generic Tree each node can have any number of children nodes.
 ### Note - (Plese refer to resources to read more about Tree Data Structure and Generic Tree).
 
 
-#### Hints and Instructions: 
-1. Use an Array as the base storage for storing elements of Queue.
-2. Please try to remember how we implemented Stack DS using Array.
 #### Examples to check working of your Stack -- 
 If you have made a class names CustomStack, then after performing the following operations the output should be -- 
 <pre> 
