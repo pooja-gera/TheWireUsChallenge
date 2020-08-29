@@ -1,7 +1,0 @@
-## SQL Challenge - Length Problem
-
-Consider the table CITY. Write an SQL query to find out the city with the maximum letters and minimum letters (without the use of MIN() and MAX() func).
-
-#### Table: CITY
-
-![Test Image1](ss.png)
