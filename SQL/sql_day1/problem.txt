@@ -1,0 +1,15 @@
+Problem statement:
+There is a new school opening and you’re assigned to create/manage the database. 
+Write a command in SQL to create a table ‘student’ with the following details-
+	1.Roll-no
+	2.Name
+	3.Stream
+	4.Marks
+After creating the table insert a row in same table with the following details-
+				
+Roll-no		Name	Stream		Marks
+-------------------------------------
+0012020		ABC		Science		98
+-------------------------------------
+
+
