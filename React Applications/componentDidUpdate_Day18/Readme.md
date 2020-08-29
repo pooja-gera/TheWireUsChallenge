@@ -1,8 +1,8 @@
-## Day35
+## Day18
 
 **Lifecycle of Components|Updating**
 
-**componentDidUpdate**
+**ComponentDidUpdate**
 
 The componentDidUpdate method is called after the component is updated in the DOM.
 
