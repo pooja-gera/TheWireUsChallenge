@@ -1,0 +1,20 @@
+Problem statement-
+You are given details of some employees in the form of a table named EMPLOYEE. The table with data is given below. Based on the given data write a SQL command to:
+1.	display record of employees whose name starts with ‘L’ character.
+2.	Display record of employees whose   name contains exactly 4 characters.
+
+	Employee-ID		Name 
+	----------------------------------------------------
+	101-A			Sheldon
+	----------------------------------------------------
+	102-A			Leonard
+	----------------------------------------------------
+	103-A			Lian
+	----------------------------------------------------
+	104-A			Ian
+	----------------------------------------------------
+	105-A			Paul
+	----------------------------------------------------
+	106-A			Lucifer
+	----------------------------------------------------
+
