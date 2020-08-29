@@ -1,4 +1,6 @@
 ## SQL Challenge - TOP 3 EMPLOYEES
+## DAY THIRTY SEVEN
+## Challenge Master - Aishwarya 
 
 David Wallace has sent you from the corporate to Dunder Mifflin Scranton branch to get find out who are the top 3 employees in the branch. This can be decided on the basis of which three employees are paid the most. 
 

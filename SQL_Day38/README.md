@@ -1,4 +1,6 @@
 ## SQL Challenge - TOP 3 EMPLOYEES
+## DAY THIRTY EIGHT
+## Challenge Master - Aishwarya
 
 As seen in the previous challenge, we found the top 3 highest paid employees of Dunder Mifflin. Now the goal is to find the employee with the third highest salary.
 

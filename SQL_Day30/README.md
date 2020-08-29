@@ -1,6 +1,8 @@
 ## SQL Challenge - Book Issue
+## DAY THIRTY
+## Challenge Master - Aishwarya
 
-Write  SQL Query to display the Book_ID, Book_name and Quantity_issued for all books which have been issued. 
+Write an SQL Query to display the Book_ID, Book_name and Quantity_issued for all books which have been issued. 
 
 HINT: (The query will require contents from both the tables)
 

@@ -1,4 +1,6 @@
 ## SQL Challenge - The Office
+## DAY TWENTY EIGHT
+## Challenge Master - Aishwarya 
 
 Jo from Sabre, wants to find out who has the maximum earnings in the Scranton branch. Earnings can be denoted as months X salary.
 
