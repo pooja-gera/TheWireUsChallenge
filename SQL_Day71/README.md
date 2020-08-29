@@ -9,4 +9,4 @@
     
 #### Table: OCC
 
-![Test Image1}(ss.png
+![Test Image1](ss.png)
