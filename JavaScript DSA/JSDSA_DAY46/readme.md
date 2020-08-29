@@ -1,7 +1,7 @@
  # Day - 46
 ---
 ## Queue Data Structure --
-![](QU.png)
+![](QU.PNG)
 Queue is a Data Structure which follows a FIFO(First In First Out) approach.
 It is one of the most real world data structure we use in coumputers.
 Many background processes and problems are solved efficiently using Queue DS.
