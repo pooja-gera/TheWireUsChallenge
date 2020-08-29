@@ -4,4 +4,4 @@ Consider the table JOBS. Write an SQL query to print the odd columns and even co
 
 #### Table: JOBS
 
-![Test Image1](ss.png)
+![Test Image1](emp.png)
