@@ -1,4 +1,6 @@
 #### Day 3
+---
+
 #### Rendering React Elements to the DOM
 
 In the previous challenge we have learnt about the JSX element and how it's written. Here we are going to learn how these elements are rendered to DOM. Applications built with just React usually have a single root DOM node. 

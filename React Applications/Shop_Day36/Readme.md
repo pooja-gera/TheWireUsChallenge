@@ -1,12 +1,22 @@
-### Day 36
+### Day 33
 ---
-This challenge is a mischelleneous one which gives you the scope of this mini project and the things you can add.
+In this challenge you are going to keep track of no of items purchased for each variety available in bakery.
 
-#### Functionalities much more you add
-1. Firstly, this shop challenge main motive is to make you understand the workflow of the react. So it didnt consider the styling part. You can take this as an opportunity to style the things in a more attractive way.
+#### Functionalities 
+On clicking the Add button for a specified item, both the no of items in the bakery and no of items you have purchased should be updated. Same applies for Delete button. Take care that the items you purchased for a variety should not cross the intial bouundary of that variety. And you cant add more than the available items in your cart.
 
-2. Managing the state could be optimized. Instead of a state variable for each variety, you can enclose it in object and access the items accordingly. It might be for no of items for availabilty, cost of each variety.
+#### Code requirements
+1. Create variables in state to track the no of items of each variety and initialize them to 0.
+2. In the event handlers manage the no of items you have purchased
+3. Write conditions for edge cases.
 
-3. This mini project is a basic functionality of the cart. You can create much more functionalities to display each item and each cost. Suppose each cake or icecream has a barcode it in you can even track that.
+#### Output should look like
 
-These are some of the challenges you can take up yourselves for making this functionality in your own way.
+1. ##### Display the items with add and delete button
+![](BeforeClick.png)
+
+2. ##### After clicking Add button for icecreams (2 times)
+![](AfterAdd.png)
+
+3. ##### After clicking Delete button for icecreams (1 time)
+![](AfterDelete.png)

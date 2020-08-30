@@ -1,15 +1,19 @@
-### Day 33
+### Day 31
 ---
-In this challenge you are going to display the cost of each variety. 
+In this challenge your going to create button and handle the events.
 
 #### Functionalities 
-We should be able to see the cost of each variety besides the no of items for each variety.
+1. Each item in the bakery should contain a button to click. 
 
 #### Code requirements
-1. Create variables in state that has the cost of each variety.
-2. Display the cost of each variety using the state variable.
+1. Create "Add" button to each item.
+2. Handle events like onClick for those buttons (prefarably only one handleClick for all the items).
+3. On "Add" - should decrease the availability of that item by 1 till it becomes 0.
 
 #### Output should look like
 
-##### Display
-![](Display.png)
+1. ##### Display the items
+![](BeforeClick.png)
+
+2. ##### After clicking add button for icecreams
+![](AfterClick.png)

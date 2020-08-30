@@ -1,4 +1,5 @@
-### Day 2
+### Day 42
+---
 
 #### JSX Element
 These coming challenges are designed assuming that you have a basic knowledge about html, css and javascript. We can use JSX which is easy to understand, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. Later this jsx is converted to react by using babel script. Necessarily a JSX element contains a parent tag and can have any number of children. It can use JS expressions in it and can be styled using css or scss.

@@ -12,7 +12,7 @@ class Shop extends Component{
             <div>   
                 <h2>Welcome to Bakers !!</h2>
                 <h3> Available number of cakes: {this.state.cakes} </h3>
-                <h3>Available number of cakes: {this.state.icecreams}</h3>
+                <h3>Available number of icecreams: {this.state.icecreams}</h3>
             </div>
         );
     }

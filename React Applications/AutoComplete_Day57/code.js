@@ -42,7 +42,7 @@ export default class AutoCompletedText extends React.Component{
                     <ul>
                         {suggestions}
                     </ul>
-                    {/* {this.state.suggestions} */}
+
                 </div>
             </div>
         );

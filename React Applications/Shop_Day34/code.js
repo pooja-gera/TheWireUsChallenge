@@ -4,9 +4,8 @@ class Shop extends Component{
     constructor(props){
         super(props);
         this.state={
-            items : {cakes : 10,
-                icecreams : 20}
-            
+            cakes : 10,
+            icecreams : 20
         }
         this.handleClick = this.handleClick.bind(this);
     }
@@ -19,9 +18,8 @@ class Shop extends Component{
             }
             return prevState;
         });
-        
-        
     }   
+    
     render(){
         return(
             <div>   
