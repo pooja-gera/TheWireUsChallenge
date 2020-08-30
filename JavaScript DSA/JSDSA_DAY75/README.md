@@ -1,26 +1,32 @@
-## BALANCED PARANTHESIS
+## Water Overflow
 
-### CHALLENGE
+### Challenge
+There are some glasses with equal capacity as 1 litre. The glasses are kept as follows:
+					
+					     1
+					
+					2		3
+			
+				4		5		6
 
-A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
-Two brackets are considered to be a matched pair if the an opening bracket (i.e., (, [, or {) occurs to the left of a closing bracket (i.e., ), ], or }) of the exact same type. There are three types of matched pairs of brackets: [], {}, and ().
-A matching pair of brackets is not balanced if the set of brackets it encloses are not matched. For example, {[(])} is not balanced because the contents in between { and } are not balanced.
-
-
-Sample input:
-
-{[()]}
-
-{[(])}
-
-{{[[(())]]}}
+			7		8		9		10
 
 
-Sample output:
+You can put the water to only top glass. If you put more than 1 litre water to 1st glass, water overflows and fills equally in both 2nd and 3rd glasses. Glass 5 will get water from both 2nd glass and 3rd glass and so on.
 
-True
+If you have X litre of water and you put that water in the top glass, how much water will be contained in the jth glass in the ith row?
 
-False
+Sample Case:
 
-True
+If you put 2 litre on top.
+1st glass will have 1 litre
+2nd and 3rd glass each will have � litre
+
+
+Hint: The approach is similar to that of Pascal�s Triangle.
+
+So Get started and keep the spirit up!!
+
+
+
 
