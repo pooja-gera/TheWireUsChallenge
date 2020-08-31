@@ -3,7 +3,7 @@
 ## Binary Search Tree  --
 The most commonly used and one of the most efficient Data Structure for the searching.
 
-## Challenge -- Implementation of Generic Tree -- 
+## Challenge -- Implementation of BST Class-- 
 1. You have to make a Binary Search Tree class which will have following functions --- 
 <b>The name of class is BST.</b>
     insert(data)  -- Add the data into the Binary Tree.
