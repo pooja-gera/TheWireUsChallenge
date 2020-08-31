@@ -8,7 +8,16 @@ Tree traversals are of tree types  -- PreOrder Traversal, InOrder Traversal and 
 2. Now the user will give an array of n numbers.
 3. First element of array to be consider as root node.
 4. Now construct a generic tree from the given array.(Refer to previous day challenge).
-5. You have to write a 
+5. You have to write a function traversals.
+6. The function is expected to visit every node. While traversing the function must  print following content in different situations.
+   6.1. When the control reaches the node for the first time -> "Node Pre" node.data.
+   6.2. Before the control leaves for a child node from a node -> "Edge Pre" 
+   node.data--child.data.
+   6.3. After the control comes back to a node from a child -> "Edge Post" node.data- 
+   -child.data.
+    6.4. When the control is about to leave node, after the children have been visited 
+    -> "Node Post" node.data.
+7. You also have to make a function to find the node with the maximum value present in the tree.
 ### Note - (Plese refer to resources to read more about Tree Data Structure and Generic Tree).
 
 
