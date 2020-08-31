@@ -2,7 +2,7 @@
 ---
 ## Searching and Romoval of element from BST  --
 The name says it all .... BST is widely used for its efficiency in Searching.
-
+![](Capture.png)
 ## Challenge --  
 1. Now in the BST class we implemented in previous challenge you have to add 4 more functions --- 
     
@@ -32,49 +32,6 @@ print("Minimum "+tree.getMin());
 print("Maximum " + tree.getMax());
 
 <b>Output - (After running max function and traversal function)</b> 
-After display -- 
-6 <- 10 -> 60
-. <- 6 -> .
-50 <- 60 -> 70
-20 <- 50 -> .
-. <- 20 -> 30
-. <- 30 -> .
-. <- 70 -> .
-6
-10
-20
-30
-50
-60
-70
-true
-false
-Minimum6
-
-C:\Users\chand\OneDrive\Desktop\WireUs\TheWireUsChallenge\JavaScript DSA\JSDSA_DAY92>js source.js
-6 <- 10 -> 60
-. <- 6 -> .
-50 <- 60 -> 70
-20 <- 50 -> .
-. <- 20 -> 30
-. <- 30 -> .
-. <- 70 -> .
-6
-10
-20
-30
-50
-60
-70
-true
-false
-Minimum 6
-source.js:81:20 ReferenceError: current is not defined
-Stack:
-  getMax@source.js:81:20
-  @source.js:173:25
-
-C:\Users\chand\OneDrive\Desktop\WireUs\TheWireUsChallenge\JavaScript DSA\JSDSA_DAY92>js source.js
 After Display -
 6 <- 10 -> 60
 . <- 6 -> .
