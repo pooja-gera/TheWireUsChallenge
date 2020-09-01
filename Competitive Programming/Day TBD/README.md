@@ -1,3 +1,7 @@
+## Find the largest rectangular area possible in a histogram
+## DAY TBD
+## Challenge Master - Chetna Gola 
+
 Hey Techies!
 
 How awesome was our childhood when we used to scribble some data handling questions and found them the easiest.Keeping this in mind,we bring to you a coding question on the same lines 'HISTOGRAM'.

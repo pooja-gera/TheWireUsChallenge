@@ -1,3 +1,7 @@
+## Difference in ASCII
+## DAY THREE
+## Challenge Master - Chetna Gola 
+
 Hey Coders!!
 
 The first thing that was taught to us when we started with programming was how the computer just understands 0's and 1's and what are ASCII codes.

@@ -1,3 +1,7 @@
+## Converting Camel Case Sentence to Words
+## DAY TWO
+## Challenge Master - Chetna Gola
+
 Hey Techies!
 
 One of the important aspect of object oriented programming is readability of the code. To enhance the readability of code, developers write function and variable names in Camel Case.
@@ -13,4 +17,4 @@ A
 Competitive 
 Programmer
 
-Okay so let's get started
+Let's get started!
