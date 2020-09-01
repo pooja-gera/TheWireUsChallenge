@@ -6,11 +6,16 @@ Your challenge is to output the total time in which the complete binary
 Tree will burn out.
 
 For Example:
-					    10
-					  /	 \	
+					   
+					   10
+					    
+					  /    \
+					  
 					20	  30
-				    /    \	    \
-				  40	    50    60
+					
+				      /    \	    \
+				    
+				   40	    50        60
 
 If the leaf node passed is 50 then initially 50 will burn node 20 and node 20 in other second will burn node 40 and 10 and then similarly node 10 burns 30 and 30 burns 60 
 
