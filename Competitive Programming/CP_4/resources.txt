@@ -1,0 +1,23 @@
+So now let's look into a little bit working of this question.
+
+We all know about the explicit conversion of character to integer .This will come in handy now!
+Here is a pseudocode to help you with your solution:
+ 
+String s="acb"
+
+Step 1:
+char a=// store the first charcter of given string
+char b=//store the second character of given string
+
+Step 2:
+//Change them to int 
+
+Step 3:
+int d=int (a)-int (b) //calculate their difference
+
+Step 4:
+Now append them into your result string after appending the previous string 
+
+Repeat them  for all other characters too.
+
+COME ON ,LET'S NOW WORK ON IT!!

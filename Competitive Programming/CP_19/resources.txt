@@ -1,0 +1,13 @@
+Hey again!
+
+Here's a code snippet to help you through.
+
+binary_to_grey(n)
+ if n == 0
+       grey = 0;
+ else if last two bits are opposite  to each other
+       grey = 1 + 10 * binary_to_gray(n/10))
+ else if last two bits are same
+       grey = 10 * binary_to_gray(n/10))
+
+Happy coding!

@@ -1,0 +1,14 @@
+Now there's a really easy solution for this problem statement.
+Let's hint it out for you (pseudocode)
+
+Step1:Check for row number in which you have to traverse from top to bottom
+         Hence check for odd numbered row.
+         for(i=1;i<=4;i++)
+          { if(i%2!=0)
+                   { //Print that column elements from top to bottom }
+Step2:            else //For even numbered row
+                  { //Print column elements from bottom to top}
+             }
+
+
+Let's get started!!!

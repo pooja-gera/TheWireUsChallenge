@@ -1,0 +1,22 @@
+Hey Again!!
+
+We know that with practice you can solve huge problems and so we have a small code snippet which would help you learn the logic of this problem statement.
+
+static int[] matchingStrings(String[] strings, String[] queries) //This function takes in 2 string arrays as input and returns an integer array
+ {
+      int c,k=0; //c is the counter for counting the number of matching strings 
+      int a[]=new int[queries.length]; //Array is created to keep a count of all query string matches
+
+      for(int i=0;i<queries.length;i++)
+      {
+          c=0;
+          for(int j=0;j<strings.length;j++)
+          if(queries[i].equals(strings[j])) //We check if query string is equal to the string we had input
+          c++;
+          a[k++]=c;
+      }
+      return a;
+  }
+
+
+Have a good time trying!!
