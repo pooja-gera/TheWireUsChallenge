@@ -1,0 +1,7 @@
+1) Open weather website https://openweathermap.org/api
+
+2) Working with APIs - https://www.dataquest.io/blog/python-api-tutorial/
+
+3) pandas documentation - https://pandas.pydata.org
+
+4) Learn json library - https://www.w3schools.com/python/python_json.asp
