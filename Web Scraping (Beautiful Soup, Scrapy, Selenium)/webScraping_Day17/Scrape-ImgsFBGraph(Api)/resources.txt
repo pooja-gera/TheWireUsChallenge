@@ -1,0 +1,5 @@
+1) What is an API - https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/
+
+2) File-handling in python - https://www.w3schools.com/python/python_file_handling.asp
+
+3) Facebook's Graph API - https://developers.facebook.com/docs/graph-api/

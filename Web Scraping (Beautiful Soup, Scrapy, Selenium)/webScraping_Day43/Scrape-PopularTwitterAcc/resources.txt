@@ -1,0 +1,10 @@
+1) Introduction to REGEX in python - https://scotch.io/tutorials/an-introduction-to-regex-in-python
+
+2) Learn regex in python in depth -     
+    2.1) https://realpython.com/regex-python/
+    2.2) https://realpython.com/regex-python-part-2/
+
+3) Regex video tutorials -
+    3.1) https://www.youtube.com/watch?v=sa-TUpSx1JA
+
+    3.2) https://www.youtube.com/watch?v=K8L6KVGG-7o

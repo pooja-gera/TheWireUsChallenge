@@ -1,0 +1,5 @@
+1) Scrapy documentation - https://docs.scrapy.org/en/latest/
+
+2) FormRequest class in scrapy - https://docs.scrapy.org/en/latest/topics/request-response.html?highlight=formrequest#formrequest-objects
+
+3) What is CSRF token and why is it needed ?- https://stackoverflow.com/questions/5207160/what-is-a-csrf-token-what-is-its-importance-and-how-does-it-work
