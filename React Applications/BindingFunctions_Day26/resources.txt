@@ -1,0 +1,1 @@
+This challenge is designed to give insights to bind the function to a class component which will be useful for the further challenges. This is an inspired challenge from https://www.freecodecamp.org/learn/front-end-libraries/react/bind-this-to-a-class-method. 
