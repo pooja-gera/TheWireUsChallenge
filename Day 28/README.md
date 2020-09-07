@@ -1,6 +1,7 @@
 ## How many exercises?
 ## DAY TWENTY EIGHT 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 PROBLEM STATEMENT
 Louis is a bright student. To prepare thoroughly for exams, he completes all the exercises in his book! Now that the exams are approaching fast, he is doing book exercises day and night. He writes down and keeps updating the remaining number of exercises on the back cover of each book.
