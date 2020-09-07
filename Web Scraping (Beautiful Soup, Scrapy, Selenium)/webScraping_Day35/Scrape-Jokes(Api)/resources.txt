@@ -1,0 +1,3 @@
+1) Chuck norris jokes database website - http://www.icndb.com/api/
+2) What is an API - https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/
+3) Learn python requests library - https://realpython.com/python-requests/

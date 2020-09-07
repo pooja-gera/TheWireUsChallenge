@@ -1,0 +1,7 @@
+1) web-scraping tutorials - https://realpython.com/python-web-scraping-practical-introduction/
+
+2) web-scraping video tutorials - https://www.youtube.com/watch?v=ng2o98k983k
+
+3)learn scraping images -  https://rubikscode.net/2019/12/02/scraping-images-with-python/
+
+4) learn creating files in python - https://www.geeksforgeeks.org/file-handling-python/

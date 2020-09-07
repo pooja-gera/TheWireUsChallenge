@@ -1,0 +1,3 @@
+1) Media Pipelines in scrapy - https://docs.scrapy.org/en/latest/topics/media-pipeline.html#downloading-and-processing-files-and-images
+
+2) Items in scrapy - https://docs.scrapy.org/en/latest/topics/items.html#module-scrapy.item

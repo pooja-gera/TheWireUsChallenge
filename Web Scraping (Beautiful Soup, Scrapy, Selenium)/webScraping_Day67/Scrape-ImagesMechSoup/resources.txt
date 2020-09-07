@@ -1,0 +1,5 @@
+1) Mechanical soup documentation - https://mechanicalsoup.readthedocs.io/en/stable/mechanicalsoup.html
+
+2) Learn to create directories(folders) using the os module in python - https://www.geeksforgeeks.org/os-module-python-examples/
+
+3) Learn about filehandling in python - https://www.w3schools.com/python/python_file_handling.asp
