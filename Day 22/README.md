@@ -1,6 +1,7 @@
 ## Find length of last word in a given sentence 
 ## DAY TWENTY TWO 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : LeetCode
 
 Problem statement:
 
