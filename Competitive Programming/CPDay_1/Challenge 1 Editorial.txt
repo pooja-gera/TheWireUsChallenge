@@ -1,0 +1,28 @@
+What is the maximum subarray sum of the array? 
+This is actually a standard problem and you might already be familiar with it, but let’s describe it anyway.
+
+Here's a naive solution (pseudocode) - 
+
+answer = -INFINITY 
+for i=1..N:
+    current = 0
+    for j=i..N:
+        current += A[j]
+        answer = max(answer, current)
+
+It simply tries out all subarrays. Unfortunately, this is slow; it runs in O(N^2) time, and for N = 10^5 this will not pass time limit.
+
+Let us look at a better solution now!
+Simple idea of the Kadane's algorithm is to look for all positive contiguous segments of the array (currSum is used for this). And keep track of maximum sum contiguous segment among all positive segments (max_so_far is used for this). Each time we get a positive sum compare it with max_so_far and update max_so_far if it is greater than max_so_far.
+
+Here's the solution (Kadane's Algorithm)
+
+Initialize currSum = 0 (We didn't even consider a no) max_so_far = -inf (As maximum subarray can be negative if we have all the negative numbers in array, max_so_far will be 1 length-ed subarray with max value)
+
+for 1..N:
+    currSum = currSum + A[i]	/// Maximum positive subarray sum ending at this ith position
+    max_so_far = max(max_so_far, currSum) ///Updating max value
+    if(currSum < 0) currSum = 0 /// If maximum positive subarray sum ending here becomes negative, it is redundant for us to consider it
+
+Tada!
+    	
