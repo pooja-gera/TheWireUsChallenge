@@ -1,2 +1,0 @@
-https://reactrouter.com/web/api/BrowserRouter 
-Follow the documentation for further understanding about the concepts of routing.

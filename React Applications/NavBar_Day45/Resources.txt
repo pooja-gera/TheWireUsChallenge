@@ -1,1 +1,0 @@
-Refer https://learnwithparam.com/blog/how-to-pass-props-in-react-router/ for different types of routers and tricks to handle them.

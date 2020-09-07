@@ -1,5 +1,0 @@
-Install raect - bootstrap
-https://react-bootstrap.github.io/getting-started/introduction/
-
-Navbar components in react-bootstrap
-https://react-bootstrap.github.io/components/navbar/
