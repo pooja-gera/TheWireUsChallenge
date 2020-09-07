@@ -1,6 +1,7 @@
 ## Sum without carrying 
 ## DAY THIRTY THREE 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 Given a device which sums up two numbers a and b but doesn’t carry forward. To guess the answers of that device design a program which does the same.
