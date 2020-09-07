@@ -1,0 +1,196 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: #007bff ;
+      font-family: 'Raleway', sans-serif;
+  }
+  
+  #root {
+      width: 300px;
+      margin: 0 auto;
+      background-color: #52BCAA;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  
+  .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  .flex-col {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .col-2 {
+      width: 50%;
+  }
+  
+  ul {
+      list-style: none;
+      padding: 0;
+      width: 100%;
+  }
+  
+  .results {
+      background-color: #fff;
+      width: 80%;
+      color: #8FD7CA;
+      height: 191px;
+      justify-content: space-evenly;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  
+  .cost-pp {
+      width: 100%;
+      text-align: right;
+  }
+  
+  
+  /*INPUTS*/
+  .bill-total, 
+  .guest-count,
+  .tip-percent, 
+  .tip-total {
+      width: 48%;
+      color: #FDFEFD;
+      background-color: #8FD7CA;
+      border-radius: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .bill-total {
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  
+  .bill-total input {
+      background-color: #8FD7CA;
+      color: #FDFEFD;
+      border:none;
+      width: 60%;
+      text-align: center;
+      height: 20px;
+  }
+  
+  .bill-total input:focus {
+      outline: none;
+  }
+  
+  
+  .guest-count {
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  
+  .guest-count i {
+      cursor: pointer;
+  }
+  
+  .guest-count div:nth-child(2) {
+      background-color: #FDFEFD;
+      color: #8FD7CA;
+      height: 60px;
+      width: 60px;
+      border-radius: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .selected-tipPerc {
+      background-color: #fff;
+      color: #8FD7CA;
+  }
+  
+  .tip-percent {
+      width: 65%;
+      justify-content: center;
+      align-items: center;
+      /*margin: 0;*/
+  }
+  
+  .tip-percent ul {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 10px;
+  }
+  
+  .tip-percent ul li {
+      height: 100%;
+      cursor: pointer;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+  }
+  
+  .tip-total {
+      width: 30%;
+      height: 70px;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  
+  /*KEYPAD*/
+  .keypad li {
+      width: 32%;
+      cursor: pointer;
+  }
+  .keypad li button {
+      width: 100%;
+      height: 40px;
+      background-color: #52BCAA;
+      color: #FDFEFD;
+      border: 1px solid #fff;
+      cursor: pointer;
+      margin: 5px 0;
+      font-size: 1.5em;
+  }
+  
+  .keypad li button:focus {
+      outline: none;
+  }
