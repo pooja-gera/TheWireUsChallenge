@@ -1,6 +1,7 @@
 ## Return the index of first occurrence of string B in string A. 
 ## DAY TWENTY THREE 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : LeetCode
 
 Problem Statement: 
 Return the index of first occurrence of string B in string A.
