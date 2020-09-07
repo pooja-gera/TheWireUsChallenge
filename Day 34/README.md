@@ -1,5 +1,7 @@
-PROBLEM STATEMENT
-Calculate the maximum area.
+## Calculate the maximum area.
+## DAY THIRTY FOUR
+## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 You will be given a set of N sticks out of which you need to select 4 such sticks that will form a rectangle of the maximum area possible out of the provided sticks.
