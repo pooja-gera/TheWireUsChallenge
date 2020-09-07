@@ -1,6 +1,7 @@
 ## Find the number
 ## DAY THIRTY TWO
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 While doing his school assignment, Keith managed to calculate the arithmetic average of m+p numbers, let’s denote the average by w.
