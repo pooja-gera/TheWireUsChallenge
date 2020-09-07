@@ -1,6 +1,7 @@
 ## GCD and LCM  
 ## DAY THIRTY SIX 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 Two integers A and B are the inputs. Write a program to find GCD and LCM of A and B.
