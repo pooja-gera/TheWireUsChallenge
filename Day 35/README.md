@@ -1,6 +1,7 @@
 ## Divisible by 10  
 ## DAY THIRTY FIVE
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 Given a number X, you need to make it divisible by 10 given that for a single operation you can only multiple X by 2. Print the number of operations required to make it divisible by 10(it could be Zero), in case it is not possible print -1.
