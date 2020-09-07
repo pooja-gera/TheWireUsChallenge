@@ -1,4 +1,5 @@
-##### Day 9
+### Day 28
+---
 
 #### Binding Functions
 In this challenge we will look into how to bind the class component function to a state using this keyword. 

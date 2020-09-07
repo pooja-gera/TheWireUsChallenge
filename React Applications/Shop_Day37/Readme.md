@@ -1,4 +1,4 @@
-### Day 33
+### Day 37
 ---
 In this challenge you are going to display the cost of each variety. 
 

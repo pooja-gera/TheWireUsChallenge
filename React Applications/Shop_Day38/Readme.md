@@ -1,4 +1,4 @@
-### Day 35
+### Day 38
 ---
 In this challenge you are going to print the total cost of each variety that you have bought from the bakery.
 

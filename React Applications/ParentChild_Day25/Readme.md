@@ -1,4 +1,4 @@
-### Day 16
+### Day 25
 ---
 In this challenge you are going to render child component in the parent component.
 
