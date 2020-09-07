@@ -1,0 +1,17 @@
+Hey Again!
+
+We have a code snippet here to get you through.
+
+public static int StringtoInt(String a,int i,int n)
+{
+ if(a.length()==i)
+ return n;
+ //char k=a.charAt(i);
+ int l=(int)a.charAt(i)-48;//We subtract the ASCII code of 0(48)
+ n=n*10+l;//We simply keep on adding l to the previous number set
+ n=StringtoInt(a,i+1,n);
+ return n;	
+}	
+}
+
+Happy coding!

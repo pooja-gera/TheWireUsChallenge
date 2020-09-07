@@ -1,0 +1,29 @@
+Hey again!!
+
+Here's a code snippet to help you with this question.
+
+public static int[] StockSpanUsingStacks(int[] prices, StacksUsingArrays stack) throws Exception {
+		int c=1,m,k=0;
+		int n=prices.length;
+		int a[]=new int[n];
+		for(int i=0;i<n;i++)
+		{   c=1;
+			for(int j=0;j<i;j++)
+            stack.push(prices[j]);
+			while(!stack.isEmpty())
+			{
+				m=stack.pop();
+				if(m>prices[i])
+				break;
+				else
+				c++;
+			}
+		a[k++]=c;
+		while(!stack.isEmpty())
+		m=stack.pop();	
+            
+		}
+		return a;
+	}	
+
+Happy coding!!
