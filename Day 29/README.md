@@ -1,6 +1,7 @@
 ## Long Long Sum 
 ## DAY TWENTY NINE
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 PROBLEM STATEMENT 
 Calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large. 
