@@ -1,6 +1,7 @@
 ## Repeated Letters 
 ## DAY TWENTY FIVE 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 PROBLEM STATEMENT
 From a set of strings input you have to remove the repeated letters for every string and print them in order
