@@ -1,6 +1,7 @@
 ## Diwali Celebration 
 ## DAY THIRTY ONE
-## Challenge Master - Deekshita Verma 
+## Challenge Master - Deekshita Verma
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 During Diwali, it's a tradition that each father gives his kids money which they can spend on entertainment.
