@@ -1,0 +1,46 @@
+Simply the counting
+Let l be the LCA of u, v. We want to count the number of pairs of nodes (w,t) with its path move list being same as path move list for u, v.
+
+Instead of counting a pair of vertices, what if we count just the number of vertices which can be the potential lowest common ancestors.
+If we fix the lca L of the pair of nodes, then the corresponding pair of vertices w, t will be unique for this L due to the constraint that of path move list for w, t should be same u, v should be same. Let us see the way of finding w, t for a fix L.
+
+We can find w in the following way.
+First find the list of moves for moving from LCA(u, v) to u. For this, we first find the list of moves from u to LCA(u,v) by keep on moving to parent till we reach the LCA(u, v) node. The list of moves for moving from LCA(u,v) to u, will be reverse of this move list.
+Now we apply the exact same list of moves starting from vertex L, the vertex at the end will be the vertex w.
+
+Similarly, we can find the vertex t too.
+
+def find(x, u, L)
+	list = get_list_of_moves(u, L)
+	reverse list
+	return apply(x, list);
+    
+w = find(x, u, L)
+t = find(x, v, L) 
+
+Now solve the original problem
+Now, we just need to count number of LCA nodes L such that both the corresponding (w,t)≤n.
+
+Let us defined a binary function valid(L) denoting whether the (w,t) corresponding to this node L are both less than or equal to nn.
+Notice that if we go over L from 1 to n,
+Notice that function valid(x) is a monotonic function. It will be of following kind T,T,T…,F,F,F,…, where T denotes true and F denotes false.
+In simple terms, if valid(L)valid(L) is false, then there won’t exist some L'>L such that valid(L) is true for it, i.e. once valid(L) becomes false, it will always remain false.
+
+def valid(x):
+	find w, t as stated before.
+	return w <= n and t <= n
+This observation enables us to use binary search over L. The range of binary search will be L from 1 to n.
+
+int lo = 1, hi = n, ans = 0;
+while (lo <= hi) {
+	int mid = (lo + hi) / 2;
+	if (valid(x)) {
+		ans = mid;
+		lo = mid + 1;
+	} else {
+		hi = mid - 1;
+	}
+}
+
+Time complexity
+Time complexity of the algorithm will be O((log n)^2). One logn for binary searching, other logn for valid function.

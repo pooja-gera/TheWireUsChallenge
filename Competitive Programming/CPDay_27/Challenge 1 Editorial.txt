@@ -1,0 +1,16 @@
+Firstly, we can notice that the reverse of of odd length subarray does nothing because it doesn't change parities of indices of affected elements. Secondly, we can consider the reverse of the subarray of length 2x as x reverses of subarrays of length 2 (i.e. it doesn't matter for us how exactly the subarray will be reversed, we can only consider changing parities).
+
+Now, there are two ways: the first one is smart and the second one is dynamic programming.
+
+Consider the first way. Calculate the initial sum of elements on even positions sum. Then let's create two arrays v1 and v2. There v1[i] is a[2i+1]−a[2i] for all i from 0 to ⌊n/2⌋−1 and v2[i] is a[2i]−a[2i+1] for all i from 0 to ⌊n/2⌋−1. Elements of the first array denote the profit if we reverse the subarray tarting from the even position, and elemnts of the second array denote the profit if we reverse the subarray starting from the odd position. Now we need to find the subarray with the maximum sum in both arrays (this will maximize overall profit) and add this value to sum to get the answer. This problem can be solved easily: consider the sum of the subarray [l;r] as the difference of two prefix sums pref{r}−pref{l−1}. To maximize it, consider all right borders and minimize the value pref{l−1}. Iterate over all positions of the array, maintaining the current prefix sum csum and the minimum prefix sum we meet msum. Update csum:=csum+ai, then update msum:=min(msum,csum) and then update the answer with the value csum−msum.
+
+And the second way is author's solution and it is dynamic programming. This idea can be transformed to solve such problems in which you need to apply some function to some small number of subsegments (of course, under some constraints on functions). State of our dynamic programming is dpi,j where i∈[0;n] and j∈[0;2]. dpi,0 denotes the answer on the prefix of length i if we didn't start reversing the subarray, dpi,1 denotes the answer if we started reversing the subarray but didn't end it and dpi,2 denotes the answer if we ended reversing the subarray. Transitions are pretty easy:
+
+dp{i+1,0}=max(dp{i+1,0},dp{i,0}+[i%2==0?ai:0]);
+dp{i+2,1}=max(dp{i+2,1},max(dp{i,0},dp{i,1})+[i%2==0?ai+1:ai]);
+dp{i+1,2}=max(dp{i+1,2},max(dp{i,0},dp{i,1},dp{i,2})+[i%2==0?ai:0]).
+The value x?y:z is just a ternary if statement. If x is true then return y otherwise return z.
+
+The answer is max(dp{n,0},dp{n,1},dp{n,2}).
+
+Time complexity with both approaches is O(n).

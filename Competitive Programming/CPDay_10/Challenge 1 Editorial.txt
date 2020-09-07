@@ -1,0 +1,5 @@
+Binary search on data structure (containing all the top disk radii) to find the smallest top disk radius which the current disc can be placed on top of.
+
+In total, you’ll have three operations you want to handle: adding a new disc, binary searching for a disc and removing a disc.
+
+Simulate the process, using the multiset. Be careful not to use a set because of duplicates being removed.

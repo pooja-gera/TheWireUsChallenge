@@ -1,0 +1,8 @@
+We define a block to be a maximal consecutive block of equal characters in a string. For example, the string 000110100111 consists of 6 blocks : 000, 11, 0, 1, 00 and 111.
+
+It’s clear that two consecutive blocks have different characters, or else they wouldn’t have been maximal. As a result, any string with more than 3 blocks will not be pure, since we can pick the first character of each of the first 4 blocks and it would either be 0101 or 1010. So the resulting string should consist of at most 3 blocks.
+
+We can fix the interval of the middle block (say [L,R]) and it’s character (say 0, the case of 1 is exactly the same). Now all we have to do is to count the number of indices i such that Si is different than the character of it’s corresponding block. So we should count the number of 0's in the intervals [1,L−1] and [R+1,N] and the number of 1's in the interval [L,R]. We can calculate this value with partial sums. Namely, define Pi to be the number of 0's in the interval [1,i]. Then the number of 0's in an interval [A,B] will be PB - P{A - 1}. The number of 1's can also be calculated as (B - A + 1) - (PB - P{A - 1}). Thus we can calculate the number of indices that have to be deleted in O(1). Fixing the interval is O(N ^ 2) so we arrive at a final O(N ^ 2) solution.
+
+TIME COMPLEXITY
+The time complexity is O(N ^ 2) per test case.

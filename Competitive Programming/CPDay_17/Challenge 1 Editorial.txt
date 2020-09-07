@@ -1,0 +1,15 @@
+Level 1
+You can observe that there is a pattern that repeats itself. That means we find the Nth team of D in O(1) but which one??
+There should be a pattern as D can only have 10 distinct values and every value depends on the sum of the previous two values.
+There is also a way to find the Nth term of Fibonacci in O(logN).
+
+Level 2
+You can observe that there is a pattern that repeats itself. That means we find the Nth team of D in O(1) but which one??
+There should be a pattern as D can only have 10 distinct values and every value depends on the sum of the previous two values.
+There is also a way to find the Nth term of Fibonacci in O(logN).
+
+Level 3
+Yes. There is a pattern here. For any N, X is given by 2^{floor(log2(N))}. Now we know which Fibonacci term we are looking for. That’s it. Problem solved.
+
+Level 4
+Here, instead of matrix multiplication, we use a well-known fact, which states that the Fibonacci Numbers are Periodic 78 under a given Modulo. As we are using 10 as modulo that’s why period comes to 60.

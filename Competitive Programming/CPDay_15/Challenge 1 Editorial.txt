@@ -1,0 +1,30 @@
+Let us iterate over i from 1 to n. Let max_{LR} denote the the maximum value of Lj * Rj till now (i.e. for all j < i). Similarly, let maxR denote the maximum rating Rj among all the movies such that Lj * Rj = max{LR}, j < i. Also, let ans denote the index corresponding to the movie you should select till now to watch. Now, we want to consider the ii-th movie and want to find the what would be the best movie you select to watch after considering i-th movie.
+
+There are following possible scenarios.
+
+If Li * Ri < max_{LR} , then this movie can not be the best movie to watch. So you skip this movie.
+If Li * Ri > max_{LR} , then this movie will be the best movie to watch till now. Update max_{LR} to L_j * R_j and maxR to Ri.
+If Li * Ri = max_{LR} = max_{LR}, then it means that current movie might be a possible best movie to watch. We should now check the second criteria : i.e., whether the rating of current movie is strictly greater than maxR or not. If yes, then we will select this movie to be the best movie till now. Otherwise, if rating Ri of this movie is equal to maxR, then we will go to third criteria and check whether the index of this movie is less than ans or not. Note that this can never be possible, because we are going in increasing order of indices. So, we don’t even need to consider this case.
+At the end of the iteration, ansans will be the index of best movie to watch.
+
+Pseudo Code
+
+long maxLR = 0;
+long maxR = 0;
+int ans = 0;
+for (int i = 1; i <= L.length; i++) {
+    if (L[i] * (long) R[i] > maxLR) {
+        maxLR = L[i] * (long) R[i];
+        maxR = R[i];
+        ans = i;
+    } else if (L[i] * (long) R[i] == maxLR) {
+        if (R[i] > maxR) {
+            maxR = R[i];
+            ans = i;
+        }
+    }
+}
+print ans
+
+Time complexity:
+We iterate over the arrays L, RL,R only once. Hence time complexity is O(n)
