@@ -1,6 +1,7 @@
 ## Divisibility Test  
 ## DAY THIRTY EIGHT
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 Given N integers you need to print the number of integers that are divisible by K.
