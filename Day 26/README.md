@@ -1,6 +1,7 @@
 ## The number chip 
 ## DAY TWENTY SIX 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 PROBLEM STATEMENT
 The game of number chips. 
