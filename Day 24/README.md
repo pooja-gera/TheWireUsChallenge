@@ -1,6 +1,7 @@
 ## Attendance  
 ## DAY TWENTY FOUR
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 Problem Statement
 
