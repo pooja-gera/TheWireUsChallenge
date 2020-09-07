@@ -1,8 +1,7 @@
 ## Sums of a triangle
 ## DAY FORTY
 ## Challenge Master - Deekshita Verma 
-
-PLATFORM ON WHICH THIS QUESTION WAS ASKED - CodeChef 
+## Platform at which this question was asked : Codechef
 
 EXPLANATION
 Let's consider a triangle of numbers in which a number appears in the first line, two numbers appear in the second line, three in the third line, etc. Develop a program which will compute the largest of the sums of numbers that appear on the paths starting from the top towards the base, so that:
