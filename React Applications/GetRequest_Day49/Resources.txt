@@ -1,1 +1,0 @@
-Refer https://gist.github.com/justsml/529d0b1ddc5249095ff4b890aad5e801 fro different api fetch methods. 
