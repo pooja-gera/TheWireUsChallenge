@@ -1,6 +1,7 @@
 ## Remove duplicates 
 ## DAY THIRTY 
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 PROBLEM STATEMENT
 Remove the duplicates from a given sorted array and print it in order.
