@@ -1,6 +1,7 @@
 ## String Repitition 
 ## DAY TWENTY SEVEN
 ## Challenge Master - Deekshita Verma 
+## Platform at which this question was asked : Codechef
 
 PROBLEM STATEMENT
 Count the number of repetition of strings input.
