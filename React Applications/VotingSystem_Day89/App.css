@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 24px; 
+    font-family: 'Times New Roman',serif;
+  }
+  
+  h2 {
+    margin: 80px;
+  }
+  
+  .languages {
+    height: 400px;
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .language {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: rgb(205, 245, 255);
+    border: 1px solid rgb(126, 240, 248);
+    margin: 5px;
+  }
+  
+  .voteCount {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .language button {
+    color: rgb(22, 13, 155);
+    background-color: #0000;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+  }
