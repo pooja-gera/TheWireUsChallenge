@@ -1,0 +1,16 @@
+.rainbow {
+      height: 300px;
+      width: 900px;
+      margin: 100px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+    }
+
+.rainbow-text{
+      color: white;
+      font-size: 60px;
+      text-shadow: 1px 1px 0 #FF0000, 3px 3px 0 orange, 5px 5px 0 yellow, 7px 7px 0 green, 9px 9px 0 blue, 11px 11px 0 indigo, 13px 13px 0 #e84393;
+      ;
+}

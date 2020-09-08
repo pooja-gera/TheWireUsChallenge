@@ -1,0 +1,30 @@
+.wrapper{
+      background: url(../img.jpeg) no-repeat center center;
+      height: 1000px;
+     
+      .logo{
+            background-color: #f8a5c2;
+            border: 1px solid #ced6e0;
+            border-radius: 202px;
+            color: #fff;
+            text-align: center;
+            height: 30px;
+            $width: 800px;
+            width: $width;
+            position: absolute;
+            left: calc(50% - #{$width / 2});
+            top: 20px;
+      }
+}
+
+$padding: 12px;
+
+.post {
+  padding-left: max(#{$padding}, env(safe-area-inset-left));
+  padding-right: max(#{$padding}, env(safe-area-inset-right));
+}
+
+.sidebar {
+  padding-left: max($padding, 20px);
+  padding-right: max($padding, 20px);
+}

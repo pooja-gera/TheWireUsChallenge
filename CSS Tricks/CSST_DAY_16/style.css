@@ -1,0 +1,46 @@
+body {
+      background-color: rgb(117, 108, 240);
+      margin: 0;
+      padding: 1rem;
+    }
+
+.container { 
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  --columns: 12; 
+  --width: var(--width-mobile, 0);
+  background-color: rgb(220, 237, 241);
+  border-radius: 20px;
+  padding: 16px;
+  flex-basis: calc(var(--width) / var(--columns) * 100%);
+  margin: 10px;
+}
+
+@media (min-width: 576px) {
+  .column {
+    --width: var(--width-desktop, var(--width-mobile, 0));
+  }
+}
+
+
+.header {
+  --width-mobile: 12;
+  height: 20vh;
+}
+
+.content {
+  --width-mobile: 12;
+  --width-desktop: 6.4;
+  height: 40vh;
+}
+
+.sidebar {
+  --width-mobile: 12;
+  --width-desktop: 4;
+  height: 40vh;
+}

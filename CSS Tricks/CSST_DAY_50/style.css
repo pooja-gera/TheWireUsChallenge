@@ -1,0 +1,16 @@
+
+.Quote{
+  white-space: nowrap;
+  width: 141px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  margin: 10px 12px;
+  padding: 4px;
+}
+    
+.Quote:hover {
+  overflow: visible;
+  border:none;
+}

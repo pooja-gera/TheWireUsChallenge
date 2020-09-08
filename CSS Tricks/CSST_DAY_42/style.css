@@ -1,0 +1,137 @@
+*{
+      background-color: black;
+}
+.container {
+      width: 450px;
+      height: 400px;
+      margin: 250px auto;
+}
+     
+h1 {
+      text-align: center;
+      color: #d9fff9;
+      font-size: 80px;
+      letter-spacing: 6px;
+      font-weight: 300;
+      margin: 0;
+      line-height: 0;
+      animation: glitch1 0.5s infinite;
+}
+
+
+h1:nth-child(2) {
+      color: #d8ff29;
+      animation: glitch2 0.1s infinite;
+}
+
+h1:nth-child(3) {
+      color: #f038ce;
+      animation: glitch3 0.1s infinite;
+}
+
+h1:nth-child(4) {
+      color: #6a74ff;
+      animation: glitch4 0.1s infinite;
+}
+     
+h1:nth-child(5) {
+      color: #6dfa79;
+      animation: glitch5 0.1s infinite;
+}
+
+h1:nth-child(6) {
+      color: #a841ec;
+      animation: glitch5 0.1s infinite;
+}
+     
+@keyframes glitch1 {
+        0% {
+          transform: none;
+          opacity: 1;
+        }
+        50% {
+          transform: skew(-2deg, 0.6deg);
+          opacity: 0.75;
+        }
+        100% {
+          transform: none;
+          opacity: 1;
+        }
+}
+
+@keyframes glitch2 {
+        0% {
+          transform: none;
+          opacity: 0.25;
+        }
+        50% {
+          transform: translate(-4px, -8px);
+          opacity: 0.5;
+        }
+        100% {
+          transform: none;
+          opacity: 0.25;
+        }
+}
+      
+@keyframes glitch3 {
+        0% {
+          transform: none;
+          opacity: 0.25;
+        }
+        50% {
+          transform: translate(4px, -4px);
+          opacity: 0.5;
+        }
+        100% {
+          transform: none;
+          opacity: 0.25;
+        }
+}
+    
+@keyframes glitch4 {
+      0% {
+        transform: none;
+        opacity: 0.25;
+      }
+      50% {
+        transform: translate(6px, 2px);
+        opacity: 0.5;
+      }
+      100% {
+        transform: none;
+        opacity: 0.25;
+      }
+}
+
+@keyframes glitch5 {
+      0% {
+        transform: none;
+        opacity: 0.25;
+      }
+      50% {
+        transform: translate(-6px, -2px);
+        opacity: 0.5;
+      }
+      100% {
+        transform: none;
+        opacity: 0.25;
+      }
+}
+  
+
+@keyframes glitch6 {
+      0% {
+        transform: none;
+        opacity: 0.25;
+      }
+      50% {
+        transform: translate(8px, 8px);
+        opacity: 0.5;
+      }
+      100% {
+        transform: none;
+        opacity: 0.25;
+      }
+}
+  

@@ -1,0 +1,49 @@
+.button{
+      font-size: 20px;
+      font-family:monospace;
+      font-weight: bold;
+      border-radius: 10px;
+      width: 150px;
+      height: 50px;
+      padding: 8px 8px;
+      margin: 10px 45%;
+      cursor: pointer;
+      border: none;
+      color: white;
+      outline: none;
+  }
+
+  
+  .button1{
+      background-image: linear-gradient( #ebfa36, #fcb71c,#ff9401);
+      background-image: -webkit-linear-gradient( #ebfa36, #fcb71c,#ff9401);
+      background-image: -o-linear-gradient( #ebfa36, #fcb71c,#ff9401);
+      background-image: -moz-linear-gradient( #ebfa36, #fcb71c,#ff9401);
+  }
+
+  
+  .button2{
+      background-image: radial-gradient(  #d3eb4d, #aae755,#1beb44);
+      background-image: -webkit-radial-gradient(  #d3eb4d, #aae755,#1beb44);
+      background-image: -o-radial-gradient(  #d3eb4d, #aae755,#1beb44);
+      background-image: -moz-radial-gradient(  #d3eb4d, #aae755,#1beb44);
+      color: black;
+  }
+  
+
+  
+  .button3{
+      background-image: linear-gradient(to right, #eb89eb, #f575ca,#ce3c91);
+      background-image: -moz-linear-gradient(to right, #eb89eb, #f575ca,#ce3c91);
+      background-image: -o-linear-gradient(to right, #eb89eb, #f575ca,#ce3c91);
+      background-image: -webkit-linear-gradient(to right, #eb89eb, #f575ca,#ce3c91);
+      
+      
+  }
+  
+
+  
+  .button4{
+      background-image: linear-gradient(to left, #2cbbdd 0%, #046eff 50%, blue 80%);
+  
+  }

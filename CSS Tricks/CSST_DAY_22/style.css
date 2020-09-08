@@ -1,0 +1,13 @@
+body{
+  background-color: aquamarine;
+}
+.Picture{
+    display: block;
+    margin:50px auto;
+    width:500px;
+    height:300px;
+}
+
+img {
+      filter: drop-shadow(12px 9px 11px gray);
+    }
