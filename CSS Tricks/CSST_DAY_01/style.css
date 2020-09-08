@@ -1,0 +1,25 @@
+*{
+      margin: 0;
+      padding:0;
+}
+
+.list{
+      background-color: aliceblue;
+      color: black;
+      padding:20px 10px
+}
+
+.items{
+      display: inline;
+      padding: 0px 20px;
+}
+
+.container{
+      position: sticky;
+      top:0px;
+}
+
+.image{
+      height: 200vh;
+      width: 100vw;
+}

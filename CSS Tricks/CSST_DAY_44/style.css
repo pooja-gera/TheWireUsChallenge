@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+.box {
+	position: fixed;
+	top: 0;
+	transform: rotate(80deg);
+	left: 0;
+}
+
+.wave {
+      position: fixed;
+      top: 0;
+      left: 0;
+      opacity: 0.6;
+      position: absolute;
+      top: 3%;
+      left: 10%;
+      background: rgb(255, 0, 255);
+      width: 1500px;
+      height: 1300px;
+      margin-left: -150px;
+      margin-top: -250px;
+      transform-origin: 50% 48%;
+      border-radius: 43%;
+      animation: drift 7000ms infinite linear;
+}
+
+.three {
+  animation: drift 7500ms infinite linear;
+	position: fixed;
+	background-color: #2981f3;
+}
+
+.two {
+  animation: drift 3000ms infinite linear;
+  opacity: .2;
+  background: rgb(209, 231, 9);
+	position: fixed;
+}
+
+.four{
+      animation: drift 7000ms infinite linear;
+      opacity: .3;
+      background: rgb(44, 240, 70);
+	position: fixed;
+
+}
+
+.box:after {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+

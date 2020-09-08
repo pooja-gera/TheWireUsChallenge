@@ -1,0 +1,47 @@
+
+.head{
+      text-align: center;
+      color: #6c5ce7;
+}
+
+.tabs {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #a29bfe;
+    }
+    
+.tabs label {
+      order: 1;
+      display: block;
+      padding: 1rem 2rem;
+      margin-right: 0.2rem;
+      cursor: pointer;
+      background:#a29bfe ;
+      font-size: 20px;
+      font-weight: bold;
+      transition: background ease 0.9s;
+}
+    
+.tab {
+      order: 99;
+      flex-grow: 1;
+      width: 100%;
+      display: none;
+      padding: 1rem;
+      background:white;
+}
+    
+.tabs input[type="radio"] {
+      display: none;
+}
+    
+
+.tabs input[type="radio"]:checked + label {
+      background:#6c5ce7;
+}
+    
+
+.tabs input[type="radio"]:checked + label + .tab {
+      display: block;
+}
+    

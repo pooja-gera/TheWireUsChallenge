@@ -1,0 +1,87 @@
+body{
+      background-color: #34495e ;
+}
+
+.btn1 {
+      display: block;
+      margin: 50px auto;
+      padding: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #fd79a8;
+      border: none;
+      border-radius: 25px;
+      box-shadow: 0 5px rgb(170, 169, 169);
+    }
+    
+    .btn1:hover {background-color: #fd79a8}
+    
+    .btn1:active {
+      background-color: #fd79a8;
+      box-shadow: 0 5px rgb(104, 101, 101);
+      transform: translateY(4px);
+    }
+
+
+    .btn2 {
+      display: block;
+      position: relative;
+      background-color: #4CAF50;
+      border: none;
+      font-size: 14px;
+      color: #FFFFFF;
+      padding: 20px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      outline: none;
+      margin: auto;
+      border-radius:25px ;
+    }
+    
+    .btn2:after {
+      content: "";
+      background: #5ae2de ;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px!important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .btn2:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+
+    
+    .btn3{
+      background-color: tomato;
+      display: block;
+      margin: 50px auto;
+      font-size: 14px;
+      border: none;
+      border-radius: 35px;
+      padding: 20px;
+      outline: none;
+      cursor: pointer;
+      border: 0.5px solid tomato ;
+      color: white;
+    }
+
+    .btn3:hover{
+      background: none;
+      opacity: 0.5;
+    }

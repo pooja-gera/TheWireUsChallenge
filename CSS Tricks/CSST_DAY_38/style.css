@@ -1,0 +1,112 @@
+
+    .opts{
+      font-size: 21px;
+      margin: 0;
+    }
+    
+    .container {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .lb {
+      font-size: 26px;
+      font-weight: bold;
+      padding: 10px 0px;
+      color: #503830;
+    }
+    
+    label {
+      display: block;
+      color: #a9a9a9;
+      cursor: pointer;
+      margin-bottom: 12px;
+    }
+    
+    label:after {
+      content: '.';
+      clear: both;
+      display: block;
+      height: 0px;
+      visibility: hidden;
+    }
+    
+    input[type="checkbox"]{
+      display: none;
+    }
+    
+
+    .ch{
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      position: relative;
+      margin-right: 7px;
+      background-color: #efeded;
+      float: left;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -o-border-radius: 4px;
+      -ms-border-radius: 4px;
+    }
+
+    .ch:before {
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 4px;
+      display: none;
+      height: 9px;
+      left: 7px;
+      top: 9px;
+      transform: rotateZ(-40deg);
+      -webkit-transform: rotateZ(-40deg);
+      -moz-transform: rotateZ(-40deg);
+      -o-transform: rotateZ(-40deg);
+      -ms-transform: rotateZ(-40deg);
+    }
+    
+    .ch:after {
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 4px;
+      display: none;
+      height: 13px;
+      right: 8px;
+      top: 6px;
+      transform: rotateZ(50deg);
+      -webkit-transform: rotateZ(50deg);
+      -moz-transform: rotateZ(50deg);
+      -o-transform: rotateZ(50deg);
+      -ms-transform: rotateZ(50deg);
+    }
+    
+ 
+    .container input[type="checkbox"]:checked + .ch:before,
+    .container input[type="checkbox"]:checked + .ch:after {
+      display: block;
+    }
+    
+    .container input[type="checkbox"]:checked + .ch {
+      background-color: #00BCD4;
+    }
+    
+    .container label:active input[type="checkbox"] + .ch {
+      box-shadow: 0 0 0 0.2em rgba(0, 188, 212, 0.16);
+      -webkit-box-shadow: 0 0 0 0.2em rgba(0, 188, 212, 0.16);
+      -moz-box-shadow: 0 0 0 0.2em rgba(0, 188, 212, 0.16);
+      -o-box-shadow: 0 0 0 0.2em rgba(0, 188, 212, 0.16);
+      -ms-box-shadow: 0 0 0 0.2em rgba(0, 188, 212, 0.16);
+    }
+    
+    .container label:active input[type="checkbox"]:checked + .ch {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      -o-box-shadow: none;
+      -ms-box-shadow: none;
+    }
+    
+  
