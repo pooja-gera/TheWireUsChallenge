@@ -1,0 +1,12 @@
+article {
+  float: left;
+  width: 23%;
+  background: #ccc;
+  margin: 10px 1%;
+  padding: 1%;
+}
+
+@media all and (max-width: 900px) {
+article {
+    width: 48%
+  }
