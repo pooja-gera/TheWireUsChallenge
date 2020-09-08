@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .center {
+    height: auto;
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+  }
+  .center input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .center button {
+    background-color: rgb(29, 231, 29);
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+  }
+  .center button:hover{
+    background-color: green;
+    color: white;
+  }
+  .list {
+    list-style: none;
+    margin: 30px 50px;
+    text-align: left;
+  }
+
+  /* Styling the cross/ delete button*/
+  .list-item{
+    display: flex;
+    margin-top: 20px;
+  }
+  .list-item li {
+    margin-top: 5px;
+  }
+  .list-item button {
+    background-color: red;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-weight: 800;
+    color: white;
+  }
+  .list-item button:hover{
+    background-color: rgb(221, 15, 15);
+  }
