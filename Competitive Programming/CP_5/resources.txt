@@ -1,0 +1,23 @@
+Hey !
+
+So now to help you go about this question,we have hints for you.
+
+Doing this the same old way , teh complexity of the code increases.Hence we would consider our solution by using recursion.
+
+Step1: 
+public static String Formatredundancy(String a,int index,String result)
+//String return type ensures that the function returns the resultant string, result(which will be empty at the start)
+//We pass our intial string and also the index number to point out the checking on current character
+
+Step 2:
+if(//check if the previous character == current character)
+{ append into your result string a star 
+}
+else
+{append the current character into the result string
+}
+
+Step 3:
+Give a recursive call to the function but this time implement the index by 1.
+
+After the string is completely traversed,return the result to the main function.

@@ -1,0 +1,37 @@
+Hey again!!
+
+Here's a code snippet to help you.
+
+    static String timeConversion(String s) {
+        /*
+         * String s contains our input
+         */
+    char a=s.charAt(8);
+    char b=s.charAt(0);
+    char c=s.charAt(1);
+    if(a=='A')//checking for AM
+    {
+        if(b=='1'&&c=='2')//checking for the ten's position of the value of hour
+        s="00:00:00";
+        else
+        {
+           s=s.substring(0,8); 
+        }
+    }
+    if(a=='P')//checking for PM
+    {
+      int n=(int)b - 48;//Using ASCII calculation
+      int m=(int)c - 48;
+      if(m>=8)
+      {
+          s='2'+(char)(m+48)+s.substring(2,8);
+      }
+      else
+      s='1'+(char)(m)+s.substring(2,8);
+      
+      
+    }
+    return s;
+    }
+
+Happy coding!!
