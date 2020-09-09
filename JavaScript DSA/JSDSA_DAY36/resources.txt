@@ -1,0 +1,7 @@
+Abstract Data Type ---
+https://en.wikipedia.org/wiki/Abstract_data_type
+
+Data Structures which are Abstract Data Types -- 
+
+https://www.tutorialspoint.com/abstract-data-type-in-data-structures
+
