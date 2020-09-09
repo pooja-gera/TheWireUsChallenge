@@ -1,0 +1,51 @@
+.icon-ashoka-chakra {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Ashoka_Chakra.svg);
+  height: 65px;
+}
+.flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 100vh;
+  margin: 50px auto;
+  color: #aaa;
+}
+.flag {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 0 20px 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  z-index: 0;
+}
+.flag.india {
+  background-color: white;
+}
+.flag.india:before, .flag.india:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 33%;
+}
+.flag.india:before {
+  top: 0;
+  background-color: #FF9933;
+}
+.flag.india:after {
+  bottom: 0 !important;
+  background-color: #009648;
+}
+.flag.india i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #00247D;
+  font-size: 124px;
+  line-height: 0.65;
+  z-index: 10;
+}

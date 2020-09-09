@@ -1,0 +1,16 @@
+.green_box{
+   width:400px;
+   height:300px; 
+   border:1px solid green;
+   background-color:green;
+}
+.red_circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    position:relative;
+    bottom:250px;
+    left:100px;
+}
