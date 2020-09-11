@@ -1,4 +1,4 @@
-Hello guys!!!
+Hello guys!
 I hope you all are doing great.So, now there's time to move a little forward.
 Here is another challenge for you guys. The next module we're gonna learn is known as scipy. 
 
@@ -22,4 +22,4 @@ So the questions are -
 4. Code to determine the determinant of a square matrix
 5. Code to find the eigenvalue of a corresponding eigenvector of a 2 dimensional matrix.
 
-ALL THE BEST!!!
+ALL THE BEST!
