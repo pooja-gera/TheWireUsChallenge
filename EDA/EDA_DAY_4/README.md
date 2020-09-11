@@ -1,4 +1,4 @@
-heyya guys!!!
+heyya guys!
 I hope you guys are doing amazing and having fun in all the challanges.
 
 So hre comes another fun module for you to learn 
@@ -20,5 +20,5 @@ So the challanges are
 3. code to print a mosaic plot using the necessary libraries
 4. give the above data in hierarchichal index series
 
-ALL THE BEST!!!
+ALL THE BEST!
 
