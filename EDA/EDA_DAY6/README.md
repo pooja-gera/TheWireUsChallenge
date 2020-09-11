@@ -1,4 +1,4 @@
-Heyy guys!!!
+Heyy guys!
 I hope you all are doing fine and enjoying these challenges.
 So here is another challenge for you guys. This challenge is on the module known as Genism.
 What is Genism?
@@ -14,4 +14,4 @@ So the challenges for this module are -
 4. code to add something else in the exisiting dictionary.
 
 
-ALL THE BEST!!!
+ALL THE BEST!
