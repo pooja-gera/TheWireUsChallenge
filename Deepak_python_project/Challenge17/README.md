@@ -9,6 +9,6 @@ Please input your query string python is
 Output:- 
 3 result found:
 
-1.python is not pyhton snake 
+1.python is not python snake 
 2.python is good 
 3.this is good  
