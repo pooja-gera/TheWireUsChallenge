@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>snooker table</title>
+<style>
+.pool-table {
+  display: block;
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -175px 0 0 -300px;
+}
+
+.table-carpet {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #116336;
+  box-shadow: 0px 0px 10px 3px #052F18 inset;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #16A757 0%, #116336 85%);
+}
+.table-carpet:before, .table-carpet:after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  opacity: 0.6;
+  display: none;
+}
+.table-carpet:before {
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+.table-carpet:after {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+}
+
+.table-border {
+  display: block;
+  width: 640px;
+  height: 390px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  border: 20px solid #8e1111;
+  box-shadow: 0px 0px 5px 1px #000 inset;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.pocket {
+  display: none;
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  background: #484040;
+  z-index: 3;
+}
+.pocket.top-left {
+  display: block;
+  top: -20px;
+  left: -20px;
+  border-radius: 8px 0 0 0;
+}
+.pocket.top-center {
+  display: block;
+  top: -20px;
+  left: 50%;
+  width: 50px;
+  height: 20px;
+  margin-left: -30px;
+}
+.pocket.top-right {
+  display: block;
+  top: -20px;
+  right: -20px;
+  border-radius: 0 8px 0 0;
+}
+.pocket.bottom-right {
+  display: block;
+  bottom: -20px;
+  right: -20px;
+  border-radius: 0 0 8px 0;
+}
+.pocket.bottom-center {
+  display: block;
+  bottom: -20px;
+  left: 50%;
+  width: 50px;
+  height: 20px;
+  margin-left: -30px;
+}
+.pocket.bottom-left {
+  display: block;
+  bottom: -20px;
+  left: -20px;
+  border-radius: 0 0 0 8px;
+}
+
+.hole {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  background: #2b2b2b;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px #000;
+}
+.hole.top-left {
+  top: -10px;
+  left: -10px;
+}
+.hole.bottom-left {
+  bottom: -10px;
+  left: -10px;
+}
+.hole.top-center {
+  top: -14px;
+  left: 50%;
+  margin-left: -25px;
+}
+.hole.bottom-center {
+  bottom: -14px;
+  left: 50%;
+  margin-left: -25px;
+}
+.hole.top-right {
+  top: -10px;
+  right: -10px;
+}
+.hole.bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
+
+.ball {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute;
+  z-index: 5;
+}
+.ball:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -9px 0 0 -9px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  line-height: 18px;
+}
+.ball.ball-0 {
+  width: 38px;
+  height: 38px;
+  background: #fff;
+  box-shadow: 0px 0px 0px 1px #fff inset;
+  top: 50%;
+  left: 100px;
+  margin-top: -18px;
+  -webkit-animation: moveWhiteBall 1250ms 3150ms forwards;
+          animation: moveWhiteBall 1250ms 3150ms forwards;
+}
+.ball.ball-0:after {
+  content: "";
+}
+.ball.ball-1 {
+  background: #ecec05;
+  box-shadow: 0px 0px 0px 1px #ecec05 inset;
+  top: 50%;
+  right: 195px;
+  margin-top: -18px;
+}
+.ball.ball-1:after {
+  content: "1";
+}
+.ball.ball-2 {
+  background: #108cf7;
+  box-shadow: 0px 0px 0px 1px #108cf7 inset;
+  top: 176px;
+  right: 165px;
+}
+.ball.ball-2:after {
+  content: "2";
+}
+.ball.ball-3 {
+  background: #ec1616;
+  box-shadow: 0px 0px 0px 1px #ec1616 inset;
+  top: 139px;
+  right: 165px;
+}
+.ball.ball-3:after {
+  content: "3";
+}
+.ball.ball-4 {
+  background: #a013a0;
+  box-shadow: 0px 0px 0px 1px #a013a0 inset;
+  top: 194px;
+  right: 133px;
+}
+.ball.ball-4:after {
+  content: "4";
+}
+.ball.ball-5 {
+  background: orange;
+  box-shadow: 0px 0px 0px 1px orange inset;
+  top: 50%;
+  right: 133px;
+  margin-top: -18px;
+}
+.ball.ball-5:after {
+  content: "5";
+}
+.ball.ball-6 {
+  background: #34d8ab;
+  box-shadow: 0px 0px 0px 1px #34d8ab inset;
+  top: 121px;
+  right: 133px;
+}
+.ball.ball-6:after {
+  content: "6";
+}
+.ball.ball-7 {
+  background: #ce5151;
+  box-shadow: 0px 0px 0px 1px #ce5151 inset;
+  top: 212px;
+  right: 101px;
+}
+.ball.ball-7:after {
+  content: "7";
+}
+.ball.ball-8 {
+  background: #000;
+  box-shadow: 0px 0px 0px 1px #000 inset;
+  top: 176px;
+  right: 101px;
+}
+.ball.ball-8:after {
+  content: "8";
+}
+.ball.ball-9 {
+  background: #ecec05;
+  box-shadow: 0px 0px 0px 1px #ecec05 inset;
+  top: 140px;
+  right: 101px;
+}
+.ball.ball-9:after {
+  content: "9";
+}
+.ball.ball-10 {
+  background: #108cf7;
+  box-shadow: 0px 0px 0px 1px #108cf7 inset;
+  top: 103px;
+  right: 101px;
+}
+.ball.ball-10:after {
+  content: "10";
+}
+.ball.ball-11 {
+  background: #ec1616;
+  box-shadow: 0px 0px 0px 1px #ec1616 inset;
+  top: 233px;
+  right: 69px;
+}
+.ball.ball-11:after {
+  content: "11";
+}
+.ball.ball-12 {
+  background: #a013a0;
+  box-shadow: 0px 0px 0px 1px #a013a0 inset;
+  top: 195px;
+  right: 69px;
+}
+.ball.ball-12:after {
+  content: "12";
+}
+.ball.ball-13 {
+  background: orange;
+  box-shadow: 0px 0px 0px 1px orange inset;
+  top: 50%;
+  margin-top: -18px;
+  right: 69px;
+}
+.ball.ball-13:after {
+  content: "13";
+}
+.ball.ball-14 {
+  background: #34d8ab;
+  box-shadow: 0px 0px 0px 1px #34d8ab inset;
+  top: 121px;
+  right: 69px;
+}
+.ball.ball-14:after {
+  content: "14";
+}
+.ball.ball-15 {
+  background: #ce5151;
+  box-shadow: 0px 0px 0px 1px #ce5151 inset;
+  top: 85px;
+  right: 69px;
+}
+.billiard-cue {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -260px;
+  margin-top: -5px;
+  border-left: 350px solid #d2ae2a;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-radius: 6px 10px 10px 6px;
+  width: 0;
+  height: 8px;
+  z-index: 10;}
+
+.ball.ball-15:after {
+  content: "15";
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+</style>
+</head>
+<body>
+  <div class="pool-table">
+
+    <div class="table-carpet"></div>
+    <div class="table-border"></div>
+
+    <!-- pockets -->
+    <div class="pocket top-left"></div>
+    <div class="pocket top-center"></div>
+    <div class="pocket top-right"></div>
+    <div class="pocket bottom-left"></div>
+    <div class="pocket bottom-center"></div>
+    <div class="pocket bottom-right"></div>
+
+    <!-- holes -->
+    <div class="hole top-left"></div>
+    <div class="hole top-center"></div>
+    <div class="hole top-right"></div>
+    <div class="hole bottom-left"></div>
+    <div class="hole bottom-center"></div>
+    <div class="hole bottom-right"></div>
+
+    <!-- balls -->
+    <div class="ball ball-0"></div>
+    <div class="ball ball-1"></div>
+    <div class="ball ball-2"></div>
+    <div class="ball ball-3"></div>
+    <div class="ball ball-4"></div>
+    <div class="ball ball-5"></div>
+    <div class="ball ball-6"></div>
+    <div class="ball ball-7"></div>
+    <div class="ball ball-8"></div>
+    <div class="ball ball-9"></div>
+    <div class="ball ball-10"></div>
+    <div class="ball ball-11"></div>
+    <div class="ball ball-12"></div>
+    <div class="ball ball-13"></div>
+    <div class="ball ball-14"></div>
+    <div class="ball ball-15"></div>
+ <div class="billiard-cue"></div>
+</div>
+</body>
+</html>

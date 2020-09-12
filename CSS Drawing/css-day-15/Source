@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<title>Text Gradient </title>
+	<style>
+		body {
+			background: rgb(39, 39, 39);
+		}
+
+		h1 {
+			position: absolute;
+			top: 40%;
+			left: 40%;
+
+			font-size: 75px;
+			font-family: sans-serif;
+			background: linear-gradient(to right, #f32170,
+					#ff6b08, #cf23cf, #eedd44);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>CSS DRAWING</h1> 
+</body>
+
+</html>

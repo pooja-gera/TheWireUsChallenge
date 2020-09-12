@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower</title>
+</head>
+<style>
+    body {
+  background: rgb(17, 3, 3);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 15em;
+  height: 15em;
+  border-radius: 0%;
+  margin: 0 auto;
+}
+
+.core {
+  position: absolute;
+  top: 5em;
+  left: 5em;
+  width: 5em;
+  height: 5em;
+  background: radial-gradient(ellipse at center, #f7bd00 0%, #f7bd00 52%, #f79800 67%, #f79800 100%);
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: opacity 0.25s ease-in-out;
+  opacity: 1;
+}
+.core:hover {
+  opacity: 0.85;
+}
+
+.petal-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15em;
+  height: 15em;
+}
+
+.petal {
+  position: absolute;
+  width: 2.88675em;
+  height: 2.5em;
+  background: linear-gradient(135deg, #c50e63 0%, #ff5b9f 75%, #cc81a0 100%);
+  border-radius: 0 50% 50% 50%;
+  box-shadow: -2px -2px 20px rgba(255, 255, 255, 0.5) inset, 0px 0px 2px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  transition: opacity 0.25s ease-in-out;
+  opacity: 1;
+ 
+}
+.petal:hover {
+  opacity: 0.5;
+}
+.petal:nth-child(1) {
+  
+  transform: translateY(6.25em) translateX(11.05662em) rotate(-30deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(2) {
+ 
+  transform: translateY(8.75em) translateX(10.38675em) rotate(0deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(3) {
+ 
+  transform: translateY(10.58013em) translateX(8.55662em) rotate(30deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(4) {
+ 
+  transform: translateY(11.25em) translateX(6.05662em) rotate(60deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(5) {
+ 
+  transform: translateY(10.58013em) translateX(3.55662em) rotate(90deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(6) {
+ 
+  transform: translateY(8.75em) translateX(1.7265em) rotate(120deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(7) {
+ 
+  transform: translateY(6.25em) translateX(1.05662em) rotate(150deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(8) {
+  
+  transform: translateY(3.75em) translateX(1.7265em) rotate(180deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(9) {
+  
+  transform: translateY(1.91987em) translateX(3.55662em) rotate(210deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(10) {
+ 
+  transform: translateY(1.25em) translateX(6.05662em) rotate(240deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(11) {
+ 
+  transform: translateY(1.91987em) translateX(8.55662em) rotate(270deg) skewX(30deg) scale(1);
+}
+.petal:nth-child(12) {
+ 
+  transform: translateY(3.75em) translateX(10.38675em) rotate(300deg) skewX(30deg) scale(1);
+}
+
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="wrapper">
+          <div class="petal-wrapper">
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+          </div>
+          
+          <div class="core"></div>
+        </div>
+      </div>
+</body>
+</html>

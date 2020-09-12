@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>triangle</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #00afff;
+  overflow: hidden;
+}
+
+.boat__container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 66.6vmin;
+  height: 59.94vmin;
+  margin: calc(50vh - 59.94vmin / 2) calc(50vw - 33.3vmin) auto calc(50vw - 33.3vmin);
+
+}
+
+.boat__top__border--left {
+  background-color: #000;
+  width: 33.3vmin;
+  height: 33.3vmin;
+  -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+  -moz-transform: translate(-7.5%, 0);
+  -o-transform: translate(-7.5%, 0);
+  -ms-transform: translate(-7.5%, 0);
+  -webkit-transform: translate(-7.5%, 0);
+  transform: translate(-7.5%, 0);
+}
+
+.boat__top__bg--left {
+  background-color: #fff;
+  width: 28.305vmin;
+  height: 28.305vmin;
+  -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+  -moz-transform: translate(-107.5%, 10%);
+  -o-transform: translate(-107.5%, 10%);
+  -ms-transform: translate(-107.5%, 10%);
+  -webkit-transform: translate(-107.5%, 10%);
+  transform: translate(-107.5%, 10%);
+}
+
+.boat__top__border--right {
+  background-color: #000;
+  width: 33.3vmin;
+  height: 33.3vmin;
+  -webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  -moz-transform: translate(97.5%, -100%);
+  -o-transform: translate(97.5%, -100%);
+  -ms-transform: translate(97.5%, -100%);
+  -webkit-transform: translate(97.5%, -100%);
+  transform: translate(97.5%, -100%);
+}
+
+.boat__top__bg--right {
+  background-color: #fff;
+  width: 28.305vmin;
+  height: 28.305vmin;
+  -webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  -moz-transform: translate(-2.5%, -107.5%);
+  -o-transform: translate(-2.5%, -107.5%);
+  -ms-transform: translate(-2.5%, -107.5%);
+  -webkit-transform: translate(-2.5%, -107.5%);
+  transform: translate(-2.5%, -107.5%);
+}
+
+.boat__middle {
+  width: 3.33vmin;
+  height: 41.625vmin;
+  background-color: #000;
+  -moz-transform: translate(-920%, -75%);
+  -o-transform: translate(-920%, -75%);
+  -ms-transform: translate(-920%, -75%);
+  -webkit-transform: translate(-920%, -75%);
+  transform: translate(-920%, -75%);
+}
+
+.boat__bottom__border {
+  width: 66.6vmin;
+  height: 16.65vmin;
+  background-color: #000;
+  -webkit-clip-path: polygon(20% 100%, 80% 100%, 100% 0%, 0% 0%);
+  clip-path: polygon(20% 100%, 80% 100%, 100% 0%, 0% 0%);
+  -moz-transform: translate(0, -200%);
+  -o-transform: translate(0, -200%);
+  -ms-transform: translate(0, -200%);
+  -webkit-transform: translate(0, -200%);
+  transform: translate(0, -200%);
+}
+
+.boat__bottom__bg {
+  width: 57.4425vmin;
+  height: 12.4875vmin;
+  background-color: #fff;
+  -webkit-clip-path: polygon(17.5% 100%, 82.5% 100%, 100% 0%, 0% 0%);
+  clip-path: polygon(17.5% 100%, 82.5% 100%, 100% 0%, 0% 0%);
+  -moz-transform: translate(0, -385%);
+  -o-transform: translate(0, -385%);
+  -ms-transform: translate(0, -385%);
+  -webkit-transform: translate(0, -385%);
+  transform: translate(0, -385%);
+}
+
+
+</style>
+</head>
+<body>
+  <div class="boat__container">
+  <div class="boat__top__border--left"></div>
+  <div class="boat__top__bg--left"></div>
+  <div class="boat__top__border--right"></div>
+  <div class="boat__top__bg--right"></div>
+  <div class="boat__middle"></div>
+  <div class="boat__bottom__border"></div>
+  <div class="boat__bottom__bg"></div>
+</div>
+</body>
+</html>

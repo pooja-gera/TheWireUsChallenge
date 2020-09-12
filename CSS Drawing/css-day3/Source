@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>envelope</title>
+</head>
+<style>
+    .envelope {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 20em;
+  height: 10em;
+  border-radius: .25em;
+  background: rgb(184, 202, 236);
+}
+.envelope:before,
+.envelope:after {
+  position: absolute;
+  top: -.25em;
+  width: 40%;
+  height: 30%;
+  content: '';
+}
+.envelope:before {
+  left: 1em;
+  border-radius: 0 0 0 .25em;
+  box-shadow: -.2em .2em .2em dimgrey;
+  transform: skewX(37.5deg);
+}
+.envelope:after {
+  right: 1em;
+  border-radius: 0 0 .25em 0;
+  transform: skewX(-37.5deg);
+  box-shadow: .2em .2em .2em dimgrey;
+}
+</style>
+<body>
+    <div class='envelope'></div>
+</body>
+</html>
