@@ -11,10 +11,10 @@ You have to take the number of rows as an input from the user and will have to p
 #### Example -
 <pre>input - 5              input - 7
 output -               output -
-#        1                  1
-#      2 3 2              2 3 2
-#    3 4 5 4 3          3 4 5 4 3
-#      4 5 4          4 5 6 7 6 5 4
-#        5              5 6 7 6 5
-#                         6 7 6
-#                           7                   </pre>
+        1                  1
+      2 3 2              2 3 2
+    3 4 5 4 3          3 4 5 4 3
+      4 5 4          4 5 6 7 6 5 4
+        5              5 6 7 6 5
+                         6 7 6
+                           7                   </pre>
