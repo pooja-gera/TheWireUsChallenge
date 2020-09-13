@@ -16,3 +16,6 @@ In this challenge you have to create a pop-up notification card with an image an
 
 6)The font size, text color, and line-height utilities to style the card text.
 
+Below is the link for your reference:
+https://tailwindcss.com/docs/responsive-design
+

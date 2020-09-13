@@ -27,3 +27,9 @@ Sass’s @debug directive is the least intrusive of all three feedback directive
 It prints the value of whatever Sass expression it contains (variable, math, etc.) 
 to the console for the developer. 
 
+
+Below are the links for your reference:
+https://sass-lang.com/documentation/at-rules/error
+https://sass-lang.com/documentation/at-rules/warn
+https://sass-lang.com/documentation/at-rules/debug
+
