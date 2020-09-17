@@ -1,0 +1,77 @@
+._flex
+ {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    text-align:center;
+    margin-right: 700px;
+    margin-bottom: 30px;
+    border-radius: 20%;
+    box-shadow: -20px 20px  10px rgba(0,0,0,0.5);
+}
+
+._flex > div {
+background-color: yellow;
+  width: 100px;
+  height:100px;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  padding-top: 30px;
+  }
+.flex-property
+{
+  font-size:50px;
+  text-align:center;
+  color:blue;
+  font-weight:bold;
+  font-family: cursive;
+  margin-bottom: 50px;
+  box-shadow: -20px 20px  10px rgba(0,0,0,0.5);
+}
+.__flex
+ {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align:center;
+    margin-right: 1000px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    box-shadow: -20px 20px  10px rgba(0,0,0,0.5);
+    justify-content: center;
+}
+
+.__flex > div {
+background-color: yellow;
+  width: 100px;
+  height:100px;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  padding-top: 30px;
+  justify-content: center;
+  }
+
+  .flex-items
+   {
+    background-color: yellow;
+    width: 100px;
+    height:50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 40%;
+    box-shadow: -20px 20px  10px rgba(0,0,0,0.5);
+    padding-bottom: 19px;
+            }
+.___flex
+ {
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  border-radius: 30%;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visibility Helpers</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
+<body>
+<!-- Show/hide content depending on the width of the viewport -->
+
+<!-- Try the following text and view in different screens -->
+
+<p class="is-flex-mobile mt-6 ml-6">Hello all. How is this lockdown going? Boring or Fun? Have you learnt something productive?</p>
+<p class="is-block-desktop-only ml-6">Hello all. How is this lockdown going? Boring or Fun? Have you learnt something productive?</p>
+<p class="is-flex-tablet-only ml-6">Hello all. How is this lockdown going? Boring or Fun? Have you learnt something productive?</p>
+<p class="is-inline-widescreen-only ml-6">Hello all. How is this lockdown going? Boring or Fun? Have you learnt something productive?</p>
+<br>
+<br>
+<!-- hidden property -->
+<h3 class="ml-5">Only mobile will appear!</h3>
+<p class="is-hidden-mobile ml-6">Mobile</p>
+<p class="is-hidden-tablet ml-6">Tablet</p>
+<p class="is-hidden-desktop ml-6">Desktop</p>
+<p class="is-hidden-widescreen ml-6">widescreen</p>
+<br>
+<br>
+
+<h3 class="ml-5">All will appear</h3>
+<p class="is-hidden-mobile-only ml-6">Mobile</p>
+<p class="is-hidden-tablet-only ml-6">Tablet</p>
+<p class="is-hidden-desktop-only ml-6">Desktop</p>
+<p class="is-hidden-widescreen-only ml-6">Widescreen</p>
+
+</body>
+</html>
