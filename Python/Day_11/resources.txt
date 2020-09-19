@@ -1,0 +1,3 @@
+To know more about the emoji mudule, refer to the link given below
+
+https://pypi.org/project/emoji/

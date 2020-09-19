@@ -1,0 +1,3 @@
+To know more about the pygame library, refer to the link below:
+
+https://pypi.org/project/pygame/

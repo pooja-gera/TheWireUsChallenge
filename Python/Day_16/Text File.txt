@@ -1,0 +1,3 @@
+# Python Challenge Day 16
+
+Write a python program to centralise a sentence. Centralise "WireUs".
