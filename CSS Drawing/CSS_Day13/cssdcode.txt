@@ -1,0 +1,22 @@
+<style> 
+    * { 
+        margin: 0; 
+        padding: 0; 
+        background-color: white; 
+  
+    } 
+  
+    /* Using the "border-radius" property 
+       to draw the semi-circle*/
+  
+    div { 
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        height: 100px; 
+        width: 200px; 
+        border-radius: 150px 150px 0 0; 
+        background-color: green; 
+    } 
+</style> 
