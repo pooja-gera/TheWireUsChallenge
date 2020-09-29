@@ -1,0 +1,9 @@
+Hey people!
+
+New day new challenge,
+Let's make a button with the following functionality:
+
+Click on a <button> element to display the current day, date and time
+
+Let's get started.
+
