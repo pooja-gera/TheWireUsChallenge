@@ -1,3 +1,8 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 The WireUs Challenge is a 100 day challenge that will test your commitment and dedication to learn. Having collaborated with multiple developers, Pooja Gera and Gaurav Khanna, creators of WireUs (the community and this challenge) bring to you a chance to hone your coding skills and mark your presence in the big and amazing world of code.
 
 You can find topics of your own choice in their respective folders namely:
