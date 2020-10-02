@@ -1,6 +1,11 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 [![Issues](https://img.shields.io/github/issues/pooja-gera/TheWireUsChallenge)](https://shields.io)
+[![Forks](https://img.shields.io/github/forks/pooja-gera/TheWireUsChallenge)](https://shields.io)
+[![Stars](https://img.shields.io/github/stars/pooja-gera/TheWireUsChallenge)](https://shields.io)
+[![License](https://img.shields.io/github/license/pooja-gera/TheWireUsChallenge)](https://shields.io)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fpoojagera0_0)](https://shields.io)
+
 
 
 The WireUs Challenge is a 100 day challenge that will test your commitment and dedication to learn. Having collaborated with multiple developers, Pooja Gera and Gaurav Khanna, creators of WireUs (the community and this challenge) bring to you a chance to hone your coding skills and mark your presence in the big and amazing world of code.
